@@ -4,11 +4,10 @@
 
 ---
 
-## 🎥 效果演示 (Demo)
-
 | 🤖 机器人实测 (Real World) | 💻 RViz2 仿真规划 (Simulation) |
 | :---: | :---: |
-| [![实测视频](https://img.youtube.com/vi/placeholder/0.jpg)](https://github.com/JackJu-HIT/AgiBot_D1_Navigation_ROS2/blob/master/%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E6%B5%8B%E8%A7%86%E9%A2%91.mp4?raw=true) <br> *(点击跳转观看)* | [![仿真视频](https://img.youtube.com/vi/placeholder/0.jpg)](https://github.com/JackJu-HIT/AgiBot_D1_Navigation_ROS2/blob/master/rviz2.webm?raw=true) <br> *(点击跳转观看)* |
+| [**▶️ 点击观看实测视频**](https://github.com/JackJu-HIT/AgiBot_D1_Navigation_ROS2/raw/master/%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E6%B5%8B%E8%A7%86%E9%A2%91.mp4) | [**▶️ 点击观看仿真视频**](https://github.com/JackJu-HIT/AgiBot_D1_Navigation_ROS2/raw/master/rviz2.webm) |
+
 ---
 
 ## 🛠️ Build (构建与环境配置)
