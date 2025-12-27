@@ -101,7 +101,7 @@ rviz2
 ## ℹ️ 其他信息
 
 *   **智元机器人 SDK 仓库**：[AgibotTech/agibot_D1_Edu-Ultra](https://github.com/AgibotTech/agibot_D1_Edu-Ultra)
-*   **致谢**：特别感谢 **智元机器人** 提供的 **agibot_D_Edu** 硬件平台及技术支持，助力本项目顺利完成 C++ 代码开发与实机调试。
+*   **致谢**：特别感谢 **智元机器人** 提供的 **agibot_D1_Edu** 硬件平台及技术支持，助力本项目顺利完成 C++ 代码开发与实机调试。
 
 ## 关注我们
 
