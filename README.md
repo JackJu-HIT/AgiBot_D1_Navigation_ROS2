@@ -1,6 +1,20 @@
 # AgiBot_D1_Navigation_ROS2
 
-本项目提供了适用于智元四足机器人 **agibot_D_Edu** 版本的 ROS 2 架构下的轨迹优化与运动控制算法 C++ 实现。
+本项目提供了适用于智元四足机器人 **agibot_D1_Edu** 版本的 ROS 2 架构下的轨迹优化与运动控制算法 C++ 实现。
+
+---
+
+## 🎥 效果演示 (Demo)
+
+<p align="center">
+  <strong>🤖 机器人实测 (Real World) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💻 RViz2 仿真规划 (Simulation)</strong>
+</p>
+
+<p align="center">
+  <video src="https://github.com/JackJu-HIT/AgiBot_D1_Navigation_ROS2/raw/master/%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E6%B5%8B%E8%A7%86%E9%A2%91.mp4" controls="controls" width="45%" style="max-width: 100%;"></video>
+  &nbsp;
+  <video src="https://github.com/JackJu-HIT/AgiBot_D1_Navigation_ROS2/raw/master/rviz2.webm" controls="controls" width="45%" style="max-width: 100%;"></video>
+</p>
 
 ---
 
