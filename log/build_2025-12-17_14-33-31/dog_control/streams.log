@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[0.029s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.191s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.209s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.214s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.270s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.271s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.320s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.361s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.393s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.416s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.421s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.434s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.435s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.435s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.552s] -- 检测到系统架构: x86_64
+[0.553s] -- 将链接的库路径: /home/juchunyu/dog_ws/src/dog_control/lib/x86_64
+[0.618s] -- Configuring done (0.6s)
+[0.630s] -- Generating done (0.0s)
+[0.634s] -- Build files have been written to: /home/juchunyu/dog_ws/build/dog_control
+[0.678s] [ 75%] Built target dog_keyboard_node
+[0.678s] [ 75%] [32mBuilding CXX object CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o[0m
+[2.234s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In constructor ‘[01m[KDogDriverNode::[01;32m[KDogDriverNode[m[K()[m[K’:
+[2.234s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:37:41:[m[K [01;31m[Kerror: [m[K‘[01m[KrobotStateCallback[m[K’ is not a member of ‘[01m[KDogDriverNode[m[K’
+[2.234s]    37 |         50ms, std::bind(&DogDriverNode::[01;31m[KrobotStateCallback[m[K, this));
+[2.234s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.238s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K At global scope:
+[2.238s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:81:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid DogDriverNode::[01;32m[KrobotStateCallback[m[K()[m[K’
+[2.239s]    81 | void [01;31m[KDogDriverNode[m[K::robotStateCallback()
+[2.239s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.239s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:81:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid DogDriverNode::[01;32m[KrobotStateCallback[m[K()[m[K’
+[2.239s] In file included from [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:2[m[K:
+[2.239s] [01m[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:42:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DogDriverNode[m[K’ defined here
+[2.239s]    42 | class [01;36m[KDogDriverNode[m[K : public rclcpp::Node
+[2.239s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[4.018s] gmake[2]: *** [CMakeFiles/dog_driver_node.dir/build.make:76：CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o] 错误 1
+[4.018s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/dog_driver_node.dir/all] 错误 2
+[4.018s] gmake: *** [Makefile:146：all] 错误 2
+[4.020s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16

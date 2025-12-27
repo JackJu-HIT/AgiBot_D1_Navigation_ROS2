@@ -1,0 +1,79 @@
+[0.010s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/dog_control -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/dog_control
+[0.062s] -- The C compiler identification is GNU 13.3.0
+[0.100s] -- The CXX compiler identification is GNU 13.3.0
+[0.114s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.284s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.284s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.287s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.415s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.512s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.548s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.560s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.667s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.670s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.752s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.777s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.870s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.902s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.925s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.930s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.943s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.944s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.945s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.047s] -- 检测到系统架构: x86_64
+[1.047s] -- 将链接的库路径: /home/juchunyu/dog_ws/src/dog_control/lib/x86_64
+[1.123s] -- Configuring done (1.1s)
+[1.135s] -- Generating done (0.0s)
+[1.138s] -- Build files have been written to: /home/juchunyu/dog_ws/build/dog_control
+[1.146s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/dog_control -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/dog_control
+[1.147s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[1.193s] [ 25%] [32mBuilding CXX object CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o[0m
+[1.194s] [ 50%] [32mBuilding CXX object CMakeFiles/dog_keyboard_node.dir/src/dog_keyboard_node.cpp.o[0m
+[4.212s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KgetRobotStateCallback[m[K()[m[K’:
+[4.216s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:102:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.218s]   102 |     uint32_t [01;35m[Kret[m[K = highlevel_->getBatteryPower();
+[4.233s]       |              [01;35m[K^~~[m[K
+[8.526s] [ 75%] [32m[1mLinking CXX executable dog_keyboard_node[0m
+[8.852s] [ 75%] Built target dog_keyboard_node
+[14.313s] [100%] [32m[1mLinking CXX executable dog_driver_node[0m
+[14.659s] [100%] Built target dog_driver_node
+[14.667s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[14.677s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/dog_control
+[14.684s] -- Install configuration: ""
+[14.684s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_driver_node
+[14.690s] -- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_driver_node" to ""
+[14.690s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_keyboard_node
+[14.691s] -- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_keyboard_node" to ""
+[14.691s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib
+[14.691s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64
+[14.691s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64/mc_sdk_zsl_1_py.cpython-310-x86_64-linux-gnu.so
+[14.691s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64/libmc_sdk_zsl_1_x86_64.so
+[14.691s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64
+[14.691s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64/libmc_sdk_zsl_1_aarch64.so
+[14.691s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64/mc_sdk_zsl_1_py.cpython-310-aarch64-linux-gnu.so
+[14.691s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/package_run_dependencies/dog_control
+[14.691s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/parent_prefix_path/dog_control
+[14.691s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/ament_prefix_path.sh
+[14.691s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/ament_prefix_path.dsv
+[14.691s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/path.sh
+[14.691s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/path.dsv
+[14.692s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.bash
+[14.692s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.sh
+[14.692s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.zsh
+[14.692s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.dsv
+[14.692s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.dsv
+[14.692s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/packages/dog_control
+[14.692s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/cmake/dog_controlConfig.cmake
+[14.692s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/cmake/dog_controlConfig-version.cmake
+[14.692s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.xml
+[14.693s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/dog_control

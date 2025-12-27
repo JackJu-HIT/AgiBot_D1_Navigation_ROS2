@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000296] (dog_control) JobQueued: {'identifier': 'dog_control', 'dependencies': OrderedDict()}
+[0.000337] (dog_control) JobStarted: {'identifier': 'dog_control'}
+[0.005595] (dog_control) JobProgress: {'identifier': 'dog_control', 'progress': 'cmake'}
+[0.005914] (dog_control) JobProgress: {'identifier': 'dog_control', 'progress': 'build'}
+[0.006309] (dog_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juchunyu/dog_ws/build/dog_control', '--', '-j16', '-l16'], 'cwd': '/home/juchunyu/dog_ws/build/dog_control', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator 终端终结者/7381-12-juchunyu_TIME66233570', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/juchunyu', 'OLDPWD': '/home/juchunyu', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '6952', 'SYSTEMD_EXEC_PID': '7381', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3450084', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:35322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7336,unix/juchunyu:/tmp/.ICE-unix/7336', 'INVOCATION_ID': '778759df10314452a3eb1f20bfce5053', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:b8bc8972-c95a-43b0-8fb6-6b847491fd88', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/dog_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.026939] (dog_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099903] (-) TimerEvent: {}
+[0.171339] (dog_control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.187599] (dog_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.192742] (dog_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.199300] (dog_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199965] (-) TimerEvent: {}
+[0.206985] (dog_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.243445] (dog_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.244308] (dog_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.289727] (dog_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300097] (-) TimerEvent: {}
+[0.329471] (dog_control) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.348973] (dog_control) StdoutLine: {'line': b'-- \xe6\xa3\x80\xe6\xb5\x8b\xe5\x88\xb0\xe7\xb3\xbb\xe7\xbb\x9f\xe6\x9e\xb6\xe6\x9e\x84: x86_64\n'}
+[0.349099] (dog_control) StdoutLine: {'line': b'-- \xe5\xb0\x86\xe9\x93\xbe\xe6\x8e\xa5\xe7\x9a\x84\xe5\xba\x93\xe8\xb7\xaf\xe5\xbe\x84: /home/juchunyu/dog_ws/src/dog_control/lib/x86_64\n'}
+[0.400268] (-) TimerEvent: {}
+[0.404215] (dog_control) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.411955] (dog_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.414784] (dog_control) StdoutLine: {'line': b'-- Build files have been written to: /home/juchunyu/dog_ws/build/dog_control\n'}
+[0.449937] (dog_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o\x1b[0m\n'}
+[0.450237] (dog_control) StdoutLine: {'line': b'[ 75%] Built target dog_keyboard_node\n'}
+[0.500474] (-) TimerEvent: {}
+[0.600726] (-) TimerEvent: {}
+[0.700920] (-) TimerEvent: {}
+[0.801109] (-) TimerEvent: {}
+[0.901304] (-) TimerEvent: {}
+[1.001523] (-) TimerEvent: {}
+[1.101758] (-) TimerEvent: {}
+[1.201952] (-) TimerEvent: {}
+[1.302177] (-) TimerEvent: {}
+[1.402420] (-) TimerEvent: {}
+[1.502667] (-) TimerEvent: {}
+[1.602877] (-) TimerEvent: {}
+[1.611772] (dog_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:2\x1b[m\x1b[K:\n'}
+[1.611914] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:36:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmc_sdk\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.611957] (dog_control) StderrLine: {'line': b'   36 | using namespace \x1b[01;31m\x1b[Kmc_sdk\x1b[m\x1b[K::zsl_1;\n'}
+[1.611992] (dog_control) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.612024] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:36:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzsl_1\x1b[m\x1b[K\xe2\x80\x99 is not a namespace-name\n'}
+[1.612059] (dog_control) StderrLine: {'line': b'   36 | using namespace mc_sdk::\x1b[01;31m\x1b[Kzsl_1\x1b[m\x1b[K;\n'}
+[1.612091] (dog_control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.612941] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KHighLevel\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.612976] (dog_control) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[KHighLevel\x1b[m\x1b[K highlevel_;\n'}
+[1.613008] (dog_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.642843] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDogDriverNode::\x1b[01;32m\x1b[KDogDriverNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.642925] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.642965] (dog_control) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.initRobot(client_ip, client_port, dog_ip);\n'}
+[1.642997] (dog_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.657713] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DogDriverNode::\x1b[01;32m\x1b[KcmdVelCallback\x1b[m\x1b[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.657793] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:49:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.657826] (dog_control) StderrLine: {'line': b'   49 |     \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.move(vx, vy, yaw_rate);\n'}
+[1.657865] (dog_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.663053] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DogDriverNode::\x1b[01;32m\x1b[KactionCallback\x1b[m\x1b[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.663120] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:61:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.663154] (dog_control) StderrLine: {'line': b'   61 |     if (cmd == "passive") \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.passive();\n'}
+[1.663187] (dog_control) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.667248] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:62:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.667295] (dog_control) StderrLine: {'line': b'   62 |     else if (cmd == "lie_down") \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.lieDown();\n'}
+[1.667328] (dog_control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.671190] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:63:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.671234] (dog_control) StderrLine: {'line': b'   63 |     else if (cmd == "stand_up") \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.standUp();\n'}
+[1.671273] (dog_control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.674986] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:64:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.675026] (dog_control) StderrLine: {'line': b'   64 |     else if (cmd == "jump") \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.jump();\n'}
+[1.675056] (dog_control) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.678888] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:65:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.678929] (dog_control) StderrLine: {'line': b'   65 |     else if (cmd == "front_jump") \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.frontJump();\n'}
+[1.678965] (dog_control) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.682703] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:66:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.682743] (dog_control) StderrLine: {'line': b'   66 |     else if (cmd == "backflip") \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.backflip();\n'}
+[1.682775] (dog_control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.686537] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:67:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.686579] (dog_control) StderrLine: {'line': b'   67 |     else if (cmd == "shake_hand") \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.shakeHand();\n'}
+[1.686613] (dog_control) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.690324] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:68:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.690364] (dog_control) StderrLine: {'line': b'   68 |     else if (cmd == "two_leg_stand") \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.twoLegStand(0.0, 0.0); // \xe9\xbb\x98\xe8\xae\xa4\xe5\x8f\x82\xe6\x95\xb0\n'}
+[1.690395] (dog_control) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.694217] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:69:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.694256] (dog_control) StderrLine: {'line': b'   69 |     else if (cmd == "cancel_two_leg") \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.cancelTwoLegStand();\n'}
+[1.694287] (dog_control) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.698170] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:72:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.698242] (dog_control) StderrLine: {'line': b'   72 |         \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.attitudeControl(0.1, 0.0, 0.0, 0.0);\n'}
+[1.698273] (dog_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.702572] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DogDriverNode::\x1b[01;32m\x1b[KbatteryCallback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.702609] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:85:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khighlevel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.702640] (dog_control) StderrLine: {'line': b'   85 |     \x1b[01;31m\x1b[Khighlevel_\x1b[m\x1b[K.getBatteryPower();\n'}
+[1.702678] (dog_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.702929] (-) TimerEvent: {}
+[1.803111] (-) TimerEvent: {}
+[1.903352] (-) TimerEvent: {}
+[2.003536] (-) TimerEvent: {}
+[2.103692] (-) TimerEvent: {}
+[2.203888] (-) TimerEvent: {}
+[2.304074] (-) TimerEvent: {}
+[2.404285] (-) TimerEvent: {}
+[2.504519] (-) TimerEvent: {}
+[2.604755] (-) TimerEvent: {}
+[2.704985] (-) TimerEvent: {}
+[2.805212] (-) TimerEvent: {}
+[2.905413] (-) TimerEvent: {}
+[3.005665] (-) TimerEvent: {}
+[3.105860] (-) TimerEvent: {}
+[3.173844] (dog_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dog_driver_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.174064] (dog_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/dog_driver_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.174451] (dog_control) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.176379] (dog_control) CommandEnded: {'returncode': 2}
+[3.181598] (dog_control) JobEnded: {'identifier': 'dog_control', 'rc': 2}
+[3.192022] (-) EventReactorShutdown: {}

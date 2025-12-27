@@ -1,0 +1,6 @@
+[ 22%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/optimal_planner.cpp.o[0m
+[ 22%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/obstacles.cpp.o[0m
+[ 33%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_config.cpp.o[0m
+[ 44%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/timed_elastic_band.cpp.o[0m
+[ 55%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/visualization.cpp.o[0m
+[ 66%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o[0m

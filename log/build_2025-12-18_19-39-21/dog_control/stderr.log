@@ -1,0 +1,11 @@
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KrobotStateCallback[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:88:20:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel[m[K’ was not declared in this scope; did you mean ‘[01m[Khighlevel_[m[K’?
+   88 |     uint32_t ret = [01;31m[Khighlevel[m[K.getBatteryPower();
+      |                    [01;31m[K^~~~~~~~~[m[K
+      |                    [32m[Khighlevel_[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:88:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   88 |     uint32_t [01;35m[Kret[m[K = highlevel.getBatteryPower();
+      |              [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/dog_driver_node.dir/build.make:76：CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/dog_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

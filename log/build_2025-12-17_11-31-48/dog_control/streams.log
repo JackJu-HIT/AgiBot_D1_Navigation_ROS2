@@ -1,0 +1,31 @@
+[0.006s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/dog_control -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/dog_control
+[0.017s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.152s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.169s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.225s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.226s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.274s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.313s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.332s] -- 检测到系统架构: x86_64
+[0.332s] -- 将链接的库路径: /home/juchunyu/dog_ws/src/dog_control/lib/x86_64
+[0.395s] -- Configuring done (0.4s)
+[0.402s] -- Generating done (0.0s)
+[0.405s] -- Build files have been written to: /home/juchunyu/dog_ws/build/dog_control
+[0.410s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/dog_control -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/dog_control
+[0.411s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[0.447s] [ 25%] [32mBuilding CXX object CMakeFiles/dog_keyboard_node.dir/src/dog_keyboard_node.cpp.o[0m
+[0.448s] [ 50%] [32mBuilding CXX object CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o[0m
+[1.709s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_keyboard_node.cpp:[m[K In member function ‘[01m[Kvoid DogKeyboardNode::[01;32m[KpublishAction[m[K(const std::string&)[m[K’:
+[1.709s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_keyboard_node.cpp:95:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::std_msgs[m[K’ has not been declared
+[1.709s]    95 |         auto msg = std::[01;31m[Kstd_msgs[m[K::msg::String();
+[1.709s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.362s] gmake[2]: *** [CMakeFiles/dog_keyboard_node.dir/build.make:76：CMakeFiles/dog_keyboard_node.dir/src/dog_keyboard_node.cpp.o] 错误 1
+[2.362s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/dog_keyboard_node.dir/all] 错误 2
+[2.362s] gmake[1]: *** 正在等待未完成的任务....
+[5.888s] [ 75%] [32m[1mLinking CXX executable dog_driver_node[0m
+[6.125s] [ 75%] Built target dog_driver_node
+[6.126s] gmake: *** [Makefile:146：all] 错误 2
+[6.127s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16

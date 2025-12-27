@@ -1,0 +1,8 @@
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdog_driver.h: 没有那个文件或目录
+    2 | #include [01;31m[K"dog_driver.h"[m[K // 包含你的SDK头文件
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dog_driver_node.dir/build.make:76：CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/dog_driver_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

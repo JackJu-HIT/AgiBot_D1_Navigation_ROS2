@@ -1,0 +1,6 @@
+[0.008s] Invoking command in '/home/juchunyu/dog_ws/build/teb_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16
+[0.069s] [ 12%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o[0m
+[0.766s] gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:118: Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o] 中断
+[0.766s] gmake[1]: *** [CMakeFiles/Makefile2:180: Teb/CMakeFiles/teb.dir/all] 中断
+[0.766s] gmake: *** [Makefile:146: all] 中断
+[0.775s] Invoked command in '/home/juchunyu/dog_ws/build/teb_planner' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16

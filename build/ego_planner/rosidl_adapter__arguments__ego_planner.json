@@ -1,0 +1,6 @@
+{
+  "package_name": "ego_planner",
+  "non_idl_tuples": [
+    "/home/juchunyu/dog_ws/src/EgoPlanner-ROS2:msg/CurrentPose.msg"
+  ]
+}

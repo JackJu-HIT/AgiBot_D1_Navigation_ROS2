@@ -1,0 +1,1 @@
+Invoking command in '/home/juchunyu/dog_ws/build/teb_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16

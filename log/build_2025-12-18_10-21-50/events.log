@@ -1,0 +1,482 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (dog_control) JobQueued: {'identifier': 'dog_control', 'dependencies': OrderedDict()}
+[0.000470] (ego_planner) JobQueued: {'identifier': 'ego_planner', 'dependencies': OrderedDict()}
+[0.000598] (dog_control) JobStarted: {'identifier': 'dog_control'}
+[0.003963] (ego_planner) JobStarted: {'identifier': 'ego_planner'}
+[0.006602] (dog_control) JobProgress: {'identifier': 'dog_control', 'progress': 'cmake'}
+[0.006922] (dog_control) JobProgress: {'identifier': 'dog_control', 'progress': 'build'}
+[0.007350] (dog_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juchunyu/dog_ws/build/dog_control', '--', '-j16', '-l16'], 'cwd': '/home/juchunyu/dog_ws/build/dog_control', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator 终端终结者/7381-18-juchunyu_TIME87737036', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'OLDPWD': '/home/juchunyu', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '6952', 'SYSTEMD_EXEC_PID': '7381', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '395664', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:35322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7336,unix/juchunyu:/tmp/.ICE-unix/7336', 'INVOCATION_ID': '778759df10314452a3eb1f20bfce5053', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c4678968-c423-4c70-9dbd-d686956b9aef', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/dog_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.009615] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'cmake'}
+[0.009906] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'build'}
+[0.010015] (ego_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juchunyu/dog_ws/build/ego_planner', '--', '-j16', '-l16'], 'cwd': '/home/juchunyu/dog_ws/build/ego_planner', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator 终端终结者/7381-18-juchunyu_TIME87737036', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'OLDPWD': '/home/juchunyu', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '6952', 'SYSTEMD_EXEC_PID': '7381', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '395664', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:35322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7336,unix/juchunyu:/tmp/.ICE-unix/7336', 'INVOCATION_ID': '778759df10314452a3eb1f20bfce5053', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c4678968-c423-4c70-9dbd-d686956b9aef', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/ego_planner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.048728] (dog_control) StdoutLine: {'line': b'[ 50%] Built target dog_keyboard_node\n'}
+[0.051187] (dog_control) StdoutLine: {'line': b'[100%] Built target dog_driver_node\n'}
+[0.053933] (ego_planner) StdoutLine: {'line': b'[  4%] Built target local_map\n'}
+[0.054287] (ego_planner) StdoutLine: {'line': b'[  6%] Built target ego_planner__rosidl_generator_type_description\n'}
+[0.059434] (dog_control) CommandEnded: {'returncode': 0}
+[0.059959] (ego_planner) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_ego_planner\n'}
+[0.060175] (ego_planner) StdoutLine: {'line': b'[ 10%] Built target path_searching\n'}
+[0.060332] (dog_control) JobProgress: {'identifier': 'dog_control', 'progress': 'install'}
+[0.061000] (ego_planner) StdoutLine: {'line': b'[ 19%] Built target bspline_opt\n'}
+[0.067204] (dog_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/juchunyu/dog_ws/build/dog_control'], 'cwd': '/home/juchunyu/dog_ws/build/dog_control', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator 终端终结者/7381-18-juchunyu_TIME87737036', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'OLDPWD': '/home/juchunyu', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '6952', 'SYSTEMD_EXEC_PID': '7381', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '395664', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:35322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7336,unix/juchunyu:/tmp/.ICE-unix/7336', 'INVOCATION_ID': '778759df10314452a3eb1f20bfce5053', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c4678968-c423-4c70-9dbd-d686956b9aef', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/dog_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.068220] (ego_planner) StdoutLine: {'line': b'[ 30%] Built target ego_planner__rosidl_generator_c\n'}
+[0.075219] (ego_planner) StdoutLine: {'line': b'[ 32%] Built target ego_planner__cpp\n'}
+[0.075521] (dog_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.075820] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_driver_node\n'}
+[0.076216] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_keyboard_node\n'}
+[0.076456] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib\n'}
+[0.076586] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64\n'}
+[0.076640] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64/mc_sdk_zsl_1_py.cpython-310-x86_64-linux-gnu.so\n'}
+[0.076695] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64/libmc_sdk_zsl_1_x86_64.so\n'}
+[0.076767] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64\n'}
+[0.076815] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64/libmc_sdk_zsl_1_aarch64.so\n'}
+[0.076875] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64/mc_sdk_zsl_1_py.cpython-310-aarch64-linux-gnu.so\n'}
+[0.076939] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/package_run_dependencies/dog_control\n'}
+[0.076998] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/parent_prefix_path/dog_control\n'}
+[0.077101] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/ament_prefix_path.sh\n'}
+[0.077166] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/ament_prefix_path.dsv\n'}
+[0.077222] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/path.sh\n'}
+[0.077278] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/path.dsv\n'}
+[0.077361] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.bash\n'}
+[0.077412] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.sh\n'}
+[0.077449] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.zsh\n'}
+[0.077488] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.dsv\n'}
+[0.077524] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.dsv\n'}
+[0.077559] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/packages/dog_control\n'}
+[0.077593] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/cmake/dog_controlConfig.cmake\n'}
+[0.077628] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/cmake/dog_controlConfig-version.cmake\n'}
+[0.077661] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.xml\n'}
+[0.078967] (dog_control) CommandEnded: {'returncode': 0}
+[0.079443] (ego_planner) StdoutLine: {'line': b'[ 36%] Built target ego_planner_lib\n'}
+[0.082352] (ego_planner) StdoutLine: {'line': b'[ 50%] Built target ego_planner__rosidl_typesupport_introspection_c\n'}
+[0.082633] (ego_planner) StdoutLine: {'line': b'[ 50%] Built target ego_planner__rosidl_typesupport_c\n'}
+[0.085747] (ego_planner) StdoutLine: {'line': b'[ 56%] Built target ego_planner__rosidl_typesupport_fastrtps_c\n'}
+[0.090779] (ego_planner) StdoutLine: {'line': b'[ 63%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp\n'}
+[0.095261] (dog_control) JobEnded: {'identifier': 'dog_control', 'rc': 0}
+[0.095516] (ego_planner) StdoutLine: {'line': b'[ 69%] Built target ego_planner__rosidl_typesupport_cpp\n'}
+[0.096230] (ego_planner) StdoutLine: {'line': b'[ 76%] Built target ego_planner__rosidl_typesupport_introspection_cpp\n'}
+[0.099809] (-) TimerEvent: {}
+[0.114717] (ego_planner) StdoutLine: {'line': b'[ 76%] Built target ego_planner\n'}
+[0.128488] (ego_planner) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o\x1b[0m\n'}
+[0.131160] (ego_planner) StdoutLine: {'line': b'[ 80%] Built target ego_planner__py\n'}
+[0.148511] (ego_planner) StdoutLine: {'line': b'[ 84%] Built target ego_planner__rosidl_generator_py\n'}
+[0.168879] (ego_planner) StdoutLine: {'line': b'[ 89%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c\n'}
+[0.169168] (ego_planner) StdoutLine: {'line': b'[ 93%] Built target ego_planner_s__rosidl_typesupport_c\n'}
+[0.170741] (ego_planner) StdoutLine: {'line': b'[ 97%] Built target ego_planner_s__rosidl_typesupport_introspection_c\n'}
+[0.199931] (-) TimerEvent: {}
+[0.212894] (ego_planner) StdoutLine: {'line': b'running egg_info\n'}
+[0.224017] (ego_planner) StdoutLine: {'line': b'writing ego_planner.egg-info/PKG-INFO\n'}
+[0.224189] (ego_planner) StdoutLine: {'line': b'writing dependency_links to ego_planner.egg-info/dependency_links.txt\n'}
+[0.224266] (ego_planner) StdoutLine: {'line': b'writing top-level names to ego_planner.egg-info/top_level.txt\n'}
+[0.256242] (ego_planner) StdoutLine: {'line': b"reading manifest file 'ego_planner.egg-info/SOURCES.txt'\n"}
+[0.256610] (ego_planner) StdoutLine: {'line': b"writing manifest file 'ego_planner.egg-info/SOURCES.txt'\n"}
+[0.277734] (ego_planner) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_ego_planner_egg\n'}
+[0.300027] (-) TimerEvent: {}
+[0.400227] (-) TimerEvent: {}
+[0.500444] (-) TimerEvent: {}
+[0.600705] (-) TimerEvent: {}
+[0.701011] (-) TimerEvent: {}
+[0.801278] (-) TimerEvent: {}
+[0.901610] (-) TimerEvent: {}
+[1.001833] (-) TimerEvent: {}
+[1.102059] (-) TimerEvent: {}
+[1.202267] (-) TimerEvent: {}
+[1.302447] (-) TimerEvent: {}
+[1.402626] (-) TimerEvent: {}
+[1.502812] (-) TimerEvent: {}
+[1.603042] (-) TimerEvent: {}
+[1.703245] (-) TimerEvent: {}
+[1.803532] (-) TimerEvent: {}
+[1.903800] (-) TimerEvent: {}
+[2.004000] (-) TimerEvent: {}
+[2.104211] (-) TimerEvent: {}
+[2.204399] (-) TimerEvent: {}
+[2.304618] (-) TimerEvent: {}
+[2.332290] (ego_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16\x1b[m\x1b[K,\n'}
+[2.332466] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:48\x1b[m\x1b[K,\n'}
+[2.332542] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[2.332609] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& ego_planner::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(std::ostream&, const Bspline_<ContainerAllocator>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.332678] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.332744] (ego_planner) StderrLine: {'line': b'   88 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.332808] (ego_planner) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.404708] (-) TimerEvent: {}
+[2.504922] (-) TimerEvent: {}
+[2.605162] (-) TimerEvent: {}
+[2.705367] (-) TimerEvent: {}
+[2.805598] (-) TimerEvent: {}
+[2.905842] (-) TimerEvent: {}
+[3.006077] (-) TimerEvent: {}
+[3.106312] (-) TimerEvent: {}
+[3.206534] (-) TimerEvent: {}
+[3.306748] (-) TimerEvent: {}
+[3.406970] (-) TimerEvent: {}
+[3.507235] (-) TimerEvent: {}
+[3.607440] (-) TimerEvent: {}
+[3.707648] (-) TimerEvent: {}
+[3.807960] (-) TimerEvent: {}
+[3.908242] (-) TimerEvent: {}
+[4.008476] (-) TimerEvent: {}
+[4.108678] (-) TimerEvent: {}
+[4.208922] (-) TimerEvent: {}
+[4.309181] (-) TimerEvent: {}
+[4.409400] (-) TimerEvent: {}
+[4.509612] (-) TimerEvent: {}
+[4.609831] (-) TimerEvent: {}
+[4.710155] (-) TimerEvent: {}
+[4.810366] (-) TimerEvent: {}
+[4.910576] (-) TimerEvent: {}
+[5.010786] (-) TimerEvent: {}
+[5.111034] (-) TimerEvent: {}
+[5.211246] (-) TimerEvent: {}
+[5.311453] (-) TimerEvent: {}
+[5.411703] (-) TimerEvent: {}
+[5.512000] (-) TimerEvent: {}
+[5.612361] (-) TimerEvent: {}
+[5.712630] (-) TimerEvent: {}
+[5.812827] (-) TimerEvent: {}
+[5.913042] (-) TimerEvent: {}
+[6.013264] (-) TimerEvent: {}
+[6.113480] (-) TimerEvent: {}
+[6.213680] (-) TimerEvent: {}
+[6.313914] (-) TimerEvent: {}
+[6.414151] (-) TimerEvent: {}
+[6.514354] (-) TimerEvent: {}
+[6.614585] (-) TimerEvent: {}
+[6.714837] (-) TimerEvent: {}
+[6.815073] (-) TimerEvent: {}
+[6.915312] (-) TimerEvent: {}
+[7.015546] (-) TimerEvent: {}
+[7.115762] (-) TimerEvent: {}
+[7.215993] (-) TimerEvent: {}
+[7.316183] (-) TimerEvent: {}
+[7.416377] (-) TimerEvent: {}
+[7.516571] (-) TimerEvent: {}
+[7.616767] (-) TimerEvent: {}
+[7.717001] (-) TimerEvent: {}
+[7.817180] (-) TimerEvent: {}
+[7.917372] (-) TimerEvent: {}
+[8.017569] (-) TimerEvent: {}
+[8.117870] (-) TimerEvent: {}
+[8.218179] (-) TimerEvent: {}
+[8.318392] (-) TimerEvent: {}
+[8.418630] (-) TimerEvent: {}
+[8.518932] (-) TimerEvent: {}
+[8.619260] (-) TimerEvent: {}
+[8.719465] (-) TimerEvent: {}
+[8.819709] (-) TimerEvent: {}
+[8.919903] (-) TimerEvent: {}
+[9.020109] (-) TimerEvent: {}
+[9.120336] (-) TimerEvent: {}
+[9.220557] (-) TimerEvent: {}
+[9.320790] (-) TimerEvent: {}
+[9.421108] (-) TimerEvent: {}
+[9.521334] (-) TimerEvent: {}
+[9.621570] (-) TimerEvent: {}
+[9.721874] (-) TimerEvent: {}
+[9.822094] (-) TimerEvent: {}
+[9.922416] (-) TimerEvent: {}
+[10.022712] (-) TimerEvent: {}
+[10.123095] (-) TimerEvent: {}
+[10.223358] (-) TimerEvent: {}
+[10.323688] (-) TimerEvent: {}
+[10.423949] (-) TimerEvent: {}
+[10.524177] (-) TimerEvent: {}
+[10.624422] (-) TimerEvent: {}
+[10.724644] (-) TimerEvent: {}
+[10.824903] (-) TimerEvent: {}
+[10.925127] (-) TimerEvent: {}
+[11.025321] (-) TimerEvent: {}
+[11.125514] (-) TimerEvent: {}
+[11.225742] (-) TimerEvent: {}
+[11.325966] (-) TimerEvent: {}
+[11.426212] (-) TimerEvent: {}
+[11.526415] (-) TimerEvent: {}
+[11.626655] (-) TimerEvent: {}
+[11.726964] (-) TimerEvent: {}
+[11.827200] (-) TimerEvent: {}
+[11.927396] (-) TimerEvent: {}
+[12.027619] (-) TimerEvent: {}
+[12.127836] (-) TimerEvent: {}
+[12.228042] (-) TimerEvent: {}
+[12.328245] (-) TimerEvent: {}
+[12.428439] (-) TimerEvent: {}
+[12.528688] (-) TimerEvent: {}
+[12.628873] (-) TimerEvent: {}
+[12.729179] (-) TimerEvent: {}
+[12.829382] (-) TimerEvent: {}
+[12.929615] (-) TimerEvent: {}
+[13.029836] (-) TimerEvent: {}
+[13.130056] (-) TimerEvent: {}
+[13.230252] (-) TimerEvent: {}
+[13.330471] (-) TimerEvent: {}
+[13.430672] (-) TimerEvent: {}
+[13.530866] (-) TimerEvent: {}
+[13.631085] (-) TimerEvent: {}
+[13.731271] (-) TimerEvent: {}
+[13.831471] (-) TimerEvent: {}
+[13.931699] (-) TimerEvent: {}
+[14.032001] (-) TimerEvent: {}
+[14.132315] (-) TimerEvent: {}
+[14.232619] (-) TimerEvent: {}
+[14.332924] (-) TimerEvent: {}
+[14.433259] (-) TimerEvent: {}
+[14.533452] (-) TimerEvent: {}
+[14.633687] (-) TimerEvent: {}
+[14.734010] (-) TimerEvent: {}
+[14.834257] (-) TimerEvent: {}
+[14.934452] (-) TimerEvent: {}
+[15.034706] (-) TimerEvent: {}
+[15.135020] (-) TimerEvent: {}
+[15.235367] (-) TimerEvent: {}
+[15.335602] (-) TimerEvent: {}
+[15.435830] (-) TimerEvent: {}
+[15.536055] (-) TimerEvent: {}
+[15.636298] (-) TimerEvent: {}
+[15.736521] (-) TimerEvent: {}
+[15.836760] (-) TimerEvent: {}
+[15.937061] (-) TimerEvent: {}
+[16.037325] (-) TimerEvent: {}
+[16.137530] (-) TimerEvent: {}
+[16.237761] (-) TimerEvent: {}
+[16.337985] (-) TimerEvent: {}
+[16.438238] (-) TimerEvent: {}
+[16.538430] (-) TimerEvent: {}
+[16.638634] (-) TimerEvent: {}
+[16.738906] (-) TimerEvent: {}
+[16.839104] (-) TimerEvent: {}
+[16.939306] (-) TimerEvent: {}
+[17.039500] (-) TimerEvent: {}
+[17.139734] (-) TimerEvent: {}
+[17.239936] (-) TimerEvent: {}
+[17.340131] (-) TimerEvent: {}
+[17.440306] (-) TimerEvent: {}
+[17.540499] (-) TimerEvent: {}
+[17.640674] (-) TimerEvent: {}
+[17.740918] (-) TimerEvent: {}
+[17.841129] (-) TimerEvent: {}
+[17.941363] (-) TimerEvent: {}
+[18.041588] (-) TimerEvent: {}
+[18.141813] (-) TimerEvent: {}
+[18.242034] (-) TimerEvent: {}
+[18.342317] (-) TimerEvent: {}
+[18.442484] (-) TimerEvent: {}
+[18.542720] (-) TimerEvent: {}
+[18.643016] (-) TimerEvent: {}
+[18.743311] (-) TimerEvent: {}
+[18.843512] (-) TimerEvent: {}
+[18.943711] (-) TimerEvent: {}
+[19.043942] (-) TimerEvent: {}
+[19.144185] (-) TimerEvent: {}
+[19.244369] (-) TimerEvent: {}
+[19.344602] (-) TimerEvent: {}
+[19.444835] (-) TimerEvent: {}
+[19.545076] (-) TimerEvent: {}
+[19.645463] (-) TimerEvent: {}
+[19.745717] (-) TimerEvent: {}
+[19.845947] (-) TimerEvent: {}
+[19.946196] (-) TimerEvent: {}
+[20.046390] (-) TimerEvent: {}
+[20.146617] (-) TimerEvent: {}
+[20.246843] (-) TimerEvent: {}
+[20.347065] (-) TimerEvent: {}
+[20.447255] (-) TimerEvent: {}
+[20.547447] (-) TimerEvent: {}
+[20.647684] (-) TimerEvent: {}
+[20.747912] (-) TimerEvent: {}
+[20.848096] (-) TimerEvent: {}
+[20.948288] (-) TimerEvent: {}
+[21.048471] (-) TimerEvent: {}
+[21.148667] (-) TimerEvent: {}
+[21.248887] (-) TimerEvent: {}
+[21.349148] (-) TimerEvent: {}
+[21.449363] (-) TimerEvent: {}
+[21.549602] (-) TimerEvent: {}
+[21.649842] (-) TimerEvent: {}
+[21.750089] (-) TimerEvent: {}
+[21.850353] (-) TimerEvent: {}
+[21.950572] (-) TimerEvent: {}
+[22.050878] (-) TimerEvent: {}
+[22.151076] (-) TimerEvent: {}
+[22.251274] (-) TimerEvent: {}
+[22.351499] (-) TimerEvent: {}
+[22.451733] (-) TimerEvent: {}
+[22.551978] (-) TimerEvent: {}
+[22.652236] (-) TimerEvent: {}
+[22.752437] (-) TimerEvent: {}
+[22.852662] (-) TimerEvent: {}
+[22.952930] (-) TimerEvent: {}
+[23.053168] (-) TimerEvent: {}
+[23.153361] (-) TimerEvent: {}
+[23.253577] (-) TimerEvent: {}
+[23.353802] (-) TimerEvent: {}
+[23.453995] (-) TimerEvent: {}
+[23.554188] (-) TimerEvent: {}
+[23.654408] (-) TimerEvent: {}
+[23.754608] (-) TimerEvent: {}
+[23.854824] (-) TimerEvent: {}
+[23.955059] (-) TimerEvent: {}
+[24.055264] (-) TimerEvent: {}
+[24.155463] (-) TimerEvent: {}
+[24.255696] (-) TimerEvent: {}
+[24.355933] (-) TimerEvent: {}
+[24.456150] (-) TimerEvent: {}
+[24.556356] (-) TimerEvent: {}
+[24.656565] (-) TimerEvent: {}
+[24.756821] (-) TimerEvent: {}
+[24.857068] (-) TimerEvent: {}
+[24.957335] (-) TimerEvent: {}
+[25.057573] (-) TimerEvent: {}
+[25.157858] (-) TimerEvent: {}
+[25.258134] (-) TimerEvent: {}
+[25.358363] (-) TimerEvent: {}
+[25.458672] (-) TimerEvent: {}
+[25.512211] (ego_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motion_plan\x1b[0m\n'}
+[25.558762] (-) TimerEvent: {}
+[25.658975] (-) TimerEvent: {}
+[25.759206] (-) TimerEvent: {}
+[25.859432] (-) TimerEvent: {}
+[25.959680] (-) TimerEvent: {}
+[26.039117] (ego_planner) StdoutLine: {'line': b'[100%] Built target motion_plan\n'}
+[26.050098] (ego_planner) CommandEnded: {'returncode': 0}
+[26.050648] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'install'}
+[26.050889] (ego_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/juchunyu/dog_ws/build/ego_planner'], 'cwd': '/home/juchunyu/dog_ws/build/ego_planner', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator 终端终结者/7381-18-juchunyu_TIME87737036', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'OLDPWD': '/home/juchunyu', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '6952', 'SYSTEMD_EXEC_PID': '7381', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '395664', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:35322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7336,unix/juchunyu:/tmp/.ICE-unix/7336', 'INVOCATION_ID': '778759df10314452a3eb1f20bfce5053', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c4678968-c423-4c70-9dbd-d686956b9aef', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/ego_planner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[26.059811] (-) TimerEvent: {}
+[26.060137] (ego_planner) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[26.060747] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ament_index/resource_index/rosidl_interfaces/ego_planner\n'}
+[26.060921] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/msg/CurrentPose.json\n'}
+[26.061049] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner\n'}
+[26.061219] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg\n'}
+[26.061341] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/current_pose.h\n'}
+[26.061433] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail\n'}
+[26.061517] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__type_support.c\n'}
+[26.061612] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__description.c\n'}
+[26.061699] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__struct.h\n'}
+[26.061792] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__functions.c\n'}
+[26.061891] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__type_support.h\n'}
+[26.061992] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__functions.h\n'}
+[26.062094] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/rosidl_generator_c__visibility_control.h\n'}
+[26.062332] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/environment/library_path.sh\n'}
+[26.062542] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/environment/library_path.dsv\n'}
+[26.062684] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_generator_c.so\n'}
+[26.063099] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_generator_c.so" to ""\n'}
+[26.063290] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner\n'}
+[26.063414] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg\n'}
+[26.063509] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[26.063611] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail\n'}
+[26.063699] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[26.063797] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_fastrtps_c.so\n'}
+[26.064102] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[26.064230] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner\n'}
+[26.064326] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg\n'}
+[26.064421] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[26.064519] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail\n'}
+[26.064623] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__type_support.hpp\n'}
+[26.064718] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__traits.hpp\n'}
+[26.064805] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__struct.hpp\n'}
+[26.064925] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__builder.hpp\n'}
+[26.065021] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/current_pose.hpp\n'}
+[26.065116] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner\n'}
+[26.065253] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg\n'}
+[26.065307] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail\n'}
+[26.065348] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.065400] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/dds_fastrtps\n'}
+[26.065438] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[26.065474] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_fastrtps_cpp.so\n'}
+[26.065773] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[26.065826] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner\n'}
+[26.065879] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg\n'}
+[26.065937] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail\n'}
+[26.065975] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__type_support.c\n'}
+[26.066026] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__rosidl_typesupport_introspection_c.h\n'}
+[26.066116] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[26.066249] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_introspection_c.so\n'}
+[26.066681] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_introspection_c.so" to ""\n'}
+[26.066721] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_c.so\n'}
+[26.067035] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_c.so" to ""\n'}
+[26.067105] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner\n'}
+[26.067159] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg\n'}
+[26.067211] (ego_planner) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail\n'}
+[26.067262] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.067307] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/include/ego_planner/ego_planner/msg/detail/current_pose__type_support.cpp\n'}
+[26.067404] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_introspection_cpp.so\n'}
+[26.067851] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[26.067885] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_cpp.so\n'}
+[26.068213] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_typesupport_cpp.so" to ""\n'}
+[26.068266] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/environment/pythonpath.sh\n'}
+[26.068375] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/environment/pythonpath.dsv\n'}
+[26.068477] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner-0.0.0-py3.12.egg-info\n'}
+[26.068578] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[26.068668] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[26.068755] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[26.068837] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[26.068957] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner\n'}
+[26.069020] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/ego_planner_s__rosidl_typesupport_introspection_c.so\n'}
+[26.069127] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/_ego_planner_s.ep.rosidl_typesupport_c.c\n'}
+[26.069249] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/ego_planner_s__rosidl_typesupport_c.so\n'}
+[26.069345] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/__init__.py\n'}
+[26.069435] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/_ego_planner_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[26.069510] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/ego_planner_s__rosidl_typesupport_fastrtps_c.so\n'}
+[26.069580] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/msg\n'}
+[26.069656] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/msg/__init__.py\n'}
+[26.069733] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/msg/_current_pose.py\n'}
+[26.069791] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/msg/_current_pose_s.c\n'}
+[26.069855] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/_ego_planner_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[26.097631] (ego_planner) StdoutLine: {'line': b"Listing '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner'...\n"}
+[26.097835] (ego_planner) StdoutLine: {'line': b"Compiling '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/__init__.py'...\n"}
+[26.097943] (ego_planner) StdoutLine: {'line': b"Listing '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/msg'...\n"}
+[26.098047] (ego_planner) StdoutLine: {'line': b"Compiling '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/msg/__init__.py'...\n"}
+[26.098138] (ego_planner) StdoutLine: {'line': b"Compiling '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/msg/_current_pose.py'...\n"}
+[26.101244] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/ego_planner_s__rosidl_typesupport_fastrtps_c.so\n'}
+[26.101461] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/ego_planner_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[26.101603] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/ego_planner_s__rosidl_typesupport_introspection_c.so\n'}
+[26.101773] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/ego_planner_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[26.101905] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/ego_planner_s__rosidl_typesupport_c.so\n'}
+[26.102083] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages/ego_planner/ego_planner_s__rosidl_typesupport_c.so" to ""\n'}
+[26.102168] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_generator_py.so\n'}
+[26.102339] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/libego_planner__rosidl_generator_py.so" to ""\n'}
+[26.102418] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/msg/CurrentPose.idl\n'}
+[26.102495] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/msg/CurrentPose.msg\n'}
+[26.102582] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/lib/ego_planner/motion_plan\n'}
+[26.137095] (ego_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/ego_planner/lib/ego_planner/motion_plan" to ""\n'}
+[26.137289] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ament_index/resource_index/package_run_dependencies/ego_planner\n'}
+[26.137399] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ament_index/resource_index/parent_prefix_path/ego_planner\n'}
+[26.137476] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/environment/ament_prefix_path.sh\n'}
+[26.137540] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/environment/ament_prefix_path.dsv\n'}
+[26.137617] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/environment/path.sh\n'}
+[26.137690] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/environment/path.dsv\n'}
+[26.137754] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/local_setup.bash\n'}
+[26.137828] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/local_setup.sh\n'}
+[26.137900] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/local_setup.zsh\n'}
+[26.137974] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/local_setup.dsv\n'}
+[26.138053] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.dsv\n'}
+[26.138155] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ament_index/resource_index/packages/ego_planner\n'}
+[26.138268] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/export_ego_planner__rosidl_generator_cExport.cmake\n'}
+[26.138360] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/export_ego_planner__rosidl_generator_cExport-release.cmake\n'}
+[26.138453] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/export_ego_planner__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[26.138539] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/export_ego_planner__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[26.138633] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/export_ego_planner__rosidl_generator_cppExport.cmake\n'}
+[26.138726] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/export_ego_planner__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[26.138812] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/export_ego_planner__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[26.138904] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_planner__rosidl_typesupport_introspection_cExport.cmake\n'}
+[26.139001] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_planner__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[26.139084] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_planner__rosidl_typesupport_cExport.cmake\n'}
+[26.139177] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_planner__rosidl_typesupport_cExport-release.cmake\n'}
+[26.139273] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_planner__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[26.139360] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_planner__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[26.139451] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_planner__rosidl_typesupport_cppExport.cmake\n'}
+[26.139551] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_planner__rosidl_typesupport_cppExport-release.cmake\n'}
+[26.139642] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/export_ego_planner__rosidl_generator_pyExport.cmake\n'}
+[26.139725] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/export_ego_planner__rosidl_generator_pyExport-release.cmake\n'}
+[26.139810] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/rosidl_cmake-extras.cmake\n'}
+[26.139905] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.139989] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.140073] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.140160] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.140249] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.140330] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.140416] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig.cmake\n'}
+[26.140491] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig-version.cmake\n'}
+[26.140572] (ego_planner) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.xml\n'}
+[26.142066] (ego_planner) CommandEnded: {'returncode': 0}
+[26.154648] (ego_planner) JobEnded: {'identifier': 'ego_planner', 'rc': 0}
+[26.155085] (-) EventReactorShutdown: {}

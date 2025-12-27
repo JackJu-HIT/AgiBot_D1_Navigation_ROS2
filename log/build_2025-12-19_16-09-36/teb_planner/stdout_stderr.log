@@ -1,0 +1,33 @@
+[ 12%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/optimal_planner.cpp.o[0m
+[ 25%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o[0m
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kvoid irpc::planning::TebPlannerInterface::[01;32m[KsetObstacleInfo[m[K(std::vector<irpc::planning::obstacleInfo>&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:53:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   53 |             printf("TebPlannerInterface::setObstacleInfo:[01;35m[K%d[m[K\n",[32m[Kobstacles_.size()[m[K);
+      |                                                          [01;35m[K~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                           [01;35m[K|[m[K                   [32m[K|[m[K
+      |                                                           [01;35m[Kint[m[K                 [32m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type {aka long unsigned int}[m[K
+      |                                                          [32m[K%ld[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kbool irpc::planning::TebPlannerInterface::[01;32m[Kplan[m[K(irpc::planning::cmdInfo&, std::vector<Eigen::Matrix<float, 3, 1> >&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:117:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  117 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/optimal_planner.cpp:18:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K(const teb_local_planner::TebConfig&, teb_local_planner::ObstContainer*, teb_local_planner::RobotFootprintModelPtr, const teb_local_planner::ViaPointContainer*)[m[K’
+   18 |     [01;31m[KTebOptimalPlanner[m[K::TebOptimalPlanner(const TebConfig& cfg, ObstContainer* obstacles, RobotFootprintModelPtr robot_model,const ViaPointContainer* via_points)
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/optimal_planner.cpp:1[m[K:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/../include/optimal_planner.h:66:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K(const teb_local_planner::TebOptimalPlanner&)[m[K’
+   66 |     class [01;36m[KTebOptimalPlanner[m[K : public PlannerInterface
+      |           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/../include/optimal_planner.h:83:9:[m[K [01;36m[Knote: [m[K                ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K(const teb_local_planner::TebConfig*, teb_local_planner::ObstContainer*, teb_local_planner::RobotFootprintModelPtr, const teb_local_planner::ViaPointContainer*)[m[K’
+   83 |         [01;36m[KTebOptimalPlanner[m[K(const TebConfig* cfg, ObstContainer* obstacles = NULL, RobotFootprintModelPtr robot_model = boost::make_shared<PointRobotFootprint>(),
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/optimal_planner.cpp:13:5:[m[K [01;36m[Knote: [m[K                ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K()[m[K’
+   13 |     [01;36m[KTebOptimalPlanner[m[K::TebOptimalPlanner() : cfg_(NULL), obstacles_(NULL), via_points_(NULL), cost_(HUGE_VAL), prefer_rotdir_(RotType::none),
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/../include/optimal_planner.h:66:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass teb_local_planner::TebOptimalPlanner[m[K’ defined here
+   66 |     class [01;36m[KTebOptimalPlanner[m[K : public PlannerInterface
+      |           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:90: Teb/CMakeFiles/teb.dir/src/optimal_planner.cpp.o] 中断
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:118: Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:180: Teb/CMakeFiles/teb.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

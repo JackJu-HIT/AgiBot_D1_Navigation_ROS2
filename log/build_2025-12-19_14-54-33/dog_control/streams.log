@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[0.059s] [ 50%] Built target dog_keyboard_node
+[0.065s] [100%] Built target dog_driver_node
+[0.075s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[0.086s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/dog_control
+[0.095s] -- Install configuration: ""
+[0.095s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_driver_node
+[0.095s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_keyboard_node
+[0.096s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib
+[0.096s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64
+[0.096s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64/mc_sdk_zsl_1_py.cpython-310-x86_64-linux-gnu.so
+[0.096s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64/libmc_sdk_zsl_1_x86_64.so
+[0.096s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64
+[0.096s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64/libmc_sdk_zsl_1_aarch64.so
+[0.096s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64/mc_sdk_zsl_1_py.cpython-310-aarch64-linux-gnu.so
+[0.096s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/package_run_dependencies/dog_control
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/parent_prefix_path/dog_control
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/ament_prefix_path.sh
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/ament_prefix_path.dsv
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/path.sh
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/path.dsv
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.bash
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.sh
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.zsh
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.dsv
+[0.097s] -- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.dsv
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/packages/dog_control
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/cmake/dog_controlConfig.cmake
+[0.097s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/cmake/dog_controlConfig-version.cmake
+[0.098s] -- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.xml
+[0.099s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/dog_control

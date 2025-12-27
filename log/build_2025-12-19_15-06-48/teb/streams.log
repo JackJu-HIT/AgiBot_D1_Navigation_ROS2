@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/juchunyu/dog_ws/build/teb': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/teb_local_planner-master -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/teb
+[0.062s] -- The C compiler identification is GNU 13.3.0
+[0.111s] -- The CXX compiler identification is GNU 13.3.0
+[0.129s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.219s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.413s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system thread graph 
+[0.415s] [31mCMake Error at cmake_modules/FindSUITESPARSE.cmake:131 (MESSAGE):
+[0.415s]   Unable to find SuiteSparse
+[0.415s] Call Stack (most recent call first):
+[0.415s]   CMakeLists.txt:12 (find_package)
+[0.415s] 
+[0.415s] [0m
+[0.415s] -- Configuring incomplete, errors occurred!
+[0.418s] Invoked command in '/home/juchunyu/dog_ws/build/teb' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/teb_local_planner-master -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/teb

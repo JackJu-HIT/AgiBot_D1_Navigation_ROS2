@@ -1,0 +1,2 @@
+Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/dog_control -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/dog_control
+Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/dog_control -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/dog_control

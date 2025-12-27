@@ -1,0 +1,27 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- 检测到系统架构: x86_64
+-- 将链接的库路径: /home/juchunyu/dog_ws/src/dog_control/lib/x86_64
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/juchunyu/dog_ws/build/dog_control
+[ 25%] [32mBuilding CXX object CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dog_keyboard_node.dir/src/dog_keyboard_node.cpp.o[0m
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdog_driver.h: 没有那个文件或目录
+    2 | #include [01;31m[K"dog_driver.h"[m[K // 包含你的SDK头文件
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dog_driver_node.dir/build.make:76：CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/dog_driver_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 75%] [32m[1mLinking CXX executable dog_keyboard_node[0m
+[ 75%] Built target dog_keyboard_node
+gmake: *** [Makefile:146：all] 错误 2

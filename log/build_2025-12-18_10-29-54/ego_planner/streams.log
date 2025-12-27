@@ -1,0 +1,59 @@
+[0.007s] Invoking command in '/home/juchunyu/dog_ws/build/ego_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/ego_planner -- -j16 -l16
+[0.048s] [  2%] Built target ego_planner__rosidl_generator_type_description
+[0.052s] [  6%] Built target path_searching
+[0.052s] [ 10%] Built target local_map
+[0.053s] [ 10%] Built target ament_cmake_python_copy_ego_planner
+[0.054s] [ 19%] Built target bspline_opt
+[0.062s] [ 30%] Built target ego_planner__rosidl_generator_c
+[0.065s] [ 32%] Built target ego_planner__cpp
+[0.079s] [ 39%] Built target ego_planner__rosidl_typesupport_introspection_c
+[0.079s] [ 41%] [32mBuilding CXX object planner/plan_manage/CMakeFiles/ego_planner_lib.dir/src/planner_interface.cpp.o[0m
+[0.081s] [ 58%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+[0.081s] [ 58%] Built target ego_planner__rosidl_typesupport_c
+[0.081s] [ 60%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[0.084s] [ 67%] Built target ego_planner__rosidl_typesupport_cpp
+[0.084s] [ 73%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[0.101s] [ 73%] Built target ego_planner
+[0.124s] [ 76%] Built target ego_planner__py
+[0.145s] [ 80%] Built target ego_planner__rosidl_generator_py
+[0.163s] [ 84%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[0.167s] [ 89%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+[0.168s] [ 93%] Built target ego_planner_s__rosidl_typesupport_c
+[0.209s] running egg_info
+[0.220s] writing ego_planner.egg-info/PKG-INFO
+[0.220s] writing dependency_links to ego_planner.egg-info/dependency_links.txt
+[0.220s] writing top-level names to ego_planner.egg-info/top_level.txt
+[0.253s] reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+[0.254s] writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[0.274s] [ 93%] Built target ament_cmake_python_build_ego_planner_egg
+[0.861s] In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+[0.861s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:1[m[K:
+[0.861s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[0.861s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[0.861s]    88 | [01;35m[K}[m[K
+[0.861s]       | [01;35m[K^[m[K
+[0.888s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlannerInterface::[01;32m[KmakePlan[m[K()[m[K’:
+[0.888s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:181:52:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >::rep[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.888s]   181 |         printf("MotionPlanner Total Running Time: [01;35m[K%d[m[K  ms \n", [32m[Kelapsed.count()[m[K);
+[0.888s]       |                                                   [01;35m[K~^[m[K          [32m[K~~~~~~~~~~~~~~~[m[K
+[0.888s]       |                                                    [01;35m[K|[m[K                       [32m[K|[m[K
+[0.888s]       |                                                    [01;35m[Kint[m[K                     [32m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >::rep {aka long int}[m[K
+[0.888s]       |                                                   [32m[K%ld[m[K
+[2.346s] [ 95%] [32m[1mLinking CXX static library libego_planner_lib.a[0m
+[2.382s] [ 95%] Built target ego_planner_lib
+[2.408s] [ 97%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o[0m
+[4.561s] In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+[4.561s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:48[m[K,
+[4.561s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:6[m[K:
+[4.561s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[4.561s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[4.561s]    88 | [01;35m[K}[m[K
+[4.561s]       | [01;35m[K^[m[K
+[4.700s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryAndObstaclesPublisher::[01;32m[Kodom_callback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.700s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:95:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ego_planner::PathPoint[m[K’ has no member named ‘[01m[Kv[m[K’
+[4.700s]    95 |     cur_pose_.[01;31m[Kv[m[K
+[4.700s]       |               [01;31m[K^[m[K
+[7.891s] gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76：CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o] 错误 1
+[7.891s] gmake[1]: *** [CMakeFiles/Makefile2:701：CMakeFiles/motion_plan.dir/all] 错误 2
+[7.891s] gmake: *** [Makefile:146：all] 错误 2
+[7.893s] Invoked command in '/home/juchunyu/dog_ws/build/ego_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/ego_planner -- -j16 -l16

@@ -1,0 +1,20 @@
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kvoid irpc::planning::TebPlannerInterface::[01;32m[KsetObstacleInfo[m[K(std::vector<irpc::planning::obstacleInfo>&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:53:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   53 |             printf("TebPlannerInterface::setObstacleInfo:[01;35m[K%d[m[K\n",[32m[Kobstacles_.size()[m[K);
+      |                                                          [01;35m[K~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                           [01;35m[K|[m[K                   [32m[K|[m[K
+      |                                                           [01;35m[Kint[m[K                 [32m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type {aka long unsigned int}[m[K
+      |                                                          [32m[K%ld[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kbool irpc::planning::TebPlannerInterface::[01;32m[Kplan[m[K(irpc::planning::cmdInfo&, std::vector<Eigen::Matrix<float, 3, 1> >&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:117:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  117 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/include/trajectory_obstacles_publisher.h:30[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:6[m[K:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:[m[K In constructor ‘[01m[KTrajectoryAndObstaclesPublisher::[01;32m[KTrajectoryAndObstaclesPublisher[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:84:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   84 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+      |                                     [01;35m[K^~[m[K

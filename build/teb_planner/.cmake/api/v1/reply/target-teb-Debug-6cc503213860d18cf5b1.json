@@ -1,0 +1,217 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Teb/libteb.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"Teb/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -O0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/usr/local/include/eigen3"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/juchunyu/dog_ws/src/PNC/Teb_planner/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/juchunyu/dog_ws/src/PNC/Teb_planner/./Teb/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/juchunyu/dog_ws/src/PNC/Teb_planner/./Teb/include/g2o"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/juchunyu/dog_ws/src/PNC/Teb_planner/./Teb/include/g2o_types"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/juchunyu/dog_ws/src/PNC/Teb_planner/./Teb/include/suitesparse"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/usr/local/include/suitesparse"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/juchunyu/dog_ws/src/PNC/Teb_planner/Teb/./include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/juchunyu/dog_ws/src/PNC/Teb_planner/Teb/./include/g2o_types"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/juchunyu/dog_ws/src/PNC/Teb_planner/Teb/./include/suitesparse"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "teb::@4c5da0e7c556a3dbd35c",
+	"name" : "teb",
+	"nameOnDisk" : "libteb.a",
+	"paths" : 
+	{
+		"build" : "Teb",
+		"source" : "Teb"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Teb/src/obstacles.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Teb/src/optimal_planner.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Teb/src/teb_config.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Teb/src/teb_local_Planner_interface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Teb/src/timed_elastic_band.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

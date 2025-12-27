@@ -1,0 +1,28 @@
+[  2%] Built target ego_planner__rosidl_generator_type_description
+[  6%] Built target local_map
+[  6%] Built target ament_cmake_python_copy_ego_planner
+[ 15%] Built target bspline_opt
+[ 19%] Built target path_searching
+[ 30%] Built target ego_planner__rosidl_generator_c
+[ 32%] Built target ego_planner__cpp
+[ 36%] Built target ego_planner_lib
+[ 50%] Built target ego_planner__rosidl_typesupport_introspection_c
+[ 50%] Built target ego_planner__rosidl_typesupport_c
+[ 56%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[ 67%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+[ 69%] Built target ego_planner__rosidl_typesupport_cpp
+[ 76%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[ 76%] Built target ego_planner
+[ 80%] Built target motion_plan
+[ 82%] Built target ego_planner__py
+[ 86%] Built target ego_planner__rosidl_generator_py
+[ 95%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[ 95%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+[100%] Built target ego_planner_s__rosidl_typesupport_c
+running egg_info
+writing ego_planner.egg-info/PKG-INFO
+writing dependency_links to ego_planner.egg-info/dependency_links.txt
+writing top-level names to ego_planner.egg-info/top_level.txt
+reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ego_planner_egg

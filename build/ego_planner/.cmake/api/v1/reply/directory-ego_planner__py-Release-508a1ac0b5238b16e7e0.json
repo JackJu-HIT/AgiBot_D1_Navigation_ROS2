@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ego_planner__py",
+		"source" : "/home/juchunyu/dog_ws/build/ego_planner/ego_planner__py"
+	}
+}

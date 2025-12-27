@@ -1,0 +1,9 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/PNC/Teb_planner/include/trajectory_obstacles_publisher.h:30[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/PNC/Teb_planner/src/trajectory_publisher.cpp:6[m[K:
+[01m[K/home/juchunyu/dog_ws/src/PNC/Teb_planner/src/trajectory_publisher.cpp:[m[K In constructor ‘[01m[KTrajectoryAndObstaclesPublisher::[01;32m[KTrajectoryAndObstaclesPublisher[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/PNC/Teb_planner/src/trajectory_publisher.cpp:70:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   70 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+      |                                     [01;35m[K^~[m[K

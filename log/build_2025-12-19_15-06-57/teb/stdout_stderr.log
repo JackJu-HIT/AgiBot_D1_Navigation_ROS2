@@ -1,0 +1,7 @@
+[31mCMake Error at cmake_modules/FindSUITESPARSE.cmake:131 (MESSAGE):
+  Unable to find SuiteSparse
+Call Stack (most recent call first):
+  CMakeLists.txt:12 (find_package)
+
+[0m
+-- Configuring incomplete, errors occurred!

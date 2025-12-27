@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[0.051s] [ 25%] [32mBuilding CXX object CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o[0m
+[0.051s] [ 75%] Built target dog_keyboard_node
+[1.216s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.216s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.216s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.216s]                  from [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:1[m[K:
+[1.216s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KcmdVelCallback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.216s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:55:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kvx[m[K’ was not declared in this scope
+[1.216s]    55 |   RCLCPP_DEBUG(this->get_logger(), "Move: vx=%.2f, vy=%.2f, yaw=%.2f", [01;31m[Kvx[m[K, vy, yaw_rate);
+[1.217s]       |                                                                        [01;31m[K^~[m[K
+[1.217s] 
+[1.219s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:55:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kvy[m[K’ was not declared in this scope
+[1.219s]    55 | LCPP_DEBUG(this->get_logger(), "Move: vx=%.2f, vy=%.2f, yaw=%.2f", vx, [01;31m[Kvy[m[K, yaw_rate);
+[1.219s]       |                                                                        [01;31m[K^~[m[K
+[1.219s] 
+[1.222s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:55:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_rate[m[K’ was not declared in this scope
+[1.222s]    55 | P_DEBUG(this->get_logger(), "Move: vx=%.2f, vy=%.2f, yaw=%.2f", vx, vy, [01;31m[Kyaw_rate[m[K);
+[1.222s]       |                                                                         [01;31m[K^~~~~~~~[m[K
+[1.223s] 
+[2.675s] gmake[2]: *** [CMakeFiles/dog_driver_node.dir/build.make:76：CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o] 错误 1
+[2.675s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/dog_driver_node.dir/all] 错误 2
+[2.675s] gmake: *** [Makefile:146：all] 错误 2
+[2.677s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16

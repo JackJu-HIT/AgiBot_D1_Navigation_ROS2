@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/optimal_planner.cpp.o[0m
+[ 25%] [32m[1mLinking CXX static library libteb.a[0m
+[ 75%] Built target teb
+[ 87%] [32mBuilding CXX object CMakeFiles/teb_plan.dir/src/trajectory_publisher.cpp.o[0m

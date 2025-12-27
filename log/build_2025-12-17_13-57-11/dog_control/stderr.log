@@ -1,0 +1,56 @@
+In file included from [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:2[m[K:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:36:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmc_sdk[m[K’ has not been declared
+   36 | using namespace [01;31m[Kmc_sdk[m[K::zsl_1;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:36:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kzsl_1[m[K’ is not a namespace-name
+   36 | using namespace mc_sdk::[01;31m[Kzsl_1[m[K;
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[KHighLevel[m[K’ does not name a type
+   44 |     [01;31m[KHighLevel[m[K highlevel_;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In constructor ‘[01m[KDogDriverNode::[01;32m[KDogDriverNode[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   21 |         [01;31m[Khighlevel_[m[K.initRobot(client_ip, client_port, dog_ip);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KcmdVelCallback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   49 |     [01;31m[Khighlevel_[m[K.move(vx, vy, yaw_rate);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KactionCallback[m[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:61:27:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   61 |     if (cmd == "passive") [01;31m[Khighlevel_[m[K.passive();
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:62:33:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   62 |     else if (cmd == "lie_down") [01;31m[Khighlevel_[m[K.lieDown();
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:63:33:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   63 |     else if (cmd == "stand_up") [01;31m[Khighlevel_[m[K.standUp();
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:64:29:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   64 |     else if (cmd == "jump") [01;31m[Khighlevel_[m[K.jump();
+      |                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:65:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   65 |     else if (cmd == "front_jump") [01;31m[Khighlevel_[m[K.frontJump();
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:66:33:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   66 |     else if (cmd == "backflip") [01;31m[Khighlevel_[m[K.backflip();
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:67:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   67 |     else if (cmd == "shake_hand") [01;31m[Khighlevel_[m[K.shakeHand();
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:68:38:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   68 |     else if (cmd == "two_leg_stand") [01;31m[Khighlevel_[m[K.twoLegStand(0.0, 0.0); // 默认参数
+      |                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:69:39:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   69 |     else if (cmd == "cancel_two_leg") [01;31m[Khighlevel_[m[K.cancelTwoLegStand();
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   72 |         [01;31m[Khighlevel_[m[K.attitudeControl(0.1, 0.0, 0.0, 0.0);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KbatteryCallback[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+   85 |     [01;31m[Khighlevel_[m[K.getBatteryPower();
+      |     [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dog_driver_node.dir/build.make:76：CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/dog_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

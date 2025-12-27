@@ -1,0 +1,16 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/include/trajectory_obstacles_publisher.h:30[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:6[m[K:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:[m[K In constructor ‘[01m[KTrajectoryAndObstaclesPublisher::[01;32m[KTrajectoryAndObstaclesPublisher[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:84:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   84 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+      |                                     [01;35m[K^~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryAndObstaclesPublisher::[01;32m[Kpublish_and_plan[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:369:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kirpc::planning::plan[m[K’ is not a class member
+  369 |         teb_planner_->[01;31m[Kirpc[m[K::planning::plan(cmd,traj);
+      |                       [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/teb_plan.dir/build.make:76：CMakeFiles/teb_plan.dir/src/trajectory_publisher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:154：CMakeFiles/teb_plan.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

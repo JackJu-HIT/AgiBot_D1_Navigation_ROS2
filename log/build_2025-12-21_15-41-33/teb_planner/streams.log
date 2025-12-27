@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/juchunyu/dog_ws/build/teb_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16
+[0.052s] [ 75%] Built target teb
+[0.085s] [ 87%] [32mBuilding CXX object CMakeFiles/teb_plan.dir/src/trajectory_publisher.cpp.o[0m
+[2.982s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.982s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[2.983s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[2.983s]                  from [01m[K/home/juchunyu/dog_ws/src/PNC/Teb_planner/include/trajectory_obstacles_publisher.h:30[m[K,
+[2.983s]                  from [01m[K/home/juchunyu/dog_ws/src/PNC/Teb_planner/src/trajectory_publisher.cpp:6[m[K:
+[2.983s] [01m[K/home/juchunyu/dog_ws/src/PNC/Teb_planner/src/trajectory_publisher.cpp:[m[K In constructor ‘[01m[KTrajectoryAndObstaclesPublisher::[01;32m[KTrajectoryAndObstaclesPublisher[m[K()[m[K’:
+[2.983s] [01m[K/home/juchunyu/dog_ws/src/PNC/Teb_planner/src/trajectory_publisher.cpp:71:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[2.983s]    71 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+[2.983s]       |                                     [01;35m[K^~[m[K
+[18.840s] [100%] [32m[1mLinking CXX executable teb_plan[0m
+[20.263s] /usr/bin/ld: CMakeFiles/teb_plan.dir/src/trajectory_publisher.cpp.o: in function `TrajectoryAndObstaclesPublisher::publishCmd()':
+[20.263s] /home/juchunyu/dog_ws/src/PNC/Teb_planner/src/trajectory_publisher.cpp:354:(.text+0x600d): undefined reference to `TrajectoryAndObstaclesPublisher::limit_slope(double, double, double)'
+[20.264s] /usr/bin/ld: /home/juchunyu/dog_ws/src/PNC/Teb_planner/src/trajectory_publisher.cpp:355:(.text+0x606a): undefined reference to `TrajectoryAndObstaclesPublisher::limit_slope(double, double, double)'
+[20.529s] collect2: error: ld returned 1 exit status
+[20.530s] gmake[2]: *** [CMakeFiles/teb_plan.dir/build.make:234：teb_plan] 错误 1
+[20.531s] gmake[1]: *** [CMakeFiles/Makefile2:154：CMakeFiles/teb_plan.dir/all] 错误 2
+[20.531s] gmake: *** [Makefile:146：all] 错误 2
+[20.532s] Invoked command in '/home/juchunyu/dog_ws/build/teb_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16

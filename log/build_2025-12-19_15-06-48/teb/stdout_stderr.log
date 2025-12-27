@@ -1,0 +1,20 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system thread graph 
+[31mCMake Error at cmake_modules/FindSUITESPARSE.cmake:131 (MESSAGE):
+  Unable to find SuiteSparse
+Call Stack (most recent call first):
+  CMakeLists.txt:12 (find_package)
+
+[0m
+-- Configuring incomplete, errors occurred!

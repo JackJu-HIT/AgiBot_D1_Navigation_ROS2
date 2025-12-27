@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/dog_control -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/dog_control
+[0.073s] -- The C compiler identification is GNU 13.3.0
+[0.111s] -- The CXX compiler identification is GNU 13.3.0
+[0.128s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.286s] -- Detecting CXX compiler ABI info - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.302s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.400s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.490s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.529s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.541s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.642s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.645s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.720s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.734s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.754s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.827s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.853s] -- 检测到系统架构: x86_64
+[0.853s] -- 将链接的库路径: /home/juchunyu/dog_ws/src/dog_control/lib/zsl-1/x86_64
+[0.853s] [31mCMake Error at CMakeLists.txt:38 (find_library):
+[0.853s]   Could not find MC_SDK_LIB using the following names: mc_sdk_zsl_1_x86_64
+[0.853s] 
+[0.853s] [0m
+[0.853s] -- Configuring incomplete, errors occurred!
+[0.859s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/dog_control -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/dog_control

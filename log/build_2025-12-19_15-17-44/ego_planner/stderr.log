@@ -1,0 +1,7 @@
+In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:48[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:6[m[K:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   88 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

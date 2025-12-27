@@ -1,0 +1,4 @@
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KgetRobotStateCallback[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:91:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   91 |     uint32_t [01;35m[Kret[m[K = highlevel_->getBatteryPower();
+      |              [01;35m[K^~~[m[K

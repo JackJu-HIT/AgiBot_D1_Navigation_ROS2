@@ -1,0 +1,96 @@
+[0.006s] Invoking command in '/home/juchunyu/dog_ws/build/ego_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/ego_planner -- -j16 -l16
+[0.044s] [  8%] Built target ego_planner__rosidl_generator_type_description
+[0.045s] [ 10%] Built target bspline_opt
+[0.048s] [ 15%] Built target path_searching
+[0.048s] [ 19%] Built target local_map
+[0.051s] [ 19%] Built target ament_cmake_python_copy_ego_planner
+[0.058s] [ 32%] Built target ego_planner__cpp
+[0.058s] [ 32%] Built target ego_planner__rosidl_generator_c
+[0.071s] [ 36%] Built target ego_planner_lib
+[0.072s] [ 43%] Built target ego_planner__rosidl_typesupport_introspection_c
+[0.073s] [ 50%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+[0.073s] [ 56%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[0.078s] [ 63%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[0.078s] [ 69%] Built target ego_planner__rosidl_typesupport_cpp
+[0.080s] [ 76%] Built target ego_planner__rosidl_typesupport_c
+[0.097s] [ 76%] Built target ego_planner
+[0.112s] [ 78%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o[0m
+[0.112s] [ 80%] Built target ego_planner__py
+[0.131s] [ 84%] Built target ego_planner__rosidl_generator_py
+[0.148s] [ 89%] Built target ego_planner_s__rosidl_typesupport_c
+[0.151s] [ 93%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[0.154s] [ 97%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+[0.212s] running egg_info
+[0.223s] writing ego_planner.egg-info/PKG-INFO
+[0.223s] writing dependency_links to ego_planner.egg-info/dependency_links.txt
+[0.223s] writing top-level names to ego_planner.egg-info/top_level.txt
+[0.254s] reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+[0.254s] writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[0.274s] [ 97%] Built target ament_cmake_python_build_ego_planner_egg
+[2.265s] In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+[2.265s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:48[m[K,
+[2.265s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:6[m[K:
+[2.265s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[2.265s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.265s]    88 | [01;35m[K}[m[K
+[2.265s]       | [01;35m[K^[m[K
+[2.388s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:[m[K In constructor ‘[01m[KTrajectoryAndObstaclesPublisher::[01;32m[KTrajectoryAndObstaclesPublisher[m[K()[m[K’:
+[2.388s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:28:112:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > > >[m[K’)
+[2.388s]    28 | nd(&TrajectoryAndObstaclesPublisher::odom_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+[2.388s]       |                                                                                 [01;31m[K^[m[K
+[2.389s] 
+[2.389s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[2.389s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[2.389s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:30[m[K:
+[2.389s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Yp>&) [35m[K[with _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >][m[K[m[K’
+[2.389s]   418 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[2.389s]       |         [01;36m[K^~~~~~~~[m[K
+[2.389s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.389s] /usr/include/c++/13/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using std::shared_ptr<_Tp>::_Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [35m[K[with _Arg = const std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >][m[K[m[K’:
+[2.389s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >::[01;32m[Koperator=[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Yp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >][m[K[m[K’
+[2.389s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:28:112:[m[K   required from here
+[2.390s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:183:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&>[m[K’
+[2.390s]   183 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[2.390s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[2.390s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::auto_ptr<_Up>&&) [35m[K[with _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >][m[K[m[K’
+[2.390s]   429 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[2.390s]       |         [01;36m[K^~~~~~~~[m[K
+[2.390s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.390s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:28:112:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[2.390s]    28 | nd(&TrajectoryAndObstaclesPublisher::odom_callback, this, std::placeholders::_1)[01;36m[K)[m[K;
+[2.390s]       |                                                                                 [01;36m[K^[m[K
+[2.390s] 
+[2.390s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Yp>&&) [35m[K[with _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >][m[K[m[K’
+[2.391s]   446 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[2.391s]       |         [01;36m[K^~~~~~~~[m[K
+[2.391s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.391s] /usr/include/c++/13/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using std::shared_ptr<_Tp>::_Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [35m[K[with _Arg = std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >][m[K[m[K’:
+[2.391s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >::[01;32m[Koperator=[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Yp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >][m[K[m[K’
+[2.391s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:28:112:[m[K   required from here
+[2.391s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:183:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&>[m[K’
+[2.391s]   183 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[2.391s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[2.391s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Del = _Yp; _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >][m[K[m[K’
+[2.391s]   454 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[2.391s]       |         [01;36m[K^~~~~~~~[m[K
+[2.392s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.392s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:28:112:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[2.392s]    28 | nd(&TrajectoryAndObstaclesPublisher::odom_callback, this, std::placeholders::_1)[01;36m[K)[m[K;
+[2.392s]       |                                                                                 [01;36m[K^[m[K
+[2.392s] 
+[2.392s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >][m[K[m[K’
+[2.392s]   414 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[2.392s]       |                   [01;36m[K^~~~~~~~[m[K
+[2.392s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&[m[K’
+[2.392s]   414 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[2.392s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.392s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >][m[K[m[K’
+[2.393s]   438 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[2.393s]       |       [01;36m[K^~~~~~~~[m[K
+[2.393s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&&[m[K’
+[2.393s]   438 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[2.393s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[5.612s] gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76：CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o] 错误 1
+[5.612s] gmake[1]: *** [CMakeFiles/Makefile2:701：CMakeFiles/motion_plan.dir/all] 错误 2
+[5.612s] gmake: *** [Makefile:146：all] 错误 2
+[5.614s] Invoked command in '/home/juchunyu/dog_ws/build/ego_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/ego_planner -- -j16 -l16

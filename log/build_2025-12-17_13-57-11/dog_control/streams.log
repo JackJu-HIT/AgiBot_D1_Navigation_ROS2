@@ -1,0 +1,75 @@
+[0.007s] Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[0.027s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.171s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.187s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.192s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.243s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.244s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.289s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.329s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.349s] -- 检测到系统架构: x86_64
+[0.349s] -- 将链接的库路径: /home/juchunyu/dog_ws/src/dog_control/lib/x86_64
+[0.404s] -- Configuring done (0.4s)
+[0.412s] -- Generating done (0.0s)
+[0.414s] -- Build files have been written to: /home/juchunyu/dog_ws/build/dog_control
+[0.450s] [ 25%] [32mBuilding CXX object CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o[0m
+[0.450s] [ 75%] Built target dog_keyboard_node
+[1.611s] In file included from [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:2[m[K:
+[1.611s] [01m[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:36:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmc_sdk[m[K’ has not been declared
+[1.611s]    36 | using namespace [01;31m[Kmc_sdk[m[K::zsl_1;
+[1.612s]       |                 [01;31m[K^~~~~~[m[K
+[1.612s] [01m[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:36:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kzsl_1[m[K’ is not a namespace-name
+[1.612s]    36 | using namespace mc_sdk::[01;31m[Kzsl_1[m[K;
+[1.612s]       |                         [01;31m[K^~~~~[m[K
+[1.612s] [01m[K/home/juchunyu/dog_ws/src/dog_control/include/dog_driver.h:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[KHighLevel[m[K’ does not name a type
+[1.613s]    44 |     [01;31m[KHighLevel[m[K highlevel_;
+[1.613s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.642s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In constructor ‘[01m[KDogDriverNode::[01;32m[KDogDriverNode[m[K()[m[K’:
+[1.642s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.642s]    21 |         [01;31m[Khighlevel_[m[K.initRobot(client_ip, client_port, dog_ip);
+[1.643s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.657s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KcmdVelCallback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.657s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.657s]    49 |     [01;31m[Khighlevel_[m[K.move(vx, vy, yaw_rate);
+[1.657s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.663s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KactionCallback[m[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.663s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:61:27:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.663s]    61 |     if (cmd == "passive") [01;31m[Khighlevel_[m[K.passive();
+[1.663s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[1.667s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:62:33:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.667s]    62 |     else if (cmd == "lie_down") [01;31m[Khighlevel_[m[K.lieDown();
+[1.667s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[1.671s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:63:33:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.671s]    63 |     else if (cmd == "stand_up") [01;31m[Khighlevel_[m[K.standUp();
+[1.671s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[1.675s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:64:29:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.675s]    64 |     else if (cmd == "jump") [01;31m[Khighlevel_[m[K.jump();
+[1.675s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[1.678s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:65:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.678s]    65 |     else if (cmd == "front_jump") [01;31m[Khighlevel_[m[K.frontJump();
+[1.678s]       |                                   [01;31m[K^~~~~~~~~~[m[K
+[1.682s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:66:33:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.682s]    66 |     else if (cmd == "backflip") [01;31m[Khighlevel_[m[K.backflip();
+[1.682s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[1.686s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:67:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.686s]    67 |     else if (cmd == "shake_hand") [01;31m[Khighlevel_[m[K.shakeHand();
+[1.686s]       |                                   [01;31m[K^~~~~~~~~~[m[K
+[1.690s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:68:38:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.690s]    68 |     else if (cmd == "two_leg_stand") [01;31m[Khighlevel_[m[K.twoLegStand(0.0, 0.0); // 默认参数
+[1.690s]       |                                      [01;31m[K^~~~~~~~~~[m[K
+[1.694s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:69:39:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.694s]    69 |     else if (cmd == "cancel_two_leg") [01;31m[Khighlevel_[m[K.cancelTwoLegStand();
+[1.694s]       |                                       [01;31m[K^~~~~~~~~~[m[K
+[1.698s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.698s]    72 |         [01;31m[Khighlevel_[m[K.attitudeControl(0.1, 0.0, 0.0, 0.0);
+[1.698s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.702s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KbatteryCallback[m[K()[m[K’:
+[1.702s] [01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khighlevel_[m[K’ was not declared in this scope
+[1.702s]    85 |     [01;31m[Khighlevel_[m[K.getBatteryPower();
+[1.702s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.173s] gmake[2]: *** [CMakeFiles/dog_driver_node.dir/build.make:76：CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o] 错误 1
+[3.174s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/dog_driver_node.dir/all] 错误 2
+[3.174s] gmake: *** [Makefile:146：all] 错误 2
+[3.176s] Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16

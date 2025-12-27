@@ -1,0 +1,8 @@
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_keyboard_node.cpp:[m[K In member function ‘[01m[Kvoid DogKeyboardNode::[01;32m[KpublishAction[m[K(const std::string&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_keyboard_node.cpp:95:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::std_msgs[m[K’ has not been declared
+   95 |         auto msg = std::[01;31m[Kstd_msgs[m[K::msg::String();
+      |                         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dog_keyboard_node.dir/build.make:76：CMakeFiles/dog_keyboard_node.dir/src/dog_keyboard_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/dog_keyboard_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

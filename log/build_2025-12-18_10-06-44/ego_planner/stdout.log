@@ -1,0 +1,118 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- 包根目录：/home/juchunyu/dog_ws/src/EgoPlanner-ROS2
+-- 检查msg文件：/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/msg/CurrentPose.msg
+-- ✅ msg文件存在！
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/juchunyu/dog_ws/build/ego_planner
+[  2%] [32mBuilding CXX object planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/bspline_optimizer.cpp.o[0m
+[  4%] [32mBuilding CXX object planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/uniform_bspline.cpp.o[0m
+[  6%] [32mBuilding CXX object planner/path_searching/CMakeFiles/path_searching.dir/src/dyn_a_star.cpp.o[0m
+[  8%] [32mBuilding CXX object planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/gradient_descent_optimizer.cpp.o[0m
+[ 13%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[ 13%] [32mBuilding CXX object planner/GridMap2D/CMakeFiles/local_map.dir/src/grid_map.cpp.o[0m
+[ 13%] Built target ament_cmake_python_copy_ego_planner
+[ 13%] Built target ego_planner__rosidl_generator_type_description
+[ 15%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+creating ego_planner.egg-info
+writing ego_planner.egg-info/PKG-INFO
+writing dependency_links to ego_planner.egg-info/dependency_links.txt
+writing top-level names to ego_planner.egg-info/top_level.txt
+writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[ 17%] Built target ego_planner__cpp
+[ 17%] Built target ament_cmake_python_build_ego_planner_egg
+[ 19%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_c.dir/rosidl_generator_c/ego_planner/msg/detail/current_pose__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_c.dir/rosidl_generator_c/ego_planner/msg/detail/current_pose__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_c.dir/rosidl_generator_c/ego_planner/msg/detail/current_pose__description.c.o[0m
+[ 26%] [32m[1mLinking C shared library libego_planner__rosidl_generator_c.so[0m
+[ 26%] Built target ego_planner__rosidl_generator_c
+[ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 39%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_c.dir/rosidl_typesupport_c/ego_planner/msg/current_pose__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ego_planner/msg/detail/current_pose__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_c.so[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ego_planner/msg/current_pose__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ego_planner/msg/detail/current_pose__type_support_c.cpp.o[0m
+[ 50%] Built target ego_planner__rosidl_typesupport_c
+[ 52%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ego_planner/msg/detail/current_pose__type_support.c.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ego_planner/msg/detail/dds_fastrtps/current_pose__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking C shared library libego_planner__rosidl_typesupport_introspection_c.so[0m
+[ 56%] Built target ego_planner__rosidl_typesupport_introspection_c
+[ 58%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_introspection_cpp.so[0m
+[ 58%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+[ 60%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_cpp.so[0m
+[ 60%] Built target ego_planner__rosidl_typesupport_cpp
+[ 63%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 63%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[ 65%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_fastrtps_c.so[0m
+[ 65%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[ 65%] Built target ego_planner
+[ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 69%] [32m[1mLinking CXX static library liblocal_map.a[0m
+[ 69%] Built target local_map
+[ 69%] Built target ego_planner__py
+[ 71%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_py.dir/rosidl_generator_py/ego_planner/msg/_current_pose_s.c.o[0m
+[ 73%] [32m[1mLinking C shared library libego_planner__rosidl_generator_py.so[0m
+[ 73%] Built target ego_planner__rosidl_generator_py
+[ 76%] [32mBuilding C object CMakeFiles/ego_planner_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ego_planner/_ego_planner_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/ego_planner_s__rosidl_typesupport_c.dir/rosidl_generator_py/ego_planner/_ego_planner_s.ep.rosidl_typesupport_c.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/ego_planner_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ego_planner/_ego_planner_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 82%] [32m[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_introspection_c.so[0m
+[ 84%] [32m[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_c.so[0m
+[ 84%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+[ 86%] [32m[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 86%] Built target ego_planner_s__rosidl_typesupport_c
+[ 86%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[ 89%] [32m[1mLinking CXX static library libpath_searching.a[0m
+[ 89%] Built target path_searching
+[ 91%] [32m[1mLinking CXX static library libbspline_opt.a[0m
+[ 91%] Built target bspline_opt
+[ 93%] [32mBuilding CXX object planner/plan_manage/CMakeFiles/ego_planner_lib.dir/src/planner_interface.cpp.o[0m
+[ 95%] [32m[1mLinking CXX static library libego_planner_lib.a[0m
+[ 95%] Built target ego_planner_lib
+[ 97%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o[0m

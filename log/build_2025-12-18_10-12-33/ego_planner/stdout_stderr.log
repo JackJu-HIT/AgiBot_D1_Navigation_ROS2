@@ -1,0 +1,76 @@
+[  2%] Built target ego_planner__rosidl_generator_type_description
+[ 10%] Built target bspline_opt
+[ 15%] Built target local_map
+[ 19%] Built target path_searching
+[ 19%] Built target ament_cmake_python_copy_ego_planner
+[ 21%] Built target ego_planner__cpp
+[ 32%] Built target ego_planner__rosidl_generator_c
+[ 39%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[ 45%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[ 50%] Built target ego_planner_lib
+[ 56%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+[ 63%] Built target ego_planner__rosidl_typesupport_introspection_c
+[ 69%] Built target ego_planner__rosidl_typesupport_cpp
+[ 76%] Built target ego_planner__rosidl_typesupport_c
+[ 76%] Built target ego_planner
+[ 78%] Built target ego_planner__py
+[ 80%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o[0m
+[ 84%] Built target ego_planner__rosidl_generator_py
+[ 89%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[ 97%] Built target ego_planner_s__rosidl_typesupport_c
+[ 97%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+running egg_info
+writing ego_planner.egg-info/PKG-INFO
+writing dependency_links to ego_planner.egg-info/dependency_links.txt
+writing top-level names to ego_planner.egg-info/top_level.txt
+reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_ego_planner_egg
+In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:48[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:6[m[K:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   88 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:[m[K In constructor ‘[01m[KTrajectoryAndObstaclesPublisher::[01;32m[KTrajectoryAndObstaclesPublisher[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:28:90:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   28 | "odom", 10, std::bind(&TrajectoryAndObstaclesPublisher::odom_callback, this, [01;31m[K_1[m[K));
+      |                                                                              [01;31m[K^~[m[K
+      |                                                                              [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:30[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                                [01;36m[K^~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryAndObstaclesPublisher::[01;32m[Kodom_callback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:75:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+   75 |     cur_pose_.x = msg->pose.[01;31m[Kposition[m[K.x;
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:76:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+   76 |     cur_pose_.y = msg->pose.[01;31m[Kposition[m[K.y;
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:80:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   80 |         msg->pose.[01;31m[Korientation[m[K.x,
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:81:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   81 |         msg->pose.[01;31m[Korientation[m[K.y,
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:82:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   82 |         msg->pose.[01;31m[Korientation[m[K.z,
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:83:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   83 |         msg->pose.[01;31m[Korientation[m[K.w);
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:92:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion q[m[K’
+   92 |     tf2::Quaternion [01;31m[Kq[m[K(
+      |                     [01;31m[K^[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:79:21:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion q[m[K’ previously declared here
+   79 |     tf2::Quaternion [01;36m[Kq[m[K(
+      |                     [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76：CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:701：CMakeFiles/motion_plan.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

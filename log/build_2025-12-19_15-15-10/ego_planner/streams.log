@@ -1,0 +1,255 @@
+[0.008s] Invoking command in '/home/juchunyu/dog_ws/build/ego_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/EgoPlanner-ROS2 -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/ego_planner
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.100s] -- The CXX compiler identification is GNU 13.3.0
+[0.114s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.286s] -- Detecting CXX compile features - done
+[0.288s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.398s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.501s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.543s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.662s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.666s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.742s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.767s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.792s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.865s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.921s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.926s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.048s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.071s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[1.074s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.105s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.117s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.118s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.118s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.127s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.143s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.144s] [0mstatusego_planner[0m
+[1.144s] -- 包根目录：/home/juchunyu/dog_ws/src/EgoPlanner-ROS2
+[1.144s] -- 检查msg文件：/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/msg/CurrentPose.msg
+[1.145s] -- ✅ msg文件存在！
+[1.721s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.994s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.001s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.182s] -- Found PythonExtra: /usr/bin/python3  
+[4.555s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.743s] -- Configuring done (4.7s)
+[4.817s] -- Generating done (0.1s)
+[4.847s] -- Build files have been written to: /home/juchunyu/dog_ws/build/ego_planner
+[4.880s] Invoked command in '/home/juchunyu/dog_ws/build/ego_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/EgoPlanner-ROS2 -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/ego_planner
+[4.882s] Invoking command in '/home/juchunyu/dog_ws/build/ego_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/ego_planner -- -j16 -l16
+[4.959s] [  2%] [32mBuilding CXX object planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/uniform_bspline.cpp.o[0m
+[4.959s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.959s] [  6%] [32mBuilding CXX object planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/bspline_optimizer.cpp.o[0m
+[4.960s] [  8%] [32mBuilding CXX object planner/path_searching/CMakeFiles/path_searching.dir/src/dyn_a_star.cpp.o[0m
+[4.961s] [ 10%] [32mBuilding CXX object planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/gradient_descent_optimizer.cpp.o[0m
+[4.964s] [ 13%] [32mBuilding CXX object planner/GridMap2D/CMakeFiles/local_map.dir/src/grid_map.cpp.o[0m
+[4.974s] [ 13%] Built target ament_cmake_python_copy_ego_planner
+[5.290s] [ 13%] Built target ego_planner__rosidl_generator_type_description
+[5.318s] [ 15%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.350s] [ 17%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.513s] running egg_info
+[5.516s] creating ego_planner.egg-info
+[5.552s] writing ego_planner.egg-info/PKG-INFO
+[5.556s] writing dependency_links to ego_planner.egg-info/dependency_links.txt
+[5.557s] writing top-level names to ego_planner.egg-info/top_level.txt
+[5.557s] writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[5.661s] reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+[5.662s] writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[5.736s] [ 17%] Built target ament_cmake_python_build_ego_planner_egg
+[5.798s] [ 17%] Built target ego_planner__cpp
+[5.881s] [ 19%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_c.dir/rosidl_generator_c/ego_planner/msg/detail/current_pose__type_support.c.o[0m
+[5.889s] [ 21%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_c.dir/rosidl_generator_c/ego_planner/msg/detail/current_pose__description.c.o[0m
+[5.893s] [ 23%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_c.dir/rosidl_generator_c/ego_planner/msg/detail/current_pose__functions.c.o[0m
+[6.043s] [ 26%] [32m[1mLinking C shared library libego_planner__rosidl_generator_c.so[0m
+[6.110s] [ 26%] Built target ego_planner__rosidl_generator_c
+[6.129s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.129s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.130s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.131s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.139s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.147s] [ 39%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.623s] [ 41%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ego_planner/msg/current_pose__type_support.cpp.o[0m
+[6.631s] [ 43%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ego_planner/msg/detail/current_pose__type_support.cpp.o[0m
+[6.638s] [ 45%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ego_planner/msg/detail/current_pose__type_support_c.cpp.o[0m
+[6.680s] [ 47%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_c.dir/rosidl_typesupport_c/ego_planner/msg/current_pose__type_support.cpp.o[0m
+[6.701s] [ 50%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ego_planner/msg/detail/current_pose__type_support.c.o[0m
+[6.708s] [ 52%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ego_planner/msg/detail/dds_fastrtps/current_pose__type_support.cpp.o[0m
+[6.812s] [ 54%] [32m[1mLinking C shared library libego_planner__rosidl_typesupport_introspection_c.so[0m
+[6.830s] [ 56%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_c.so[0m
+[6.909s] [ 56%] Built target ego_planner__rosidl_typesupport_introspection_c
+[6.964s] [ 56%] Built target ego_planner__rosidl_typesupport_c
+[7.181s] [ 58%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_cpp.so[0m
+[7.215s] [ 60%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_introspection_cpp.so[0m
+[7.248s] [ 60%] Built target ego_planner__rosidl_typesupport_cpp
+[7.298s] [ 60%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+[7.546s] [ 63%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_fastrtps_c.so[0m
+[7.622s] [ 65%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.638s] [ 65%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[7.709s] [ 65%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[7.738s] [ 65%] Built target ego_planner
+[7.753s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::BsplineOptimizer::[01;32m[KcombineCostRebound[m[K(const double*, double*, double&, int)[m[K’:
+[7.753s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:1044:62:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kf_turn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.753s]  1044 |   double f_smoothness = 0, f_distance = 0, f_feasibility = 0,[01;35m[Kf_turn[m[K = 0,f_kappa = 0;
+[7.753s]       |                                                              [01;35m[K^~~~~~[m[K
+[7.755s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:1044:73:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kf_kappa[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.755s]  1044 |   double f_smoothness = 0, f_distance = 0, f_feasibility = 0,f_turn = 0,[01;35m[Kf_kappa[m[K = 0;
+[7.755s]       |                                                                         [01;35m[K^~~~~~~[m[K
+[7.773s] [ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.846s] [ 69%] [32m[1mLinking CXX static library liblocal_map.a[0m
+[7.906s] [ 69%] Built target local_map
+[8.157s] [ 69%] Built target ego_planner__py
+[8.177s] [ 71%] [32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_py.dir/rosidl_generator_py/ego_planner/msg/_current_pose_s.c.o[0m
+[8.353s] [ 73%] [32m[1mLinking C shared library libego_planner__rosidl_generator_py.so[0m
+[8.422s] [ 73%] Built target ego_planner__rosidl_generator_py
+[8.454s] [ 78%] [32mBuilding C object CMakeFiles/ego_planner_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ego_planner/_ego_planner_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.454s] [ 78%] [32mBuilding C object CMakeFiles/ego_planner_s__rosidl_typesupport_c.dir/rosidl_generator_py/ego_planner/_ego_planner_s.ep.rosidl_typesupport_c.c.o[0m
+[8.456s] [ 80%] [32mBuilding C object CMakeFiles/ego_planner_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ego_planner/_ego_planner_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.639s] [ 82%] [32m[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_c.so[0m
+[8.651s] [ 84%] [32m[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.657s] [ 86%] [32m[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_introspection_c.so[0m
+[8.689s] [ 86%] Built target ego_planner_s__rosidl_typesupport_c
+[8.692s] [ 86%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[8.705s] [ 86%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+[9.189s] [ 89%] [32m[1mLinking CXX static library libpath_searching.a[0m
+[9.252s] [ 89%] Built target path_searching
+[10.892s] In file included from [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:346[m[K,
+[10.892s]                  from [01m[K/usr/local/include/eigen3/Eigen/Core:22[m[K,
+[10.892s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[10.893s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[10.893s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/bspline_opt/include/bspline_opt/bspline_optimizer.h:4[m[K,
+[10.893s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:1[m[K:
+[10.893s] In function ‘[01m[K__m128d[01;32m[K _mm_sub_pd[m[K(__m128d, __m128d)[m[K’,
+[10.893s]     inlined from ‘[01m[KPacket Eigen::internal::[01;32m[Kpsub[m[K(const Packet&, const Packet&) [35m[K[with Packet = __vector(2) double][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:296:113[m[K,
+[10.893s]     inlined from ‘[01m[Kconst Packet Eigen::internal::scalar_difference_op<LhsScalar, RhsScalar>::[01;32m[KpacketOp[m[K(const Packet&, const Packet&) const [35m[K[with Packet = __vector(2) double; LhsScalar = double; RhsScalar = double][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:362:26[m[K,
+[10.893s]     inlined from ‘[01m[KPacketType Eigen::internal::binary_evaluator<Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>, Eigen::internal::IndexBased, Eigen::internal::IndexBased>::[01;32m[Kpacket[m[K(Eigen::Index, Eigen::Index) const [35m[K[with int LoadMode = 0; PacketType = __vector(2) double; BinaryOp = Eigen::internal::scalar_difference_op<double, double>; Lhs = const Eigen::Matrix<double, 2, 1>; Rhs = const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:782:31[m[K,
+[10.893s]     inlined from ‘[01m[KPacketType Eigen::internal::unary_evaluator<Eigen::CwiseUnaryOp<UnaryOp, ArgType>, Eigen::internal::IndexBased>::[01;32m[Kpacket[m[K(Eigen::Index, Eigen::Index) const [35m[K[with int LoadMode = 0; PacketType = __vector(2) double; UnaryOp = Eigen::internal::scalar_abs2_op<double>; ArgType = const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:596:81[m[K,
+[10.893s]     inlined from ‘[01m[KPacketType Eigen::internal::redux_evaluator<_XprType>::[01;32m[KpacketByOuterInner[m[K(Eigen::Index, Eigen::Index) const [35m[K[with int LoadMode = 0; PacketType = __vector(2) double; _XprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:386:54[m[K,
+[10.894s]     inlined from ‘[01m[Kstatic PacketType Eigen::internal::redux_vec_unroller<Func, Evaluator, Start, 1>::[01;32m[Krun[m[K(const Evaluator&, const Func&) [35m[K[with PacketType = __vector(2) double; Func = Eigen::internal::scalar_sum_op<double, double>; Evaluator = Eigen::internal::redux_evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > > >; int Start = 0][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:177:66[m[K,
+[10.894s]     inlined from ‘[01m[Kstatic Eigen::internal::redux_impl<Func, Evaluator, 3, 2>::Scalar Eigen::internal::redux_impl<Func, Evaluator, 3, 2>::[01;32m[Krun[m[K(const Evaluator&, const Func&, const XprType&) [35m[K[with XprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >; Func = Eigen::internal::scalar_sum_op<double, double>; Evaluator = Eigen::internal::redux_evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > > >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:344:115[m[K,
+[10.894s]     inlined from ‘[01m[Ktypename Eigen::internal::traits<T>::Scalar Eigen::DenseBase<Derived>::[01;32m[Kredux[m[K(const Func&) const [35m[K[with BinaryOp = Eigen::internal::scalar_sum_op<double, double>; Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:418:56[m[K,
+[10.894s]     inlined from ‘[01m[Ktypename Eigen::internal::traits<T>::Scalar Eigen::DenseBase<Derived>::[01;32m[Ksum[m[K() const [35m[K[with Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:463:25[m[K,
+[10.894s]     inlined from ‘[01m[Ktypename Eigen::NumTraits<typename Eigen::internal::traits<T>::Scalar>::Real Eigen::MatrixBase<Derived>::[01;32m[KsquaredNorm[m[K() const [35m[K[with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Dot.h:98:46[m[K,
+[10.894s]     inlined from ‘[01m[Ktypename Eigen::NumTraits<typename Eigen::internal::traits<T>::Scalar>::Real Eigen::MatrixBase<Derived>::[01;32m[Knorm[m[K() const [35m[K[with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Dot.h:110:34[m[K,
+[10.894s]     inlined from ‘[01m[Kbool ego_planner::BsplineOptimizer::[01;32m[Kcheck_collision_and_rebound[m[K()[m[K’ at [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:792:75[m[K:
+[10.894s] [01m[K/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:263:46:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(__m128d*)((char*)&intersection_point + offsetof(Eigen::Vector2d, Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1, 0, 2, 1> >::m_storage.Eigen::DenseStorage<double, 2, 2, 1, 0>::m_data.Eigen::internal::plain_array<double, 2, 0, 16>::array[0]))[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[10.894s]   263 |   return (__m128d) ((__v2df)__A - (__v2df)__B[01;35m[K)[m[K;
+[10.895s]       |                                              [01;35m[K^[m[K
+[10.895s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kbool ego_planner::BsplineOptimizer::[01;32m[Kcheck_collision_and_rebound[m[K()[m[K’:
+[10.895s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:760:90:[m[K [01;36m[Knote: [m[K‘[01m[K*(__m128d*)((char*)&intersection_point + offsetof(Eigen::Vector2d, Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1, 0, 2, 1> >::m_storage.Eigen::DenseStorage<double, 2, 2, 1, 0>::m_data.Eigen::internal::plain_array<double, 2, 0, 16>::array[0]))[m[K’ was declared here
+[10.895s]   760 |           Eigen::Vector2d ctrl_pts_law(cps_.points.col(j + 1) - cps_.points.col(j - 1)), [01;36m[Kintersection_point[m[K;
+[10.895s]       |                                                                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[11.735s] In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:64[m[K,
+[11.736s]                  from [01m[K/usr/include/c++/13/string:51[m[K,
+[11.736s]                  from [01m[K/usr/include/c++/13/bits/locale_classes.h:40[m[K,
+[11.736s]                  from [01m[K/usr/include/c++/13/bits/ios_base.h:41[m[K,
+[11.736s]                  from [01m[K/usr/include/c++/13/ios:44[m[K,
+[11.736s]                  from [01m[K/usr/include/c++/13/istream:40[m[K,
+[11.736s]                  from [01m[K/usr/include/c++/13/sstream:40[m[K,
+[11.736s]                  from [01m[K/usr/include/c++/13/complex:45[m[K,
+[11.736s]                  from [01m[K/usr/local/include/eigen3/Eigen/Core:50[m[K:
+[11.737s] In constructor ‘[01m[Kconstexpr std::pair<_T1, _T2>::[01;32m[Kpair[m[K(_U1&&, _U2&&) [35m[K[with _U1 = int&; _U2 = int&; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> = true; _T1 = int; _T2 = int][m[K[m[K’,
+[11.737s]     inlined from ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::[01;32m[KinitControlPoints[m[K(Eigen::MatrixXd&, bool)[m[K’ at [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:97:38[m[K:
+[11.737s] [01m[K/usr/include/c++/13/bits/stl_pair.h:688:11:[m[K [01;35m[Kwarning: [m[K‘[01m[Kin_id[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[11.738s]   688 |         : [01;35m[Kfirst(std::forward<_U1>(__x))[m[K, second(std::forward<_U2>(__y))
+[11.738s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.738s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::[01;32m[KinitControlPoints[m[K(Eigen::MatrixXd&, bool)[m[K’:
+[11.738s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:50:9:[m[K [01;36m[Knote: [m[K‘[01m[Kin_id[m[K’ was declared here
+[11.738s]    50 |     int [01;36m[Kin_id[m[K, out_id;
+[11.739s]       |         [01;36m[K^~~~~[m[K
+[11.740s] In constructor ‘[01m[Kconstexpr std::pair<_T1, _T2>::[01;32m[Kpair[m[K(_U1&&, _U2&&) [35m[K[with _U1 = int&; _U2 = int&; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> = true; _T1 = int; _T2 = int][m[K[m[K’,
+[11.740s]     inlined from ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::[01;32m[KinitControlPoints[m[K(Eigen::MatrixXd&, bool)[m[K’ at [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:97:38[m[K:
+[11.740s] [01m[K/usr/include/c++/13/bits/stl_pair.h:688:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kout_id[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[11.740s]   688 |         : first(std::forward<_U1>(__x)), [01;35m[Ksecond(std::forward<_U2>(__y))[m[K
+[11.740s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.740s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::[01;32m[KinitControlPoints[m[K(Eigen::MatrixXd&, bool)[m[K’:
+[11.741s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:50:16:[m[K [01;36m[Knote: [m[K‘[01m[Kout_id[m[K’ was declared here
+[11.741s]    50 |     int in_id, [01;36m[Kout_id[m[K;
+[11.741s]       |                [01;36m[K^~~~~~[m[K
+[11.741s] In function ‘[01m[K__m128d[01;32m[K _mm_sub_pd[m[K(__m128d, __m128d)[m[K’,
+[11.741s]     inlined from ‘[01m[KPacket Eigen::internal::[01;32m[Kpsub[m[K(const Packet&, const Packet&) [35m[K[with Packet = __vector(2) double][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:296:113[m[K,
+[11.741s]     inlined from ‘[01m[Kconst Packet Eigen::internal::scalar_difference_op<LhsScalar, RhsScalar>::[01;32m[KpacketOp[m[K(const Packet&, const Packet&) const [35m[K[with Packet = __vector(2) double; LhsScalar = double; RhsScalar = double][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:362:26[m[K,
+[11.741s]     inlined from ‘[01m[KPacketType Eigen::internal::binary_evaluator<Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>, Eigen::internal::IndexBased, Eigen::internal::IndexBased>::[01;32m[Kpacket[m[K(Eigen::Index, Eigen::Index) const [35m[K[with int LoadMode = 0; PacketType = __vector(2) double; BinaryOp = Eigen::internal::scalar_difference_op<double, double>; Lhs = const Eigen::Matrix<double, 2, 1>; Rhs = const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:782:31[m[K,
+[11.741s]     inlined from ‘[01m[KPacketType Eigen::internal::unary_evaluator<Eigen::CwiseUnaryOp<UnaryOp, ArgType>, Eigen::internal::IndexBased>::[01;32m[Kpacket[m[K(Eigen::Index, Eigen::Index) const [35m[K[with int LoadMode = 0; PacketType = __vector(2) double; UnaryOp = Eigen::internal::scalar_abs2_op<double>; ArgType = const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:596:81[m[K,
+[11.741s]     inlined from ‘[01m[KPacketType Eigen::internal::redux_evaluator<_XprType>::[01;32m[KpacketByOuterInner[m[K(Eigen::Index, Eigen::Index) const [35m[K[with int LoadMode = 0; PacketType = __vector(2) double; _XprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:386:54[m[K,
+[11.741s]     inlined from ‘[01m[Kstatic PacketType Eigen::internal::redux_vec_unroller<Func, Evaluator, Start, 1>::[01;32m[Krun[m[K(const Evaluator&, const Func&) [35m[K[with PacketType = __vector(2) double; Func = Eigen::internal::scalar_sum_op<double, double>; Evaluator = Eigen::internal::redux_evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > > >; int Start = 0][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:177:66[m[K,
+[11.741s]     inlined from ‘[01m[Kstatic Eigen::internal::redux_impl<Func, Evaluator, 3, 2>::Scalar Eigen::internal::redux_impl<Func, Evaluator, 3, 2>::[01;32m[Krun[m[K(const Evaluator&, const Func&, const XprType&) [35m[K[with XprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >; Func = Eigen::internal::scalar_sum_op<double, double>; Evaluator = Eigen::internal::redux_evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > > >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:344:115[m[K,
+[11.742s]     inlined from ‘[01m[Ktypename Eigen::internal::traits<T>::Scalar Eigen::DenseBase<Derived>::[01;32m[Kredux[m[K(const Func&) const [35m[K[with BinaryOp = Eigen::internal::scalar_sum_op<double, double>; Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:418:56[m[K,
+[11.742s]     inlined from ‘[01m[Ktypename Eigen::internal::traits<T>::Scalar Eigen::DenseBase<Derived>::[01;32m[Ksum[m[K() const [35m[K[with Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:463:25[m[K,
+[11.742s]     inlined from ‘[01m[Ktypename Eigen::NumTraits<typename Eigen::internal::traits<T>::Scalar>::Real Eigen::MatrixBase<Derived>::[01;32m[KsquaredNorm[m[K() const [35m[K[with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Dot.h:98:46[m[K,
+[11.742s]     inlined from ‘[01m[Ktypename Eigen::NumTraits<typename Eigen::internal::traits<T>::Scalar>::Real Eigen::MatrixBase<Derived>::[01;32m[Knorm[m[K() const [35m[K[with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >][m[K[m[K’ at [01m[K/usr/local/include/eigen3/Eigen/src/Core/Dot.h:110:34[m[K,
+[11.742s]     inlined from ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::[01;32m[KinitControlPoints[m[K(Eigen::MatrixXd&, bool)[m[K’ at [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:230:73[m[K:
+[11.742s] [01m[K/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:263:46:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(__m128d*)((char*)&intersection_point + offsetof(Eigen::Vector2d, Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1, 0, 2, 1> >::m_storage.Eigen::DenseStorage<double, 2, 2, 1, 0>::m_data.Eigen::internal::plain_array<double, 2, 0, 16>::array[0]))[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[11.742s]   263 |   return (__m128d) ((__v2df)__A - (__v2df)__B[01;35m[K)[m[K;
+[11.742s]       |                                              [01;35m[K^[m[K
+[11.742s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::[01;32m[KinitControlPoints[m[K(Eigen::MatrixXd&, bool)[m[K’:
+[11.742s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:198:88:[m[K [01;36m[Knote: [m[K‘[01m[K*(__m128d*)((char*)&intersection_point + offsetof(Eigen::Vector2d, Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1, 0, 2, 1> >::m_storage.Eigen::DenseStorage<double, 2, 2, 1, 0>::m_data.Eigen::internal::plain_array<double, 2, 0, 16>::array[0]))[m[K’ was declared here
+[11.743s]   198 |         Eigen::Vector2d ctrl_pts_law(cps_.points.col(j + 1) - cps_.points.col(j - 1)), [01;36m[Kintersection_point[m[K;
+[11.743s]       |                                                                                        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.897s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::UniformBspline::[01;32m[KgetMeanAndMaxVel[m[K(double&, double&)[m[K’:
+[13.897s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:334:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktm[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[13.897s]   334 |     for (double t = tm; [01;35m[Kt <= tmp[m[K; t += 0.01)
+[13.897s]       |                         [01;35m[K~~^~~~~~[m[K
+[13.897s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:329:12:[m[K [01;36m[Knote: [m[K‘[01m[Ktm[m[K’ was declared here
+[13.897s]   329 |     double [01;36m[Ktm[m[K, tmp;
+[13.897s]       |            [01;36m[K^~[m[K
+[13.897s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:334:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktmp[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[13.897s]   334 |     for (double t = tm; [01;35m[Kt <= tmp[m[K; t += 0.01)
+[13.897s]       |                         [01;35m[K~~^~~~~~[m[K
+[13.898s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:329:16:[m[K [01;36m[Knote: [m[K‘[01m[Ktmp[m[K’ was declared here
+[13.898s]   329 |     double tm, [01;36m[Ktmp[m[K;
+[13.898s]       |                [01;36m[K^~~[m[K
+[13.929s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::UniformBspline::[01;32m[KgetMeanAndMaxAcc[m[K(double&, double&)[m[K’:
+[13.929s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:360:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktm[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[13.929s]   360 |     for (double t = tm; [01;35m[Kt <= tmp[m[K; t += 0.01)
+[13.929s]       |                         [01;35m[K~~^~~~~~[m[K
+[13.929s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:355:12:[m[K [01;36m[Knote: [m[K‘[01m[Ktm[m[K’ was declared here
+[13.929s]   355 |     double [01;36m[Ktm[m[K, tmp;
+[13.929s]       |            [01;36m[K^~[m[K
+[13.930s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:360:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktmp[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[13.930s]   360 |     for (double t = tm; [01;35m[Kt <= tmp[m[K; t += 0.01)
+[13.930s]       |                         [01;35m[K~~^~~~~~[m[K
+[13.930s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:355:16:[m[K [01;36m[Knote: [m[K‘[01m[Ktmp[m[K’ was declared here
+[13.930s]   355 |     double tm, [01;36m[Ktmp[m[K;
+[13.930s]       |                [01;36m[K^~~[m[K
+[15.831s] [ 91%] [32m[1mLinking CXX static library libbspline_opt.a[0m
+[15.938s] [ 91%] Built target bspline_opt
+[15.957s] [ 93%] [32mBuilding CXX object planner/plan_manage/CMakeFiles/ego_planner_lib.dir/src/planner_interface.cpp.o[0m
+[16.836s] In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+[16.836s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:1[m[K:
+[16.836s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[16.836s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[16.836s]    88 | [01;35m[K}[m[K
+[16.836s]       | [01;35m[K^[m[K
+[16.866s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlannerInterface::[01;32m[KmakePlan[m[K()[m[K’:
+[16.866s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:181:52:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >::rep[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.866s]   181 |         printf("MotionPlanner Total Running Time: [01;35m[K%d[m[K  ms \n", [32m[Kelapsed.count()[m[K);
+[16.866s]       |                                                   [01;35m[K~^[m[K          [32m[K~~~~~~~~~~~~~~~[m[K
+[16.866s]       |                                                    [01;35m[K|[m[K                       [32m[K|[m[K
+[16.866s]       |                                                    [01;35m[Kint[m[K                     [32m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >::rep {aka long int}[m[K
+[16.866s]       |                                                   [32m[K%ld[m[K
+[18.370s] [ 95%] [32m[1mLinking CXX static library libego_planner_lib.a[0m
+[18.413s] [ 95%] Built target ego_planner_lib
+[18.432s] [ 97%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o[0m
+[20.959s] In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+[20.959s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:48[m[K,
+[20.959s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:6[m[K:
+[20.959s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[20.959s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[20.959s]    88 | [01;35m[K}[m[K
+[20.960s]       | [01;35m[K^[m[K
+[33.733s] gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76: CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o] 中断
+[33.734s] gmake[1]: *** [CMakeFiles/Makefile2:701: CMakeFiles/motion_plan.dir/all] 中断
+[33.734s] gmake: *** [Makefile:146: all] 中断

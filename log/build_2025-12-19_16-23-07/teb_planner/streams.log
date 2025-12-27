@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/juchunyu/dog_ws/build/teb_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16
+[0.087s] [ 12%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o[0m
+[1.506s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kvoid irpc::planning::TebPlannerInterface::[01;32m[KsetObstacleInfo[m[K(std::vector<irpc::planning::obstacleInfo>&)[m[K’:
+[1.506s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:53:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.506s]    53 |             printf("TebPlannerInterface::setObstacleInfo:[01;35m[K%d[m[K\n",[32m[Kobstacles_.size()[m[K);
+[1.506s]       |                                                          [01;35m[K~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+[1.506s]       |                                                           [01;35m[K|[m[K                   [32m[K|[m[K
+[1.506s]       |                                                           [01;35m[Kint[m[K                 [32m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type {aka long unsigned int}[m[K
+[1.506s]       |                                                          [32m[K%ld[m[K
+[6.690s] [ 25%] [32m[1mLinking CXX static library libteb.a[0m
+[7.036s] [ 75%] Built target teb
+[7.068s] [ 87%] [32m[1mLinking CXX executable teb_plan[0m
+[8.348s] [100%] Built target teb_plan
+[8.359s] Invoked command in '/home/juchunyu/dog_ws/build/teb_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16
+[8.360s] Invoking command in '/home/juchunyu/dog_ws/build/teb_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/teb_planner
+[8.366s] -- Install configuration: "Debug"
+[8.366s] -- Installing: /home/juchunyu/dog_ws/install/teb_planner/lib/teb_planner/teb_plan
+[8.420s] -- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/teb_planner/lib/teb_planner/teb_plan" to ""
+[8.420s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/ament_index/resource_index/package_run_dependencies/teb_planner
+[8.420s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/ament_index/resource_index/parent_prefix_path/teb_planner
+[8.420s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/environment/ament_prefix_path.sh
+[8.420s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/environment/ament_prefix_path.dsv
+[8.420s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/environment/path.sh
+[8.421s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/environment/path.dsv
+[8.421s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/local_setup.bash
+[8.421s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/local_setup.sh
+[8.421s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/local_setup.zsh
+[8.421s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/local_setup.dsv
+[8.421s] -- Installing: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.dsv
+[8.421s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/ament_index/resource_index/packages/teb_planner
+[8.421s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/cmake/teb_plannerConfig.cmake
+[8.421s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/cmake/teb_plannerConfig-version.cmake
+[8.421s] -- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.xml
+[8.422s] Invoked command in '/home/juchunyu/dog_ws/build/teb_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/teb_planner

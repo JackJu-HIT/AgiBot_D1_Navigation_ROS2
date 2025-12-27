@@ -1,0 +1,28 @@
+[  2%] Built target ego_planner__rosidl_generator_type_description
+[  6%] Built target local_map
+[  6%] Built target ament_cmake_python_copy_ego_planner
+[ 10%] Built target path_searching
+[ 19%] Built target bspline_opt
+[ 21%] Built target ego_planner__cpp
+[ 32%] Built target ego_planner__rosidl_generator_c
+[ 39%] Built target ego_planner__rosidl_typesupport_introspection_c
+[ 50%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target ego_planner_lib
+[ 56%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[ 63%] Built target ego_planner__rosidl_typesupport_c
+[ 69%] Built target ego_planner__rosidl_typesupport_cpp
+[ 76%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+[ 76%] Built target ego_planner
+[ 78%] Built target ego_planner__py
+[ 80%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o[0m
+[ 84%] Built target ego_planner__rosidl_generator_py
+[ 89%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+[ 93%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[ 97%] Built target ego_planner_s__rosidl_typesupport_c
+running egg_info
+writing ego_planner.egg-info/PKG-INFO
+writing dependency_links to ego_planner.egg-info/dependency_links.txt
+writing top-level names to ego_planner.egg-info/top_level.txt
+reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_ego_planner_egg

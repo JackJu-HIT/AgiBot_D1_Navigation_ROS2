@@ -1,0 +1,770 @@
+[0.000000] (-) TimerEvent: {}
+[0.000456] (dog_control) JobQueued: {'identifier': 'dog_control', 'dependencies': OrderedDict()}
+[0.000483] (ego_planner) JobQueued: {'identifier': 'ego_planner', 'dependencies': OrderedDict()}
+[0.000498] (teb_planner) JobQueued: {'identifier': 'teb_planner', 'dependencies': OrderedDict()}
+[0.000509] (dog_control) JobStarted: {'identifier': 'dog_control'}
+[0.004567] (ego_planner) JobStarted: {'identifier': 'ego_planner'}
+[0.006869] (teb_planner) JobStarted: {'identifier': 'teb_planner'}
+[0.009777] (dog_control) JobProgress: {'identifier': 'dog_control', 'progress': 'cmake'}
+[0.010115] (dog_control) Command: {'cmd': ['/usr/bin/cmake', '/home/juchunyu/dog_ws/src/dog_control', '-DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/dog_control'], 'cwd': '/home/juchunyu/dog_ws/build/dog_control', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juchunyu/dog_ws/install/ego_planner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/juchunyu/dog_ws/build', 'TERM_PROGRAM_VERSION': '1.102.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '6916', 'SYSTEMD_EXEC_PID': '7427', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14865', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/juchunyu/dog_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:37096', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7383,unix/juchunyu:/tmp/.ICE-unix/7383', 'INVOCATION_ID': '89715ecf817b46f792b9c7e35d08da93', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-52df8a683e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/dog_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.012073] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'cmake'}
+[0.012514] (ego_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/juchunyu/dog_ws/src/EgoPlanner-ROS2', '-DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/ego_planner'], 'cwd': '/home/juchunyu/dog_ws/build/ego_planner', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juchunyu/dog_ws/install/ego_planner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/juchunyu/dog_ws/build', 'TERM_PROGRAM_VERSION': '1.102.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '6916', 'SYSTEMD_EXEC_PID': '7427', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14865', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/juchunyu/dog_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:37096', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7383,unix/juchunyu:/tmp/.ICE-unix/7383', 'INVOCATION_ID': '89715ecf817b46f792b9c7e35d08da93', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-52df8a683e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/ego_planner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.015132] (teb_planner) JobProgress: {'identifier': 'teb_planner', 'progress': 'cmake'}
+[0.015574] (teb_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner', '-DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/teb_planner'], 'cwd': '/home/juchunyu/dog_ws/build/teb_planner', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juchunyu/dog_ws/install/ego_planner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/juchunyu/dog_ws/build', 'TERM_PROGRAM_VERSION': '1.102.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '6916', 'SYSTEMD_EXEC_PID': '7427', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14865', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/juchunyu/dog_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:37096', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7383,unix/juchunyu:/tmp/.ICE-unix/7383', 'INVOCATION_ID': '89715ecf817b46f792b9c7e35d08da93', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-52df8a683e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/teb_planner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.058970] (ego_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.062298] (dog_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.064572] (teb_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099834] (-) TimerEvent: {}
+[0.100228] (dog_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.101837] (teb_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.105021] (ego_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.112804] (teb_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.113915] (dog_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.118178] (ego_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.178713] (teb_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.183281] (dog_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.184104] (ego_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.185299] (teb_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.185460] (teb_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185719] (teb_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.190486] (ego_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.190652] (ego_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.190881] (ego_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.192703] (dog_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.192861] (dog_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.193095] (dog_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.194032] (teb_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.197740] (ego_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199466] (dog_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199888] (-) TimerEvent: {}
+[0.271204] (teb_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.274838] (dog_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.279271] (ego_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.282706] (teb_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.282989] (teb_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.283483] (teb_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.284022] (dog_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.284280] (dog_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.284726] (dog_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.287681] (dog_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.288171] (teb_planner) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.290093] (ego_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.290266] (ego_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.290596] (ego_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.292954] (ego_planner) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.299995] (-) TimerEvent: {}
+[0.400293] (-) TimerEvent: {}
+[0.402153] (ego_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.407531] (teb_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.415618] (dog_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500407] (-) TimerEvent: {}
+[0.500740] (teb_planner) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.505706] (ego_planner) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.512823] (dog_control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.541854] (teb_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.547499] (ego_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.548345] (dog_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.556153] (teb_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.560274] (ego_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.560860] (dog_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.576203] (dog_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.576414] (teb_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.576520] (ego_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.593338] (ego_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.593574] (dog_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.597914] (teb_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600487] (-) TimerEvent: {}
+[0.666905] (teb_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.667076] (ego_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.667265] (dog_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.670371] (teb_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.670767] (dog_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.670833] (ego_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700588] (-) TimerEvent: {}
+[0.746209] (teb_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.746551] (ego_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.752195] (dog_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.765403] (teb_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.771076] (ego_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.777320] (dog_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.795069] (teb_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.796631] (ego_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800708] (-) TimerEvent: {}
+[0.805196] (dog_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.870003] (ego_planner) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.870163] (teb_planner) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.870220] (dog_control) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.900797] (-) TimerEvent: {}
+[0.902310] (dog_control) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.925228] (teb_planner) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.925469] (dog_control) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.925604] (ego_planner) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.930345] (dog_control) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.930510] (ego_planner) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.930604] (teb_planner) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.943558] (dog_control) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.944778] (dog_control) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.944947] (dog_control) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.000895] (-) TimerEvent: {}
+[1.047175] (dog_control) StdoutLine: {'line': b'-- \xe6\xa3\x80\xe6\xb5\x8b\xe5\x88\xb0\xe7\xb3\xbb\xe7\xbb\x9f\xe6\x9e\xb6\xe6\x9e\x84: x86_64\n'}
+[1.047408] (dog_control) StdoutLine: {'line': b'-- \xe5\xb0\x86\xe9\x93\xbe\xe6\x8e\xa5\xe7\x9a\x84\xe5\xba\x93\xe8\xb7\xaf\xe5\xbe\x84: /home/juchunyu/dog_ws/src/dog_control/lib/x86_64\n'}
+[1.048578] (teb_planner) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.052230] (ego_planner) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.075763] (ego_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  \n'}
+[1.078452] (ego_planner) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.100984] (-) TimerEvent: {}
+[1.109719] (ego_planner) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.121861] (ego_planner) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.122911] (ego_planner) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.123089] (ego_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.123200] (dog_control) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.131607] (ego_planner) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.134921] (dog_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.138799] (dog_control) StdoutLine: {'line': b'-- Build files have been written to: /home/juchunyu/dog_ws/build/dog_control\n'}
+[1.146559] (dog_control) CommandEnded: {'returncode': 0}
+[1.147077] (dog_control) JobProgress: {'identifier': 'dog_control', 'progress': 'build'}
+[1.147107] (ego_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.147683] (dog_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juchunyu/dog_ws/build/dog_control', '--', '-j16', '-l16'], 'cwd': '/home/juchunyu/dog_ws/build/dog_control', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juchunyu/dog_ws/install/ego_planner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/juchunyu/dog_ws/build', 'TERM_PROGRAM_VERSION': '1.102.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '6916', 'SYSTEMD_EXEC_PID': '7427', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14865', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/juchunyu/dog_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:37096', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7383,unix/juchunyu:/tmp/.ICE-unix/7383', 'INVOCATION_ID': '89715ecf817b46f792b9c7e35d08da93', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-52df8a683e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/dog_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.148961] (ego_planner) StderrLine: {'line': b'\x1b[0mstatusego_planner\x1b[0m\n'}
+[1.149067] (ego_planner) StdoutLine: {'line': b'-- \xe5\x8c\x85\xe6\xa0\xb9\xe7\x9b\xae\xe5\xbd\x95\xef\xbc\x9a/home/juchunyu/dog_ws/src/EgoPlanner-ROS2\n'}
+[1.149137] (ego_planner) StdoutLine: {'line': b'-- \xe6\xa3\x80\xe6\x9f\xa5msg\xe6\x96\x87\xe4\xbb\xb6\xef\xbc\x9a/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/msg/CurrentPose.msg\n'}
+[1.149195] (ego_planner) StdoutLine: {'line': b'-- \xe2\x9c\x85 msg\xe6\x96\x87\xe4\xbb\xb6\xe5\xad\x98\xe5\x9c\xa8\xef\xbc\x81\n'}
+[1.164250] (teb_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system chrono \n'}
+[1.193135] (dog_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o\x1b[0m\n'}
+[1.193924] (dog_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dog_keyboard_node.dir/src/dog_keyboard_node.cpp.o\x1b[0m\n'}
+[1.201081] (-) TimerEvent: {}
+[1.251352] (teb_planner) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.268475] (teb_planner) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.272679] (teb_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/juchunyu/dog_ws/build/teb_planner\n'}
+[1.284542] (teb_planner) CommandEnded: {'returncode': 0}
+[1.284914] (teb_planner) JobProgress: {'identifier': 'teb_planner', 'progress': 'build'}
+[1.285064] (teb_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juchunyu/dog_ws/build/teb_planner', '--', '-j16', '-l16'], 'cwd': '/home/juchunyu/dog_ws/build/teb_planner', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juchunyu/dog_ws/install/ego_planner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/juchunyu/dog_ws/build', 'TERM_PROGRAM_VERSION': '1.102.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '6916', 'SYSTEMD_EXEC_PID': '7427', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14865', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/juchunyu/dog_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:37096', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7383,unix/juchunyu:/tmp/.ICE-unix/7383', 'INVOCATION_ID': '89715ecf817b46f792b9c7e35d08da93', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-52df8a683e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/teb_planner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.301165] (-) TimerEvent: {}
+[1.339362] (teb_planner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_config.cpp.o\x1b[0m\n'}
+[1.339638] (teb_planner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/optimal_planner.cpp.o\x1b[0m\n'}
+[1.340238] (teb_planner) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/obstacles.cpp.o\x1b[0m\n'}
+[1.340399] (teb_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o\x1b[0m\n'}
+[1.340925] (teb_planner) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/timed_elastic_band.cpp.o\x1b[0m\n'}
+[1.401301] (-) TimerEvent: {}
+[1.501562] (-) TimerEvent: {}
+[1.601963] (-) TimerEvent: {}
+[1.702237] (-) TimerEvent: {}
+[1.725832] (ego_planner) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.802344] (-) TimerEvent: {}
+[1.902664] (-) TimerEvent: {}
+[2.002993] (-) TimerEvent: {}
+[2.103304] (-) TimerEvent: {}
+[2.203631] (-) TimerEvent: {}
+[2.303950] (-) TimerEvent: {}
+[2.404273] (-) TimerEvent: {}
+[2.504580] (-) TimerEvent: {}
+[2.604878] (-) TimerEvent: {}
+[2.613561] (ego_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.704968] (-) TimerEvent: {}
+[2.805275] (-) TimerEvent: {}
+[2.905643] (-) TimerEvent: {}
+[2.998326] (ego_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.005044] (ego_planner) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.005703] (-) TimerEvent: {}
+[3.106009] (-) TimerEvent: {}
+[3.186478] (ego_planner) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.206121] (-) TimerEvent: {}
+[3.306400] (-) TimerEvent: {}
+[3.406711] (-) TimerEvent: {}
+[3.507052] (-) TimerEvent: {}
+[3.607397] (-) TimerEvent: {}
+[3.707978] (-) TimerEvent: {}
+[3.809651] (-) TimerEvent: {}
+[3.911896] (-) TimerEvent: {}
+[4.016721] (-) TimerEvent: {}
+[4.120574] (-) TimerEvent: {}
+[4.205421] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DogDriverNode::\x1b[01;32m\x1b[KgetRobotStateCallback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.213804] (dog_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:102:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.217129] (dog_control) StderrLine: {'line': b'  102 |     uint32_t \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = highlevel_->getBatteryPower();\n'}
+[4.225855] (-) TimerEvent: {}
+[4.230024] (dog_control) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.326272] (-) TimerEvent: {}
+[4.430001] (-) TimerEvent: {}
+[4.533626] (-) TimerEvent: {}
+[4.558922] (ego_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.633844] (-) TimerEvent: {}
+[4.734556] (-) TimerEvent: {}
+[4.747788] (ego_planner) StdoutLine: {'line': b'-- Configuring done (4.7s)\n'}
+[4.821158] (ego_planner) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.834686] (-) TimerEvent: {}
+[4.851173] (ego_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/juchunyu/dog_ws/build/ego_planner\n'}
+[4.884644] (ego_planner) CommandEnded: {'returncode': 0}
+[4.885466] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'build'}
+[4.885860] (ego_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juchunyu/dog_ws/build/ego_planner', '--', '-j16', '-l16'], 'cwd': '/home/juchunyu/dog_ws/build/ego_planner', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juchunyu/dog_ws/install/ego_planner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/juchunyu/dog_ws/build', 'TERM_PROGRAM_VERSION': '1.102.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '6916', 'SYSTEMD_EXEC_PID': '7427', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14865', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/juchunyu/dog_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:37096', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7383,unix/juchunyu:/tmp/.ICE-unix/7383', 'INVOCATION_ID': '89715ecf817b46f792b9c7e35d08da93', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-52df8a683e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/ego_planner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.934815] (-) TimerEvent: {}
+[4.963109] (ego_planner) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/uniform_bspline.cpp.o\x1b[0m\n'}
+[4.963732] (ego_planner) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.963940] (ego_planner) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/bspline_optimizer.cpp.o\x1b[0m\n'}
+[4.964518] (ego_planner) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object planner/path_searching/CMakeFiles/path_searching.dir/src/dyn_a_star.cpp.o\x1b[0m\n'}
+[4.965132] (ego_planner) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/gradient_descent_optimizer.cpp.o\x1b[0m\n'}
+[4.967634] (ego_planner) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object planner/GridMap2D/CMakeFiles/local_map.dir/src/grid_map.cpp.o\x1b[0m\n'}
+[4.978057] (ego_planner) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_copy_ego_planner\n'}
+[4.981521] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid irpc::planning::TebPlannerInterface::\x1b[01;32m\x1b[KsetObstacleInfo\x1b[m\x1b[K(std::vector<irpc::planning::obstacleInfo>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.981820] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:53:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.981970] (teb_planner) StderrLine: {'line': b'   53 |             printf("TebPlannerInterface::setObstacleInfo:\x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n",\x1b[32m\x1b[Kobstacles_.size()\x1b[m\x1b[K);\n'}
+[4.982089] (teb_planner) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K~^\x1b[m\x1b[K    \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.982197] (teb_planner) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K|\x1b[m\x1b[K                   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.982300] (teb_planner) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[Kint\x1b[m\x1b[K                 \x1b[32m\x1b[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[4.982424] (teb_planner) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.986332] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool irpc::planning::TebPlannerInterface::\x1b[01;32m\x1b[Kplan\x1b[m\x1b[K(irpc::planning::cmdInfo&, std::vector<Eigen::Matrix<float, 3, 1> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.986703] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:117:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.986826] (teb_planner) StderrLine: {'line': b'  117 |         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[4.986932] (teb_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.034943] (-) TimerEvent: {}
+[5.135442] (-) TimerEvent: {}
+[5.225762] (teb_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/make_shared.hpp:15\x1b[m\x1b[K,\n'}
+[5.227136] (teb_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/make_shared.hpp:14\x1b[m\x1b[K,\n'}
+[5.227288] (teb_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr.hpp:24\x1b[m\x1b[K,\n'}
+[5.227413] (teb_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/robot_footprint_model.h:5\x1b[m\x1b[K,\n'}
+[5.227519] (teb_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:13\x1b[m\x1b[K,\n'}
+[5.227609] (teb_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:1\x1b[m\x1b[K:\n'}
+[5.227692] (teb_planner) StderrLine: {'line': b'/usr/include/boost/smart_ptr/make_shared_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename boost::detail::sp_if_not_array<T>::type boost::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(Args&& ...) \x1b[35m\x1b[K[with T = teb_local_planner::TebOptimalPlanner; Args = {teb_local_planner::TebConfig*&, std::vector<shared_ptr<teb_local_planner::Obstacle>, std::allocator<shared_ptr<teb_local_planner::Obstacle> > >*, shared_ptr<teb_local_planner::BaseRobotFootprintModel>&, std::vector<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 2, 1, 0, 2, 1> > >*}; typename detail::sp_if_not_array<T>::type = shared_ptr<teb_local_planner::TebOptimalPlanner>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.227786] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:30:80:\x1b[m\x1b[K   required from here\n'}
+[5.227891] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/smart_ptr/make_shared_object.hpp:257:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kteb_local_planner::TebOptimalPlanner::TebOptimalPlanner(teb_local_planner::TebConfig*&, std::vector<boost::shared_ptr<teb_local_planner::Obstacle> >*, boost::shared_ptr<teb_local_planner::BaseRobotFootprintModel>&, std::vector<Eigen::Matrix<double, 2, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 2, 1> > >*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.227985] (teb_planner) StderrLine: {'line': b'  257 |     \x1b[01;31m\x1b[K::new( pv ) T( boost::detail::sp_forward<Args>( args )... )\x1b[m\x1b[K;\n'}
+[5.228087] (teb_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.228171] (teb_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:15\x1b[m\x1b[K:\n'}
+[5.228273] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:84:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kteb_local_planner::TebOptimalPlanner::\x1b[01;32m\x1b[KTebOptimalPlanner\x1b[m\x1b[K(const teb_local_planner::TebConfig&, teb_local_planner::ObstContainer*, teb_local_planner::RobotFootprintModelPtr, const teb_local_planner::ViaPointContainer*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.230223] (teb_planner) StderrLine: {'line': b'   84 |         \x1b[01;36m\x1b[KTebOptimalPlanner\x1b[m\x1b[K(const TebConfig& cfg, ObstContainer* obstacles = NULL, RobotFootprintModelPtr robot_model = boost::make_shared<PointRobotFootprint>(),\n'}
+[5.231113] (teb_planner) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.232278] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:84:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kteb_local_planner::TebConfig*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst teb_local_planner::TebConfig&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.233892] (teb_planner) StderrLine: {'line': b'   84 |         TebOptimalPlanner(\x1b[01;36m\x1b[Kconst TebConfig& cfg\x1b[m\x1b[K, ObstContainer* obstacles = NULL, RobotFootprintModelPtr robot_model = boost::make_shared<PointRobotFootprint>(),\n'}
+[5.234391] (teb_planner) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.234643] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:74:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kteb_local_planner::TebOptimalPlanner::\x1b[01;32m\x1b[KTebOptimalPlanner\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.235458] (-) TimerEvent: {}
+[5.235676] (teb_planner) StderrLine: {'line': b'   74 |         \x1b[01;36m\x1b[KTebOptimalPlanner\x1b[m\x1b[K();\n'}
+[5.236128] (teb_planner) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.236843] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:74:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 4 provided\n'}
+[5.237582] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:67:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kteb_local_planner::TebOptimalPlanner::\x1b[01;32m\x1b[KTebOptimalPlanner\x1b[m\x1b[K(const teb_local_planner::TebOptimalPlanner&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.239147] (teb_planner) StderrLine: {'line': b'   67 |     class \x1b[01;36m\x1b[KTebOptimalPlanner\x1b[m\x1b[K : public PlannerInterface\n'}
+[5.240795] (teb_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.241341] (teb_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:67:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[5.294497] (ego_planner) StdoutLine: {'line': b'[ 13%] Built target ego_planner__rosidl_generator_type_description\n'}
+[5.322768] (ego_planner) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.335600] (-) TimerEvent: {}
+[5.354614] (ego_planner) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.438507] (-) TimerEvent: {}
+[5.517386] (ego_planner) StdoutLine: {'line': b'running egg_info\n'}
+[5.520416] (ego_planner) StdoutLine: {'line': b'creating ego_planner.egg-info\n'}
+[5.538634] (-) TimerEvent: {}
+[5.555975] (ego_planner) StdoutLine: {'line': b'writing ego_planner.egg-info/PKG-INFO\n'}
+[5.557682] (ego_planner) StdoutLine: {'line': b'writing dependency_links to ego_planner.egg-info/dependency_links.txt\n'}
+[5.561209] (ego_planner) StdoutLine: {'line': b'writing top-level names to ego_planner.egg-info/top_level.txt\n'}
+[5.561687] (ego_planner) StdoutLine: {'line': b"writing manifest file 'ego_planner.egg-info/SOURCES.txt'\n"}
+[5.639505] (-) TimerEvent: {}
+[5.665506] (ego_planner) StdoutLine: {'line': b"reading manifest file 'ego_planner.egg-info/SOURCES.txt'\n"}
+[5.666502] (ego_planner) StdoutLine: {'line': b"writing manifest file 'ego_planner.egg-info/SOURCES.txt'\n"}
+[5.740434] (ego_planner) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_ego_planner_egg\n'}
+[5.740865] (-) TimerEvent: {}
+[5.802314] (ego_planner) StdoutLine: {'line': b'[ 17%] Built target ego_planner__cpp\n'}
+[5.841283] (-) TimerEvent: {}
+[5.885453] (ego_planner) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_c.dir/rosidl_generator_c/ego_planner/msg/detail/current_pose__type_support.c.o\x1b[0m\n'}
+[5.893643] (ego_planner) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_c.dir/rosidl_generator_c/ego_planner/msg/detail/current_pose__description.c.o\x1b[0m\n'}
+[5.897517] (ego_planner) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_c.dir/rosidl_generator_c/ego_planner/msg/detail/current_pose__functions.c.o\x1b[0m\n'}
+[5.941451] (-) TimerEvent: {}
+[6.042326] (-) TimerEvent: {}
+[6.047166] (ego_planner) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking C shared library libego_planner__rosidl_generator_c.so\x1b[0m\n'}
+[6.114856] (ego_planner) StdoutLine: {'line': b'[ 26%] Built target ego_planner__rosidl_generator_c\n'}
+[6.133034] (ego_planner) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.133415] (ego_planner) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.134764] (ego_planner) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.135943] (ego_planner) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.143112] (-) TimerEvent: {}
+[6.143399] (ego_planner) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.147888] (ego_planner) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.243246] (-) TimerEvent: {}
+[6.344567] (-) TimerEvent: {}
+[6.446364] (-) TimerEvent: {}
+[6.547528] (-) TimerEvent: {}
+[6.627752] (ego_planner) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ego_planner/msg/current_pose__type_support.cpp.o\x1b[0m\n'}
+[6.635278] (ego_planner) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ego_planner/msg/detail/current_pose__type_support.cpp.o\x1b[0m\n'}
+[6.642100] (ego_planner) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ego_planner/msg/detail/current_pose__type_support_c.cpp.o\x1b[0m\n'}
+[6.647651] (-) TimerEvent: {}
+[6.684241] (ego_planner) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_c.dir/rosidl_typesupport_c/ego_planner/msg/current_pose__type_support.cpp.o\x1b[0m\n'}
+[6.705438] (ego_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/ego_planner__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ego_planner/msg/detail/current_pose__type_support.c.o\x1b[0m\n'}
+[6.712923] (ego_planner) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ego_planner/msg/detail/dds_fastrtps/current_pose__type_support.cpp.o\x1b[0m\n'}
+[6.747792] (-) TimerEvent: {}
+[6.816713] (ego_planner) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libego_planner__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.834265] (ego_planner) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libego_planner__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.847913] (-) TimerEvent: {}
+[6.913385] (ego_planner) StdoutLine: {'line': b'[ 56%] Built target ego_planner__rosidl_typesupport_introspection_c\n'}
+[6.963828] (-) TimerEvent: {}
+[6.968431] (ego_planner) StdoutLine: {'line': b'[ 56%] Built target ego_planner__rosidl_typesupport_c\n'}
+[7.066240] (-) TimerEvent: {}
+[7.167636] (-) TimerEvent: {}
+[7.182650] (ego_planner) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libego_planner__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.219464] (ego_planner) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libego_planner__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.252539] (ego_planner) StdoutLine: {'line': b'[ 60%] Built target ego_planner__rosidl_typesupport_cpp\n'}
+[7.267770] (-) TimerEvent: {}
+[7.302554] (ego_planner) StdoutLine: {'line': b'[ 60%] Built target ego_planner__rosidl_typesupport_introspection_cpp\n'}
+[7.367891] (-) TimerEvent: {}
+[7.468329] (-) TimerEvent: {}
+[7.550255] (ego_planner) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libego_planner__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.568748] (-) TimerEvent: {}
+[7.625912] (ego_planner) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libego_planner__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.642115] (ego_planner) StdoutLine: {'line': b'[ 65%] Built target ego_planner__rosidl_typesupport_fastrtps_c\n'}
+[7.668663] (-) TimerEvent: {}
+[7.713228] (ego_planner) StdoutLine: {'line': b'[ 65%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp\n'}
+[7.742422] (ego_planner) StdoutLine: {'line': b'[ 65%] Built target ego_planner\n'}
+[7.757417] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ego_planner::BsplineOptimizer::\x1b[01;32m\x1b[KcombineCostRebound\x1b[m\x1b[K(const double*, double*, double&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.757699] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:1044:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kf_turn\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.757827] (ego_planner) StderrLine: {'line': b' 1044 |   double f_smoothness = 0, f_distance = 0, f_feasibility = 0,\x1b[01;35m\x1b[Kf_turn\x1b[m\x1b[K = 0,f_kappa = 0;\n'}
+[7.757906] (ego_planner) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.759293] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:1044:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kf_kappa\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.759770] (ego_planner) StderrLine: {'line': b' 1044 |   double f_smoothness = 0, f_distance = 0, f_feasibility = 0,f_turn = 0,\x1b[01;35m\x1b[Kf_kappa\x1b[m\x1b[K = 0;\n'}
+[7.759872] (ego_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.769443] (-) TimerEvent: {}
+[7.777027] (ego_planner) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.850170] (ego_planner) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX static library liblocal_map.a\x1b[0m\n'}
+[7.869548] (-) TimerEvent: {}
+[7.910942] (ego_planner) StdoutLine: {'line': b'[ 69%] Built target local_map\n'}
+[7.969656] (-) TimerEvent: {}
+[8.069972] (-) TimerEvent: {}
+[8.161471] (ego_planner) StdoutLine: {'line': b'[ 69%] Built target ego_planner__py\n'}
+[8.170085] (-) TimerEvent: {}
+[8.181700] (ego_planner) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/ego_planner__rosidl_generator_py.dir/rosidl_generator_py/ego_planner/msg/_current_pose_s.c.o\x1b[0m\n'}
+[8.270218] (-) TimerEvent: {}
+[8.357668] (ego_planner) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking C shared library libego_planner__rosidl_generator_py.so\x1b[0m\n'}
+[8.370339] (-) TimerEvent: {}
+[8.426711] (ego_planner) StdoutLine: {'line': b'[ 73%] Built target ego_planner__rosidl_generator_py\n'}
+[8.458834] (ego_planner) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/ego_planner_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ego_planner/_ego_planner_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.459138] (ego_planner) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/ego_planner_s__rosidl_typesupport_c.dir/rosidl_generator_py/ego_planner/_ego_planner_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.460612] (ego_planner) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/ego_planner_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ego_planner/_ego_planner_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.470448] (-) TimerEvent: {}
+[8.526040] (dog_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable dog_keyboard_node\x1b[0m\n'}
+[8.570569] (-) TimerEvent: {}
+[8.643860] (ego_planner) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.655760] (ego_planner) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.661103] (ego_planner) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.670698] (-) TimerEvent: {}
+[8.692712] (ego_planner) StdoutLine: {'line': b'[ 86%] Built target ego_planner_s__rosidl_typesupport_c\n'}
+[8.696025] (ego_planner) StdoutLine: {'line': b'[ 86%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c\n'}
+[8.709667] (ego_planner) StdoutLine: {'line': b'[ 86%] Built target ego_planner_s__rosidl_typesupport_introspection_c\n'}
+[8.770823] (-) TimerEvent: {}
+[8.852285] (dog_control) StdoutLine: {'line': b'[ 75%] Built target dog_keyboard_node\n'}
+[8.870943] (-) TimerEvent: {}
+[8.971292] (-) TimerEvent: {}
+[9.071647] (-) TimerEvent: {}
+[9.171992] (-) TimerEvent: {}
+[9.193800] (ego_planner) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX static library libpath_searching.a\x1b[0m\n'}
+[9.256464] (ego_planner) StdoutLine: {'line': b'[ 89%] Built target path_searching\n'}
+[9.272105] (-) TimerEvent: {}
+[9.372427] (-) TimerEvent: {}
+[9.472787] (-) TimerEvent: {}
+[9.573102] (-) TimerEvent: {}
+[9.673426] (-) TimerEvent: {}
+[9.773745] (-) TimerEvent: {}
+[9.874077] (-) TimerEvent: {}
+[9.974424] (-) TimerEvent: {}
+[10.074693] (-) TimerEvent: {}
+[10.175006] (-) TimerEvent: {}
+[10.275307] (-) TimerEvent: {}
+[10.375614] (-) TimerEvent: {}
+[10.475908] (-) TimerEvent: {}
+[10.576223] (-) TimerEvent: {}
+[10.676547] (-) TimerEvent: {}
+[10.776847] (-) TimerEvent: {}
+[10.877158] (-) TimerEvent: {}
+[10.896641] (ego_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:346\x1b[m\x1b[K,\n'}
+[10.896960] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:22\x1b[m\x1b[K,\n'}
+[10.897078] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[10.897184] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Eigen:1\x1b[m\x1b[K,\n'}
+[10.897286] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/bspline_opt/include/bspline_opt/bspline_optimizer.h:4\x1b[m\x1b[K,\n'}
+[10.897401] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:1\x1b[m\x1b[K:\n'}
+[10.897504] (ego_planner) StderrLine: {'line': b'In function \xe2\x80\x98\x1b[01m\x1b[K__m128d\x1b[01;32m\x1b[K _mm_sub_pd\x1b[m\x1b[K(__m128d, __m128d)\x1b[m\x1b[K\xe2\x80\x99,\n'}
+[10.897607] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::\x1b[01;32m\x1b[Kpsub\x1b[m\x1b[K(const Packet&, const Packet&) \x1b[35m\x1b[K[with Packet = __vector(2) double]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:296:113\x1b[m\x1b[K,\n'}
+[10.897723] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kconst Packet Eigen::internal::scalar_difference_op<LhsScalar, RhsScalar>::\x1b[01;32m\x1b[KpacketOp\x1b[m\x1b[K(const Packet&, const Packet&) const \x1b[35m\x1b[K[with Packet = __vector(2) double; LhsScalar = double; RhsScalar = double]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:362:26\x1b[m\x1b[K,\n'}
+[10.897833] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[KPacketType Eigen::internal::binary_evaluator<Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>, Eigen::internal::IndexBased, Eigen::internal::IndexBased>::\x1b[01;32m\x1b[Kpacket\x1b[m\x1b[K(Eigen::Index, Eigen::Index) const \x1b[35m\x1b[K[with int LoadMode = 0; PacketType = __vector(2) double; BinaryOp = Eigen::internal::scalar_difference_op<double, double>; Lhs = const Eigen::Matrix<double, 2, 1>; Rhs = const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:782:31\x1b[m\x1b[K,\n'}
+[10.897944] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[KPacketType Eigen::internal::unary_evaluator<Eigen::CwiseUnaryOp<UnaryOp, ArgType>, Eigen::internal::IndexBased>::\x1b[01;32m\x1b[Kpacket\x1b[m\x1b[K(Eigen::Index, Eigen::Index) const \x1b[35m\x1b[K[with int LoadMode = 0; PacketType = __vector(2) double; UnaryOp = Eigen::internal::scalar_abs2_op<double>; ArgType = const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:596:81\x1b[m\x1b[K,\n'}
+[10.898054] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[KPacketType Eigen::internal::redux_evaluator<_XprType>::\x1b[01;32m\x1b[KpacketByOuterInner\x1b[m\x1b[K(Eigen::Index, Eigen::Index) const \x1b[35m\x1b[K[with int LoadMode = 0; PacketType = __vector(2) double; _XprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:386:54\x1b[m\x1b[K,\n'}
+[10.898177] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kstatic PacketType Eigen::internal::redux_vec_unroller<Func, Evaluator, Start, 1>::\x1b[01;32m\x1b[Krun\x1b[m\x1b[K(const Evaluator&, const Func&) \x1b[35m\x1b[K[with PacketType = __vector(2) double; Func = Eigen::internal::scalar_sum_op<double, double>; Evaluator = Eigen::internal::redux_evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > > >; int Start = 0]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:177:66\x1b[m\x1b[K,\n'}
+[10.898297] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kstatic Eigen::internal::redux_impl<Func, Evaluator, 3, 2>::Scalar Eigen::internal::redux_impl<Func, Evaluator, 3, 2>::\x1b[01;32m\x1b[Krun\x1b[m\x1b[K(const Evaluator&, const Func&, const XprType&) \x1b[35m\x1b[K[with XprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >; Func = Eigen::internal::scalar_sum_op<double, double>; Evaluator = Eigen::internal::redux_evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:344:115\x1b[m\x1b[K,\n'}
+[10.898425] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::traits<T>::Scalar Eigen::DenseBase<Derived>::\x1b[01;32m\x1b[Kredux\x1b[m\x1b[K(const Func&) const \x1b[35m\x1b[K[with BinaryOp = Eigen::internal::scalar_sum_op<double, double>; Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:418:56\x1b[m\x1b[K,\n'}
+[10.898531] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::traits<T>::Scalar Eigen::DenseBase<Derived>::\x1b[01;32m\x1b[Ksum\x1b[m\x1b[K() const \x1b[35m\x1b[K[with Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:463:25\x1b[m\x1b[K,\n'}
+[10.898643] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::NumTraits<typename Eigen::internal::traits<T>::Scalar>::Real Eigen::MatrixBase<Derived>::\x1b[01;32m\x1b[KsquaredNorm\x1b[m\x1b[K() const \x1b[35m\x1b[K[with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Dot.h:98:46\x1b[m\x1b[K,\n'}
+[10.898765] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::NumTraits<typename Eigen::internal::traits<T>::Scalar>::Real Eigen::MatrixBase<Derived>::\x1b[01;32m\x1b[Knorm\x1b[m\x1b[K() const \x1b[35m\x1b[K[with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Dot.h:110:34\x1b[m\x1b[K,\n'}
+[10.898870] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kbool ego_planner::BsplineOptimizer::\x1b[01;32m\x1b[Kcheck_collision_and_rebound\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:792:75\x1b[m\x1b[K:\n'}
+[10.898971] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:263:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*(__m128d*)((char*)&intersection_point + offsetof(Eigen::Vector2d, Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1, 0, 2, 1> >::m_storage.Eigen::DenseStorage<double, 2, 2, 1, 0>::m_data.Eigen::internal::plain_array<double, 2, 0, 16>::array[0]))\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.899078] (ego_planner) StderrLine: {'line': b'  263 |   return (__m128d) ((__v2df)__A - (__v2df)__B\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.899182] (ego_planner) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.899278] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ego_planner::BsplineOptimizer::\x1b[01;32m\x1b[Kcheck_collision_and_rebound\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.899391] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:760:90:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*(__m128d*)((char*)&intersection_point + offsetof(Eigen::Vector2d, Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1, 0, 2, 1> >::m_storage.Eigen::DenseStorage<double, 2, 2, 1, 0>::m_data.Eigen::internal::plain_array<double, 2, 0, 16>::array[0]))\x1b[m\x1b[K\xe2\x80\x99 was declared here\n'}
+[10.899493] (ego_planner) StderrLine: {'line': b'  760 |           Eigen::Vector2d ctrl_pts_law(cps_.points.col(j + 1) - cps_.points.col(j - 1)), \x1b[01;36m\x1b[Kintersection_point\x1b[m\x1b[K;\n'}
+[10.899592] (ego_planner) StderrLine: {'line': b'      |                                                                                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.977280] (-) TimerEvent: {}
+[11.077624] (-) TimerEvent: {}
+[11.177972] (-) TimerEvent: {}
+[11.278284] (-) TimerEvent: {}
+[11.378630] (-) TimerEvent: {}
+[11.478967] (-) TimerEvent: {}
+[11.579307] (-) TimerEvent: {}
+[11.679740] (-) TimerEvent: {}
+[11.739158] (ego_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[11.740073] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/string:51\x1b[m\x1b[K,\n'}
+[11.740265] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[11.740431] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[11.740555] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ios:44\x1b[m\x1b[K,\n'}
+[11.740674] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/istream:40\x1b[m\x1b[K,\n'}
+[11.740790] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/sstream:40\x1b[m\x1b[K,\n'}
+[11.740915] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/complex:45\x1b[m\x1b[K,\n'}
+[11.741016] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:50\x1b[m\x1b[K:\n'}
+[11.741136] (ego_planner) StderrLine: {'line': b'In constructor \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::pair<_T1, _T2>::\x1b[01;32m\x1b[Kpair\x1b[m\x1b[K(_U1&&, _U2&&) \x1b[35m\x1b[K[with _U1 = int&; _U2 = int&; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> = true; _T1 = int; _T2 = int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99,\n'}
+[11.741264] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::\x1b[01;32m\x1b[KinitControlPoints\x1b[m\x1b[K(Eigen::MatrixXd&, bool)\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:97:38\x1b[m\x1b[K:\n'}
+[11.741470] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_pair.h:688:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kin_id\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.742118] (ego_planner) StderrLine: {'line': b'  688 |         : \x1b[01;35m\x1b[Kfirst(std::forward<_U1>(__x))\x1b[m\x1b[K, second(std::forward<_U2>(__y))\n'}
+[11.742403] (ego_planner) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.742617] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::\x1b[01;32m\x1b[KinitControlPoints\x1b[m\x1b[K(Eigen::MatrixXd&, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.742827] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:50:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kin_id\x1b[m\x1b[K\xe2\x80\x99 was declared here\n'}
+[11.743006] (ego_planner) StderrLine: {'line': b'   50 |     int \x1b[01;36m\x1b[Kin_id\x1b[m\x1b[K, out_id;\n'}
+[11.743197] (ego_planner) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.744449] (ego_planner) StderrLine: {'line': b'In constructor \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::pair<_T1, _T2>::\x1b[01;32m\x1b[Kpair\x1b[m\x1b[K(_U1&&, _U2&&) \x1b[35m\x1b[K[with _U1 = int&; _U2 = int&; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> = true; _T1 = int; _T2 = int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99,\n'}
+[11.744749] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::\x1b[01;32m\x1b[KinitControlPoints\x1b[m\x1b[K(Eigen::MatrixXd&, bool)\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:97:38\x1b[m\x1b[K:\n'}
+[11.744865] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_pair.h:688:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kout_id\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.744963] (ego_planner) StderrLine: {'line': b'  688 |         : first(std::forward<_U1>(__x)), \x1b[01;35m\x1b[Ksecond(std::forward<_U2>(__y))\x1b[m\x1b[K\n'}
+[11.745034] (ego_planner) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.745100] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::\x1b[01;32m\x1b[KinitControlPoints\x1b[m\x1b[K(Eigen::MatrixXd&, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.745172] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:50:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kout_id\x1b[m\x1b[K\xe2\x80\x99 was declared here\n'}
+[11.745241] (ego_planner) StderrLine: {'line': b'   50 |     int in_id, \x1b[01;36m\x1b[Kout_id\x1b[m\x1b[K;\n'}
+[11.745325] (ego_planner) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[11.745435] (ego_planner) StderrLine: {'line': b'In function \xe2\x80\x98\x1b[01m\x1b[K__m128d\x1b[01;32m\x1b[K _mm_sub_pd\x1b[m\x1b[K(__m128d, __m128d)\x1b[m\x1b[K\xe2\x80\x99,\n'}
+[11.745517] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::\x1b[01;32m\x1b[Kpsub\x1b[m\x1b[K(const Packet&, const Packet&) \x1b[35m\x1b[K[with Packet = __vector(2) double]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:296:113\x1b[m\x1b[K,\n'}
+[11.745602] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kconst Packet Eigen::internal::scalar_difference_op<LhsScalar, RhsScalar>::\x1b[01;32m\x1b[KpacketOp\x1b[m\x1b[K(const Packet&, const Packet&) const \x1b[35m\x1b[K[with Packet = __vector(2) double; LhsScalar = double; RhsScalar = double]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:362:26\x1b[m\x1b[K,\n'}
+[11.745706] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[KPacketType Eigen::internal::binary_evaluator<Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>, Eigen::internal::IndexBased, Eigen::internal::IndexBased>::\x1b[01;32m\x1b[Kpacket\x1b[m\x1b[K(Eigen::Index, Eigen::Index) const \x1b[35m\x1b[K[with int LoadMode = 0; PacketType = __vector(2) double; BinaryOp = Eigen::internal::scalar_difference_op<double, double>; Lhs = const Eigen::Matrix<double, 2, 1>; Rhs = const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:782:31\x1b[m\x1b[K,\n'}
+[11.745793] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[KPacketType Eigen::internal::unary_evaluator<Eigen::CwiseUnaryOp<UnaryOp, ArgType>, Eigen::internal::IndexBased>::\x1b[01;32m\x1b[Kpacket\x1b[m\x1b[K(Eigen::Index, Eigen::Index) const \x1b[35m\x1b[K[with int LoadMode = 0; PacketType = __vector(2) double; UnaryOp = Eigen::internal::scalar_abs2_op<double>; ArgType = const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:596:81\x1b[m\x1b[K,\n'}
+[11.745894] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[KPacketType Eigen::internal::redux_evaluator<_XprType>::\x1b[01;32m\x1b[KpacketByOuterInner\x1b[m\x1b[K(Eigen::Index, Eigen::Index) const \x1b[35m\x1b[K[with int LoadMode = 0; PacketType = __vector(2) double; _XprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:386:54\x1b[m\x1b[K,\n'}
+[11.745985] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kstatic PacketType Eigen::internal::redux_vec_unroller<Func, Evaluator, Start, 1>::\x1b[01;32m\x1b[Krun\x1b[m\x1b[K(const Evaluator&, const Func&) \x1b[35m\x1b[K[with PacketType = __vector(2) double; Func = Eigen::internal::scalar_sum_op<double, double>; Evaluator = Eigen::internal::redux_evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > > >; int Start = 0]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:177:66\x1b[m\x1b[K,\n'}
+[11.746084] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kstatic Eigen::internal::redux_impl<Func, Evaluator, 3, 2>::Scalar Eigen::internal::redux_impl<Func, Evaluator, 3, 2>::\x1b[01;32m\x1b[Krun\x1b[m\x1b[K(const Evaluator&, const Func&, const XprType&) \x1b[35m\x1b[K[with XprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >; Func = Eigen::internal::scalar_sum_op<double, double>; Evaluator = Eigen::internal::redux_evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:344:115\x1b[m\x1b[K,\n'}
+[11.746171] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::traits<T>::Scalar Eigen::DenseBase<Derived>::\x1b[01;32m\x1b[Kredux\x1b[m\x1b[K(const Func&) const \x1b[35m\x1b[K[with BinaryOp = Eigen::internal::scalar_sum_op<double, double>; Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:418:56\x1b[m\x1b[K,\n'}
+[11.746246] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::traits<T>::Scalar Eigen::DenseBase<Derived>::\x1b[01;32m\x1b[Ksum\x1b[m\x1b[K() const \x1b[35m\x1b[K[with Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<double>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Redux.h:463:25\x1b[m\x1b[K,\n'}
+[11.746318] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::NumTraits<typename Eigen::internal::traits<T>::Scalar>::Real Eigen::MatrixBase<Derived>::\x1b[01;32m\x1b[KsquaredNorm\x1b[m\x1b[K() const \x1b[35m\x1b[K[with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Dot.h:98:46\x1b[m\x1b[K,\n'}
+[11.746406] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::NumTraits<typename Eigen::internal::traits<T>::Scalar>::Real Eigen::MatrixBase<Derived>::\x1b[01;32m\x1b[Knorm\x1b[m\x1b[K() const \x1b[35m\x1b[K[with Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/Dot.h:110:34\x1b[m\x1b[K,\n'}
+[11.746489] (ego_planner) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::\x1b[01;32m\x1b[KinitControlPoints\x1b[m\x1b[K(Eigen::MatrixXd&, bool)\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:230:73\x1b[m\x1b[K:\n'}
+[11.746596] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:263:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*(__m128d*)((char*)&intersection_point + offsetof(Eigen::Vector2d, Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1, 0, 2, 1> >::m_storage.Eigen::DenseStorage<double, 2, 2, 1, 0>::m_data.Eigen::internal::plain_array<double, 2, 0, 16>::array[0]))\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.746750] (ego_planner) StderrLine: {'line': b'  263 |   return (__m128d) ((__v2df)__A - (__v2df)__B\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[11.746868] (ego_planner) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.746998] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<Eigen::Matrix<double, 2, 1> > > ego_planner::BsplineOptimizer::\x1b[01;32m\x1b[KinitControlPoints\x1b[m\x1b[K(Eigen::MatrixXd&, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.747119] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/bspline_optimizer.cpp:198:88:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*(__m128d*)((char*)&intersection_point + offsetof(Eigen::Vector2d, Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1, 0, 2, 1> >::m_storage.Eigen::DenseStorage<double, 2, 2, 1, 0>::m_data.Eigen::internal::plain_array<double, 2, 0, 16>::array[0]))\x1b[m\x1b[K\xe2\x80\x99 was declared here\n'}
+[11.747232] (ego_planner) StderrLine: {'line': b'  198 |         Eigen::Vector2d ctrl_pts_law(cps_.points.col(j + 1) - cps_.points.col(j - 1)), \x1b[01;36m\x1b[Kintersection_point\x1b[m\x1b[K;\n'}
+[11.747343] (ego_planner) StderrLine: {'line': b'      |                                                                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.779934] (-) TimerEvent: {}
+[11.880589] (-) TimerEvent: {}
+[11.980997] (-) TimerEvent: {}
+[12.081321] (-) TimerEvent: {}
+[12.181647] (-) TimerEvent: {}
+[12.281943] (-) TimerEvent: {}
+[12.382285] (-) TimerEvent: {}
+[12.482608] (-) TimerEvent: {}
+[12.547702] (teb_planner) StderrLine: {'line': b'gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:118\xef\xbc\x9aTeb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[12.547956] (teb_planner) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[12.582710] (-) TimerEvent: {}
+[12.683014] (-) TimerEvent: {}
+[12.783309] (-) TimerEvent: {}
+[12.883620] (-) TimerEvent: {}
+[12.983944] (-) TimerEvent: {}
+[13.084387] (-) TimerEvent: {}
+[13.184759] (-) TimerEvent: {}
+[13.285111] (-) TimerEvent: {}
+[13.385359] (-) TimerEvent: {}
+[13.485620] (-) TimerEvent: {}
+[13.585854] (-) TimerEvent: {}
+[13.686167] (-) TimerEvent: {}
+[13.786413] (-) TimerEvent: {}
+[13.886691] (-) TimerEvent: {}
+[13.901091] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ego_planner::UniformBspline::\x1b[01;32m\x1b[KgetMeanAndMaxVel\x1b[m\x1b[K(double&, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.901348] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:334:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.901474] (ego_planner) StderrLine: {'line': b'  334 |     for (double t = tm; \x1b[01;35m\x1b[Kt <= tmp\x1b[m\x1b[K; t += 0.01)\n'}
+[13.901575] (ego_planner) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~\x1b[m\x1b[K\n'}
+[13.901670] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:329:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 was declared here\n'}
+[13.901781] (ego_planner) StderrLine: {'line': b'  329 |     double \x1b[01;36m\x1b[Ktm\x1b[m\x1b[K, tmp;\n'}
+[13.901872] (ego_planner) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[13.901959] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:334:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktmp\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.902053] (ego_planner) StderrLine: {'line': b'  334 |     for (double t = tm; \x1b[01;35m\x1b[Kt <= tmp\x1b[m\x1b[K; t += 0.01)\n'}
+[13.902142] (ego_planner) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~\x1b[m\x1b[K\n'}
+[13.902231] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:329:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktmp\x1b[m\x1b[K\xe2\x80\x99 was declared here\n'}
+[13.902321] (ego_planner) StderrLine: {'line': b'  329 |     double tm, \x1b[01;36m\x1b[Ktmp\x1b[m\x1b[K;\n'}
+[13.902417] (ego_planner) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.933498] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ego_planner::UniformBspline::\x1b[01;32m\x1b[KgetMeanAndMaxAcc\x1b[m\x1b[K(double&, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.933692] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:360:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.933782] (ego_planner) StderrLine: {'line': b'  360 |     for (double t = tm; \x1b[01;35m\x1b[Kt <= tmp\x1b[m\x1b[K; t += 0.01)\n'}
+[13.933865] (ego_planner) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~\x1b[m\x1b[K\n'}
+[13.933946] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:355:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 was declared here\n'}
+[13.934028] (ego_planner) StderrLine: {'line': b'  355 |     double \x1b[01;36m\x1b[Ktm\x1b[m\x1b[K, tmp;\n'}
+[13.934109] (ego_planner) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[13.934189] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:360:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktmp\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.934289] (ego_planner) StderrLine: {'line': b'  360 |     for (double t = tm; \x1b[01;35m\x1b[Kt <= tmp\x1b[m\x1b[K; t += 0.01)\n'}
+[13.934377] (ego_planner) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~\x1b[m\x1b[K\n'}
+[13.934457] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/bspline_opt/src/uniform_bspline.cpp:355:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktmp\x1b[m\x1b[K\xe2\x80\x99 was declared here\n'}
+[13.934538] (ego_planner) StderrLine: {'line': b'  355 |     double tm, \x1b[01;36m\x1b[Ktmp\x1b[m\x1b[K;\n'}
+[13.934619] (ego_planner) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.986792] (-) TimerEvent: {}
+[14.087089] (-) TimerEvent: {}
+[14.187422] (-) TimerEvent: {}
+[14.287713] (-) TimerEvent: {}
+[14.312856] (dog_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dog_driver_node\x1b[0m\n'}
+[14.387848] (-) TimerEvent: {}
+[14.488143] (-) TimerEvent: {}
+[14.588433] (-) TimerEvent: {}
+[14.658918] (dog_control) StdoutLine: {'line': b'[100%] Built target dog_driver_node\n'}
+[14.667603] (dog_control) CommandEnded: {'returncode': 0}
+[14.668243] (dog_control) JobProgress: {'identifier': 'dog_control', 'progress': 'install'}
+[14.676736] (dog_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/juchunyu/dog_ws/build/dog_control'], 'cwd': '/home/juchunyu/dog_ws/build/dog_control', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'zh_CN:en', 'USER': 'juchunyu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juchunyu/dog_ws/install/ego_planner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/:/home/juchunyu/dog_ws/src/dog_control/lib/x86_64/', 'HOME': '/home/juchunyu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/juchunyu/dog_ws/build', 'TERM_PROGRAM_VERSION': '1.102.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '6916', 'SYSTEMD_EXEC_PID': '7427', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14865', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/juchunyu/dog_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'juchunyu', 'JOURNAL_STREAM': '9:37096', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juchunyu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juchunyu:@/tmp/.ICE-unix/7383,unix/juchunyu:/tmp/.ICE-unix/7383', 'INVOCATION_ID': '89715ecf817b46f792b9c7e35d08da93', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-52df8a683e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/juchunyu/dog_ws/build/dog_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/juchunyu/dog_ws/install/ego_planner:/home/juchunyu/dog_ws/install/dog_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.684652] (dog_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.684925] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_driver_node\n'}
+[14.688510] (-) TimerEvent: {}
+[14.690018] (dog_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_driver_node" to ""\n'}
+[14.690193] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_keyboard_node\n'}
+[14.691271] (dog_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/dog_control/lib/dog_control/dog_keyboard_node" to ""\n'}
+[14.691461] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib\n'}
+[14.691526] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64\n'}
+[14.691567] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64/mc_sdk_zsl_1_py.cpython-310-x86_64-linux-gnu.so\n'}
+[14.691606] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/x86_64/libmc_sdk_zsl_1_x86_64.so\n'}
+[14.691644] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64\n'}
+[14.691693] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64/libmc_sdk_zsl_1_aarch64.so\n'}
+[14.691731] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/lib/aarch64/mc_sdk_zsl_1_py.cpython-310-aarch64-linux-gnu.so\n'}
+[14.691767] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/package_run_dependencies/dog_control\n'}
+[14.691803] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/parent_prefix_path/dog_control\n'}
+[14.691839] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/ament_prefix_path.sh\n'}
+[14.691890] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/ament_prefix_path.dsv\n'}
+[14.691925] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/path.sh\n'}
+[14.691969] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/environment/path.dsv\n'}
+[14.692005] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.bash\n'}
+[14.692075] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.sh\n'}
+[14.692237] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.zsh\n'}
+[14.692333] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/local_setup.dsv\n'}
+[14.692429] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.dsv\n'}
+[14.692519] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/ament_index/resource_index/packages/dog_control\n'}
+[14.692605] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/cmake/dog_controlConfig.cmake\n'}
+[14.692700] (dog_control) StdoutLine: {'line': b'-- Installing: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/cmake/dog_controlConfig-version.cmake\n'}
+[14.692787] (dog_control) StdoutLine: {'line': b'-- Up-to-date: /home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.xml\n'}
+[14.693350] (dog_control) CommandEnded: {'returncode': 0}
+[14.702982] (dog_control) JobEnded: {'identifier': 'dog_control', 'rc': 0}
+[14.788619] (-) TimerEvent: {}
+[14.888934] (-) TimerEvent: {}
+[14.989293] (-) TimerEvent: {}
+[15.089577] (-) TimerEvent: {}
+[15.189835] (-) TimerEvent: {}
+[15.290102] (-) TimerEvent: {}
+[15.390459] (-) TimerEvent: {}
+[15.490722] (-) TimerEvent: {}
+[15.591029] (-) TimerEvent: {}
+[15.691306] (-) TimerEvent: {}
+[15.791606] (-) TimerEvent: {}
+[15.836016] (ego_planner) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX static library libbspline_opt.a\x1b[0m\n'}
+[15.891742] (-) TimerEvent: {}
+[15.942417] (ego_planner) StdoutLine: {'line': b'[ 91%] Built target bspline_opt\n'}
+[15.961721] (ego_planner) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object planner/plan_manage/CMakeFiles/ego_planner_lib.dir/src/planner_interface.cpp.o\x1b[0m\n'}
+[15.991868] (-) TimerEvent: {}
+[16.092116] (-) TimerEvent: {}
+[16.192384] (-) TimerEvent: {}
+[16.292614] (-) TimerEvent: {}
+[16.392874] (-) TimerEvent: {}
+[16.493138] (-) TimerEvent: {}
+[16.593395] (-) TimerEvent: {}
+[16.693615] (-) TimerEvent: {}
+[16.793876] (-) TimerEvent: {}
+[16.840749] (ego_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16\x1b[m\x1b[K,\n'}
+[16.840882] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:1\x1b[m\x1b[K:\n'}
+[16.840925] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& ego_planner::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(std::ostream&, const Bspline_<ContainerAllocator>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.840964] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.841002] (ego_planner) StderrLine: {'line': b'   88 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[16.841037] (ego_planner) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.870649] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ego_planner::PlannerInterface::\x1b[01;32m\x1b[KmakePlan\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.870793] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:181:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >::rep\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.870836] (ego_planner) StderrLine: {'line': b'  181 |         printf("MotionPlanner Total Running Time: \x1b[01;35m\x1b[K%d\x1b[m\x1b[K  ms \\n", \x1b[32m\x1b[Kelapsed.count()\x1b[m\x1b[K);\n'}
+[16.870872] (ego_planner) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~^\x1b[m\x1b[K          \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.870912] (ego_planner) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K|\x1b[m\x1b[K                       \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[16.870945] (ego_planner) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[Kint\x1b[m\x1b[K                     \x1b[32m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >::rep {aka long int}\x1b[m\x1b[K\n'}
+[16.870979] (ego_planner) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[16.894009] (-) TimerEvent: {}
+[16.994345] (-) TimerEvent: {}
+[17.094582] (-) TimerEvent: {}
+[17.194812] (-) TimerEvent: {}
+[17.295027] (-) TimerEvent: {}
+[17.395280] (-) TimerEvent: {}
+[17.495496] (-) TimerEvent: {}
+[17.595703] (-) TimerEvent: {}
+[17.696027] (-) TimerEvent: {}
+[17.796274] (-) TimerEvent: {}
+[17.896523] (-) TimerEvent: {}
+[17.996777] (-) TimerEvent: {}
+[18.097133] (-) TimerEvent: {}
+[18.197383] (-) TimerEvent: {}
+[18.297701] (-) TimerEvent: {}
+[18.374319] (ego_planner) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX static library libego_planner_lib.a\x1b[0m\n'}
+[18.397825] (-) TimerEvent: {}
+[18.417568] (ego_planner) StdoutLine: {'line': b'[ 95%] Built target ego_planner_lib\n'}
+[18.436390] (ego_planner) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o\x1b[0m\n'}
+[18.497952] (-) TimerEvent: {}
+[18.598169] (-) TimerEvent: {}
+[18.698464] (-) TimerEvent: {}
+[18.798695] (-) TimerEvent: {}
+[18.898958] (-) TimerEvent: {}
+[18.999288] (-) TimerEvent: {}
+[19.099527] (-) TimerEvent: {}
+[19.199787] (-) TimerEvent: {}
+[19.300067] (-) TimerEvent: {}
+[19.400339] (-) TimerEvent: {}
+[19.500644] (-) TimerEvent: {}
+[19.600938] (-) TimerEvent: {}
+[19.701295] (-) TimerEvent: {}
+[19.801578] (-) TimerEvent: {}
+[19.901854] (-) TimerEvent: {}
+[20.002168] (-) TimerEvent: {}
+[20.102421] (-) TimerEvent: {}
+[20.202689] (-) TimerEvent: {}
+[20.302997] (-) TimerEvent: {}
+[20.403303] (-) TimerEvent: {}
+[20.503584] (-) TimerEvent: {}
+[20.603851] (-) TimerEvent: {}
+[20.704149] (-) TimerEvent: {}
+[20.804416] (-) TimerEvent: {}
+[20.904711] (-) TimerEvent: {}
+[20.963537] (ego_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16\x1b[m\x1b[K,\n'}
+[20.963735] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:48\x1b[m\x1b[K,\n'}
+[20.963828] (ego_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[20.963916] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& ego_planner::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(std::ostream&, const Bspline_<ContainerAllocator>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.964000] (ego_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.964093] (ego_planner) StderrLine: {'line': b'   88 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[20.964177] (ego_planner) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.004811] (-) TimerEvent: {}
+[21.105109] (-) TimerEvent: {}
+[21.205389] (-) TimerEvent: {}
+[21.305678] (-) TimerEvent: {}
+[21.405978] (-) TimerEvent: {}
+[21.506275] (-) TimerEvent: {}
+[21.606571] (-) TimerEvent: {}
+[21.706850] (-) TimerEvent: {}
+[21.807158] (-) TimerEvent: {}
+[21.907429] (-) TimerEvent: {}
+[22.007775] (-) TimerEvent: {}
+[22.108092] (-) TimerEvent: {}
+[22.208476] (-) TimerEvent: {}
+[22.308798] (-) TimerEvent: {}
+[22.409159] (-) TimerEvent: {}
+[22.509487] (-) TimerEvent: {}
+[22.609798] (-) TimerEvent: {}
+[22.710429] (-) TimerEvent: {}
+[22.811854] (-) TimerEvent: {}
+[22.913317] (-) TimerEvent: {}
+[23.014629] (-) TimerEvent: {}
+[23.115878] (-) TimerEvent: {}
+[23.216796] (-) TimerEvent: {}
+[23.317473] (-) TimerEvent: {}
+[23.417944] (-) TimerEvent: {}
+[23.518267] (-) TimerEvent: {}
+[23.618594] (-) TimerEvent: {}
+[23.718873] (-) TimerEvent: {}
+[23.819190] (-) TimerEvent: {}
+[23.919478] (-) TimerEvent: {}
+[24.019866] (-) TimerEvent: {}
+[24.120138] (-) TimerEvent: {}
+[24.220410] (-) TimerEvent: {}
+[24.320663] (-) TimerEvent: {}
+[24.326753] (teb_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:180\xef\xbc\x9aTeb/CMakeFiles/teb.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[24.327006] (teb_planner) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[24.328181] (teb_planner) CommandEnded: {'returncode': 2}
+[24.331177] (teb_planner) JobEnded: {'identifier': 'teb_planner', 'rc': 2}
+[24.420760] (-) TimerEvent: {}
+[24.521053] (-) TimerEvent: {}
+[24.621364] (-) TimerEvent: {}
+[24.721618] (-) TimerEvent: {}
+[24.821883] (-) TimerEvent: {}
+[24.922155] (-) TimerEvent: {}
+[25.022409] (-) TimerEvent: {}
+[25.122671] (-) TimerEvent: {}
+[25.222986] (-) TimerEvent: {}
+[25.323251] (-) TimerEvent: {}
+[25.423527] (-) TimerEvent: {}
+[25.523835] (-) TimerEvent: {}
+[25.624137] (-) TimerEvent: {}
+[25.724436] (-) TimerEvent: {}
+[25.824704] (-) TimerEvent: {}
+[25.924992] (-) TimerEvent: {}
+[26.025287] (-) TimerEvent: {}
+[26.125552] (-) TimerEvent: {}
+[26.225821] (-) TimerEvent: {}
+[26.326096] (-) TimerEvent: {}
+[26.426381] (-) TimerEvent: {}
+[26.526649] (-) TimerEvent: {}
+[26.626912] (-) TimerEvent: {}
+[26.727191] (-) TimerEvent: {}
+[26.827468] (-) TimerEvent: {}
+[26.927727] (-) TimerEvent: {}
+[27.028022] (-) TimerEvent: {}
+[27.128305] (-) TimerEvent: {}
+[27.228526] (-) TimerEvent: {}
+[27.328767] (-) TimerEvent: {}
+[27.428975] (-) TimerEvent: {}
+[27.529218] (-) TimerEvent: {}
+[27.629477] (-) TimerEvent: {}
+[27.729761] (-) TimerEvent: {}
+[27.830017] (-) TimerEvent: {}
+[27.930309] (-) TimerEvent: {}
+[28.030533] (-) TimerEvent: {}
+[28.130750] (-) TimerEvent: {}
+[28.230987] (-) TimerEvent: {}
+[28.331315] (-) TimerEvent: {}
+[28.431608] (-) TimerEvent: {}
+[28.531830] (-) TimerEvent: {}
+[28.632157] (-) TimerEvent: {}
+[28.732393] (-) TimerEvent: {}
+[28.832601] (-) TimerEvent: {}
+[28.932835] (-) TimerEvent: {}
+[29.033058] (-) TimerEvent: {}
+[29.133295] (-) TimerEvent: {}
+[29.233505] (-) TimerEvent: {}
+[29.333709] (-) TimerEvent: {}
+[29.433958] (-) TimerEvent: {}
+[29.534308] (-) TimerEvent: {}
+[29.634537] (-) TimerEvent: {}
+[29.734794] (-) TimerEvent: {}
+[29.835038] (-) TimerEvent: {}
+[29.935291] (-) TimerEvent: {}
+[30.035528] (-) TimerEvent: {}
+[30.135763] (-) TimerEvent: {}
+[30.236056] (-) TimerEvent: {}
+[30.336331] (-) TimerEvent: {}
+[30.436627] (-) TimerEvent: {}
+[30.536914] (-) TimerEvent: {}
+[30.637275] (-) TimerEvent: {}
+[30.737620] (-) TimerEvent: {}
+[30.837928] (-) TimerEvent: {}
+[30.938219] (-) TimerEvent: {}
+[31.038418] (-) TimerEvent: {}
+[31.138656] (-) TimerEvent: {}
+[31.238868] (-) TimerEvent: {}
+[31.339095] (-) TimerEvent: {}
+[31.439342] (-) TimerEvent: {}
+[31.539603] (-) TimerEvent: {}
+[31.639847] (-) TimerEvent: {}
+[31.740118] (-) TimerEvent: {}
+[31.840538] (-) TimerEvent: {}
+[31.940771] (-) TimerEvent: {}
+[32.040987] (-) TimerEvent: {}
+[32.141243] (-) TimerEvent: {}
+[32.241505] (-) TimerEvent: {}
+[32.341790] (-) TimerEvent: {}
+[32.442088] (-) TimerEvent: {}
+[32.542340] (-) TimerEvent: {}
+[32.642581] (-) TimerEvent: {}
+[32.742851] (-) TimerEvent: {}
+[32.843131] (-) TimerEvent: {}
+[32.943466] (-) TimerEvent: {}
+[33.043781] (-) TimerEvent: {}
+[33.144017] (-) TimerEvent: {}
+[33.244269] (-) TimerEvent: {}
+[33.344562] (-) TimerEvent: {}
+[33.444767] (-) TimerEvent: {}
+[33.544971] (-) TimerEvent: {}
+[33.645294] (-) TimerEvent: {}
+[33.738084] (ego_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76: CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o] \xe4\xb8\xad\xe6\x96\xad\n'}
+[33.738279] (ego_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:701: CMakeFiles/motion_plan.dir/all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[33.738568] (ego_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[33.745461] (-) TimerEvent: {}
+[33.818122] (ego_planner) JobEnded: {'identifier': 'ego_planner', 'rc': 'SIGINT'}
+[33.828813] (-) EventReactorShutdown: {}

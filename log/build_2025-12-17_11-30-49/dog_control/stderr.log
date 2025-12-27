@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:71 (message):
+  Cannot find ZSL SDK library in .  Please check the filename.
+
+[0m

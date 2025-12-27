@@ -1,0 +1,2 @@
+/usr/bin/ar qc libteb.a CMakeFiles/teb.dir/src/obstacles.cpp.o CMakeFiles/teb.dir/src/optimal_planner.cpp.o CMakeFiles/teb.dir/src/teb_config.cpp.o CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o CMakeFiles/teb.dir/src/timed_elastic_band.cpp.o
+/usr/bin/ranlib libteb.a

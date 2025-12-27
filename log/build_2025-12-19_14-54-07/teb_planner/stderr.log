@@ -1,0 +1,36 @@
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/visualization.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K../inc/visualization.h: 没有那个文件或目录
+    1 | #include [01;31m[K"../inc/visualization.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_config.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K../inc/teb_config.h: 没有那个文件或目录
+    1 | #include [01;31m[K"../inc/teb_config.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/obstacles.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K../inc/obstacles.h: 没有那个文件或目录
+    1 | #include [01;31m[K"../inc/obstacles.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/optimal_planner.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K../inc/optimal_planner.h: 没有那个文件或目录
+    1 | #include [01;31m[K"../inc/optimal_planner.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:146：Teb/CMakeFiles/teb.dir/src/visualization.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:104：Teb/CMakeFiles/teb.dir/src/teb_config.cpp.o] 错误 1
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/timed_elastic_band.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K../inc/timed_elastic_band.h: 没有那个文件或目录
+    1 | #include [01;31m[K"../inc/timed_elastic_band.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:90：Teb/CMakeFiles/teb.dir/src/optimal_planner.cpp.o] 错误 1
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:76：Teb/CMakeFiles/teb.dir/src/obstacles.cpp.o] 错误 1
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:132：Teb/CMakeFiles/teb.dir/src/timed_elastic_band.cpp.o] 错误 1
+In file included from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:12[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:15[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:1[m[K:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/visualization.h:5:10:[m[K [01;31m[Kfatal error: [m[K../inc/teb_config.h: 没有那个文件或目录
+    5 | #include [01;31m[K"../inc/teb_config.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:118：Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:180：Teb/CMakeFiles/teb.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

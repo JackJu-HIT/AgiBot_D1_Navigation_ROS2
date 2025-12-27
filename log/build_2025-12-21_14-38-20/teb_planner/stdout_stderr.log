@@ -1,0 +1,31 @@
+[ 75%] Built target teb
+[ 87%] [32mBuilding CXX object CMakeFiles/teb_plan.dir/src/trajectory_publisher.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/include/trajectory_obstacles_publisher.h:30[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:6[m[K:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:[m[K In constructor ‘[01m[KTrajectoryAndObstaclesPublisher::[01;32m[KTrajectoryAndObstaclesPublisher[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/src/trajectory_publisher.cpp:69:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   69 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+      |                                     [01;35m[K^~[m[K
+[100%] [32m[1mLinking CXX executable teb_plan[0m
+[100%] Built target teb_plan
+-- Install configuration: "Debug"
+-- Installing: /home/juchunyu/dog_ws/install/teb_planner/lib/teb_planner/teb_plan
+-- Set non-toolchain portion of runtime path of "/home/juchunyu/dog_ws/install/teb_planner/lib/teb_planner/teb_plan" to ""
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/ament_index/resource_index/package_run_dependencies/teb_planner
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/ament_index/resource_index/parent_prefix_path/teb_planner
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/environment/path.sh
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/environment/path.dsv
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/local_setup.bash
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/local_setup.sh
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/local_setup.zsh
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/local_setup.dsv
+-- Installing: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.dsv
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/ament_index/resource_index/packages/teb_planner
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/cmake/teb_plannerConfig.cmake
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/cmake/teb_plannerConfig-version.cmake
+-- Up-to-date: /home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.xml

@@ -1,0 +1,5 @@
+[0.009s] Invoking command in '/home/juchunyu/dog_ws/build/teb_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16
+[0.021s] [0mCMake Error: The source directory "/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner" does not exist.
+[0.021s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.021s] gmake: *** [Makefile:281：cmake_check_build_system] 错误 1
+[0.023s] Invoked command in '/home/juchunyu/dog_ws/build/teb_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16

@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:281：cmake_check_build_system] 错误 1

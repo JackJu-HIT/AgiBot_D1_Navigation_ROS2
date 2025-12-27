@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/juchunyu/dog_ws/build/ego_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/ego_planner -- -j16 -l16
+[0.053s] [  2%] Built target ego_planner__rosidl_generator_type_description
+[0.059s] [  6%] Built target local_map
+[0.060s] [ 15%] Built target bspline_opt
+[0.063s] [ 15%] Built target ament_cmake_python_copy_ego_planner
+[0.067s] [ 19%] Built target path_searching
+[0.074s] [ 30%] Built target ego_planner__rosidl_generator_c
+[0.076s] [ 32%] Built target ego_planner__cpp
+[0.084s] [ 36%] Built target ego_planner_lib
+[0.090s] [ 43%] Built target ego_planner__rosidl_typesupport_introspection_c
+[0.098s] [ 50%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[0.098s] [ 56%] Built target ego_planner__rosidl_typesupport_cpp
+[0.098s] [ 63%] Built target ego_planner__rosidl_typesupport_c
+[0.098s] [ 69%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[0.099s] [ 76%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+[0.118s] [ 76%] Built target ego_planner
+[0.120s] [ 80%] Built target motion_plan
+[0.135s] [ 82%] Built target ego_planner__py
+[0.155s] [ 86%] Built target ego_planner__rosidl_generator_py
+[0.176s] [ 91%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+[0.177s] [ 95%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[0.177s] [100%] Built target ego_planner_s__rosidl_typesupport_c
+[0.231s] running egg_info
+[0.242s] writing ego_planner.egg-info/PKG-INFO
+[0.242s] writing dependency_links to ego_planner.egg-info/dependency_links.txt
+[0.242s] writing top-level names to ego_planner.egg-info/top_level.txt
+[0.275s] reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+[0.275s] writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[0.294s] [100%] Built target ament_cmake_python_build_ego_planner_egg

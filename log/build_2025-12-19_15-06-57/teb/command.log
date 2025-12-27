@@ -1,0 +1,2 @@
+Invoking command in '/home/juchunyu/dog_ws/build/teb': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/teb_local_planner-master -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/teb
+Invoked command in '/home/juchunyu/dog_ws/build/teb' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/juchunyu/dog_ws/src/teb_local_planner-master -DCMAKE_INSTALL_PREFIX=/home/juchunyu/dog_ws/install/teb

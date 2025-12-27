@@ -1,0 +1,243 @@
+[0.012s] Invoking command in '/home/juchunyu/dog_ws/build/teb_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16
+[0.064s] [ 11%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o[0m
+[0.065s] [ 22%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/visualization.cpp.o[0m
+[0.068s] [ 33%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/optimal_planner.cpp.o[0m
+[2.372s] In file included from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:1[m[K:
+[2.372s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:37:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.372s]    37 |     float [01;31m[Kvy[m[K
+[2.372s]       |           [01;31m[K^~[m[K
+[2.372s]       |             [32m[K;[m[K
+[2.378s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kvoid irpc::planning::TebPlannerInterface::[01;32m[Kinitialize[m[K()[m[K’:
+[2.378s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:25:47:[m[K [01;31m[Kerror: [m[K‘[01m[KCircularRobotFootprint[m[K’ was not declared in this scope; did you mean ‘[01m[Kteb_local_planner::CircularRobotFootprint[m[K’?
+[2.378s]    25 |             robot_model_ = boost::make_shared<[01;31m[KCircularRobotFootprint[m[K>(0.0);
+[2.378s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.379s]       |                                               [32m[Kteb_local_planner::CircularRobotFootprint[m[K
+[2.379s] In file included from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:13[m[K:
+[2.379s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/robot_footprint_model.h:132:11:[m[K [01;36m[Knote: [m[K‘[01m[Kteb_local_planner::CircularRobotFootprint[m[K’ declared here
+[2.379s]   132 |     class [01;36m[KCircularRobotFootprint[m[K : public BaseRobotFootprintModel
+[2.379s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.379s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:25:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(double)[m[K’
+[2.379s]    25 |             robot_model_ = [01;31m[Kboost::make_shared<CircularRobotFootprint>(0.0)[m[K;
+[2.379s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.379s] In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:15[m[K,
+[2.379s]                  from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+[2.380s]                  from [01m[K/usr/include/boost/smart_ptr.hpp:24[m[K,
+[2.380s]                  from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/robot_footprint_model.h:5[m[K:
+[2.380s] [01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:249:87:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class ... Args> typename boost::detail::sp_if_not_array<T>::type boost::[01;32m[Kmake_shared[m[K(Args&& ...)[m[K’
+[2.380s]   249 | template< class T, class... Args > typename boost::detail::sp_if_not_array< T >::type [01;36m[Kmake_shared[m[K( Args && ... args )
+[2.380s]       |                                                                                       [01;36m[K^~~~~~~~~~~[m[K
+[2.380s] [01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:249:87:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.380s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:25:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.380s]    25 |             robot_model_ = [01;31m[Kboost::make_shared<CircularRobotFootprint>(0.0)[m[K;
+[2.380s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.380s] In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:18[m[K:
+[2.381s] [01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:19:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::enable_if_<boost::is_bounded_array<T>::value, boost::shared_ptr<X> >::type boost::[01;32m[Kmake_shared[m[K()[m[K’
+[2.381s]    19 | [01;36m[Kmake_shared[m[K()
+[2.381s]       | [01;36m[K^~~~~~~~~~~[m[K
+[2.381s] [01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:19:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.381s] [01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:27:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::enable_if_<boost::is_bounded_array<T>::value, boost::shared_ptr<X> >::type boost::[01;32m[Kmake_shared[m[K(const typename remove_extent<T>::type&)[m[K’
+[2.381s]    27 | [01;36m[Kmake_shared[m[K(const typename remove_extent<T>::type& value)
+[2.381s]       | [01;36m[K^~~~~~~~~~~[m[K
+[2.381s] [01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:27:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.381s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:25:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.382s]    25 |             robot_model_ = [01;31m[Kboost::make_shared<CircularRobotFootprint>(0.0)[m[K;
+[2.382s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.382s] [01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:35:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::enable_if_<boost::is_unbounded_array<T>::value, boost::shared_ptr<X> >::type boost::[01;32m[Kmake_shared[m[K(std::size_t)[m[K’
+[2.382s]    35 | [01;36m[Kmake_shared[m[K(std::size_t size)
+[2.382s]       | [01;36m[K^~~~~~~~~~~[m[K
+[2.382s] [01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:35:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.382s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:25:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.382s]    25 |             robot_model_ = [01;31m[Kboost::make_shared<CircularRobotFootprint>(0.0)[m[K;
+[2.382s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.382s] [01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:43:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::enable_if_<boost::is_unbounded_array<T>::value, boost::shared_ptr<X> >::type boost::[01;32m[Kmake_shared[m[K(std::size_t, const typename remove_extent<T>::type&)[m[K’
+[2.383s]    43 | [01;36m[Kmake_shared[m[K(std::size_t size, const typename remove_extent<T>::type& value)
+[2.383s]       | [01;36m[K^~~~~~~~~~~[m[K
+[2.383s] [01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:43:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.383s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:26:72:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::shared_ptr<teb_local_planner::TebConfig>[m[K’ and ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebConfig>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebConfig>[m[K’})
+[2.383s]    26 |             config_ = boost::make_shared<teb_local_planner::TebConfig>([01;31m[K)[m[K;
+[2.383s]       |                                                                        [01;31m[K^[m[K
+[2.383s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[2.383s]                  from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/g2o/stuff/misc.h:34[m[K,
+[2.383s]                  from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/pose_se2.h:4[m[K,
+[2.383s]                  from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:12[m[K:
+[2.384s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Yp>&) [35m[K[with _Tp = teb_local_planner::TebConfig][m[K[m[K’
+[2.384s]   418 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[2.384s]       |         [01;36m[K^~~~~~~~[m[K
+[2.384s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.384s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:26:72:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebConfig>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebConfig>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[2.384s]    26 |             config_ = boost::make_shared<teb_local_planner::TebConfig>([01;36m[K)[m[K;
+[2.384s]       |                                                                        [01;36m[K^[m[K
+[2.384s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::auto_ptr<_Up>&&) [35m[K[with _Tp = teb_local_planner::TebConfig][m[K[m[K’
+[2.384s]   429 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[2.384s]       |         [01;36m[K^~~~~~~~[m[K
+[2.385s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.385s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:26:72:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebConfig>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebConfig>[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<Y>[m[K’
+[2.385s]    26 |             config_ = boost::make_shared<teb_local_planner::TebConfig>([01;36m[K)[m[K;
+[2.385s]       |                                                                        [01;36m[K^[m[K
+[2.385s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Yp>&&) [35m[K[with _Tp = teb_local_planner::TebConfig][m[K[m[K’
+[2.385s]   446 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[2.385s]       |         [01;36m[K^~~~~~~~[m[K
+[2.385s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.385s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:26:72:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebConfig>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebConfig>[m[K’} is not derived from ‘[01m[Kstd::shared_ptr<_Tp>[m[K’
+[2.385s]    26 |             config_ = boost::make_shared<teb_local_planner::TebConfig>([01;36m[K)[m[K;
+[2.385s]       |                                                                        [01;36m[K^[m[K
+[2.386s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Del = _Yp; _Tp = teb_local_planner::TebConfig][m[K[m[K’
+[2.386s]   454 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[2.386s]       |         [01;36m[K^~~~~~~~[m[K
+[2.386s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.386s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:26:72:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebConfig>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebConfig>[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[2.386s]    26 |             config_ = boost::make_shared<teb_local_planner::TebConfig>([01;36m[K)[m[K;
+[2.386s]       |                                                                        [01;36m[K^[m[K
+[2.386s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Tp = teb_local_planner::TebConfig][m[K[m[K’
+[2.386s]   414 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[2.386s]       |                   [01;36m[K^~~~~~~~[m[K
+[2.386s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebConfig>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebConfig>[m[K’} to ‘[01m[Kconst std::shared_ptr<teb_local_planner::TebConfig>&[m[K’
+[2.387s]   414 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[2.387s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.387s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Tp = teb_local_planner::TebConfig][m[K[m[K’
+[2.387s]   438 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[2.387s]       |       [01;36m[K^~~~~~~~[m[K
+[2.387s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebConfig>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebConfig>[m[K’} to ‘[01m[Kstd::shared_ptr<teb_local_planner::TebConfig>&&[m[K’
+[2.387s]   438 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[2.387s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[2.387s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:28:47:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KTebVisualization[m[K’
+[2.387s]    28 |             visual_ = TebVisualizationPtr(new [01;31m[KTebVisualization[m[K(config_));
+[2.387s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.387s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:28:23:[m[K [01;31m[Kerror: [m[K‘[01m[KTebVisualizationPtr[m[K’ was not declared in this scope; did you mean ‘[01m[Kteb_local_planner::TebVisualizationPtr[m[K’?
+[2.388s]    28 |             visual_ = [01;31m[KTebVisualizationPtr[m[K(new TebVisualization(config_));
+[2.388s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.388s]       |                       [32m[Kteb_local_planner::TebVisualizationPtr[m[K
+[2.388s] In file included from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:12[m[K,
+[2.388s]                  from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:15[m[K:
+[2.388s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/visualization.h:146:49:[m[K [01;36m[Knote: [m[K‘[01m[Kteb_local_planner::TebVisualizationPtr[m[K’ declared here
+[2.388s]   146 |     typedef boost::shared_ptr<TebVisualization> [01;36m[KTebVisualizationPtr[m[K;
+[2.388s]       |                                                 [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.388s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:31:128:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::shared_ptr<teb_local_planner::TebOptimalPlanner>[m[K’ and ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebOptimalPlanner>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebOptimalPlanner>[m[K’})
+[2.388s]    31 |             planner_ = boost::make_shared<teb_local_planner::TebOptimalPlanner>(config_, &obstacles_, robot_model_, &viaPoints_[01;31m[K)[m[K;
+[2.388s]       |                                                                                                                                [01;31m[K^[m[K
+[2.388s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Yp>&) [35m[K[with _Tp = teb_local_planner::TebOptimalPlanner][m[K[m[K’
+[2.389s]   418 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[2.389s]       |         [01;36m[K^~~~~~~~[m[K
+[2.389s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.389s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:31:128:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebOptimalPlanner>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebOptimalPlanner>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[2.389s]    31 |             planner_ = boost::make_shared<teb_local_planner::TebOptimalPlanner>(config_, &obstacles_, robot_model_, &viaPoints_[01;36m[K)[m[K;
+[2.389s]       |                                                                                                                                [01;36m[K^[m[K
+[2.389s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::auto_ptr<_Up>&&) [35m[K[with _Tp = teb_local_planner::TebOptimalPlanner][m[K[m[K’
+[2.389s]   429 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[2.389s]       |         [01;36m[K^~~~~~~~[m[K
+[2.389s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.389s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:31:128:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebOptimalPlanner>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebOptimalPlanner>[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<Y>[m[K’
+[2.390s]    31 |             planner_ = boost::make_shared<teb_local_planner::TebOptimalPlanner>(config_, &obstacles_, robot_model_, &viaPoints_[01;36m[K)[m[K;
+[2.390s]       |                                                                                                                                [01;36m[K^[m[K
+[2.390s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Yp>&&) [35m[K[with _Tp = teb_local_planner::TebOptimalPlanner][m[K[m[K’
+[2.390s]   446 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[2.390s]       |         [01;36m[K^~~~~~~~[m[K
+[2.390s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.390s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:31:128:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebOptimalPlanner>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebOptimalPlanner>[m[K’} is not derived from ‘[01m[Kstd::shared_ptr<_Tp>[m[K’
+[2.390s]    31 |             planner_ = boost::make_shared<teb_local_planner::TebOptimalPlanner>(config_, &obstacles_, robot_model_, &viaPoints_[01;36m[K)[m[K;
+[2.390s]       |                                                                                                                                [01;36m[K^[m[K
+[2.390s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Del = _Yp; _Tp = teb_local_planner::TebOptimalPlanner][m[K[m[K’
+[2.390s]   454 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[2.390s]       |         [01;36m[K^~~~~~~~[m[K
+[2.391s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.391s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:31:128:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebOptimalPlanner>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebOptimalPlanner>[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[2.391s]    31 |             planner_ = boost::make_shared<teb_local_planner::TebOptimalPlanner>(config_, &obstacles_, robot_model_, &viaPoints_[01;36m[K)[m[K;
+[2.391s]       |                                                                                                                                [01;36m[K^[m[K
+[2.391s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Tp = teb_local_planner::TebOptimalPlanner][m[K[m[K’
+[2.391s]   414 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[2.391s]       |                   [01;36m[K^~~~~~~~[m[K
+[2.391s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebOptimalPlanner>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebOptimalPlanner>[m[K’} to ‘[01m[Kconst std::shared_ptr<teb_local_planner::TebOptimalPlanner>&[m[K’
+[2.391s]   414 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[2.391s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.391s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Tp = teb_local_planner::TebOptimalPlanner][m[K[m[K’
+[2.391s]   438 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[2.392s]       |       [01;36m[K^~~~~~~~[m[K
+[2.392s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::detail::sp_if_not_array<teb_local_planner::TebOptimalPlanner>::type[m[K’ {aka ‘[01m[Kboost::shared_ptr<teb_local_planner::TebOptimalPlanner>[m[K’} to ‘[01m[Kstd::shared_ptr<teb_local_planner::TebOptimalPlanner>&&[m[K’
+[2.392s]   438 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[2.392s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[2.392s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kvoid irpc::planning::TebPlannerInterface::[01;32m[KsetObstacleInfo[m[K(std::vector<irpc::planning::obstacleInfo>&)[m[K’:
+[2.392s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:54:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.392s]    54 |             printf("TebPlannerInterface::setObstacleInfo:[01;35m[K%d[m[K\n",[32m[Kobstacles_.size()[m[K);
+[2.392s]       |                                                          [01;35m[K~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+[2.392s]       |                                                           [01;35m[K|[m[K                   [32m[K|[m[K
+[2.392s]       |                                                           [01;35m[Kint[m[K                 [32m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type {aka long unsigned int}[m[K
+[2.392s]       |                                                          [32m[K%ld[m[K
+[2.393s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kvoid irpc::planning::TebPlannerInterface::[01;32m[KlimitVelocity[m[K(irpc::planning::cmdInfo&, double, double)[m[K’:
+[2.393s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:74:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float&, double, double&)[m[K’
+[2.393s]    74 |             vel.vx = [01;31m[Kstd::clamp(vel.vx, -max_v, max_v)[m[K;
+[2.393s]       |                      [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.393s] In file included from [01m[K/usr/include/c++/13/functional:67[m[K,
+[2.393s]                  from [01m[K/usr/local/include/eigen3/Eigen/Core:85[m[K,
+[2.393s]                  from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_config.h:4[m[K,
+[2.393s]                  from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:11[m[K:
+[2.393s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[2.393s]  3667 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[2.393s]       |     [01;36m[K^~~~~[m[K
+[2.394s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.394s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:74:32:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[2.394s]    74 |             vel.vx = [01;36m[Kstd::clamp(vel.vx, -max_v, max_v)[m[K;
+[2.394s]       |                      [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.394s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[2.394s]  3687 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[2.394s]       |     [01;36m[K^~~~~[m[K
+[2.394s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.394s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:74:32:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[2.394s]    74 |             vel.vx = [01;36m[Kstd::clamp(vel.vx, -max_v, max_v)[m[K;
+[2.394s]       |                      [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.395s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:75:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float&, double, double&)[m[K’
+[2.395s]    75 |             vel.w = [01;31m[Kstd::clamp(vel.w, -max_w, max_w)[m[K;
+[2.395s]       |                     [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.395s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[2.395s]  3667 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[2.395s]       |     [01;36m[K^~~~~[m[K
+[2.395s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.395s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:75:31:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[2.395s]    75 |             vel.w = [01;36m[Kstd::clamp(vel.w, -max_w, max_w)[m[K;
+[2.395s]       |                     [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.395s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[2.396s]  3687 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[2.396s]       |     [01;36m[K^~~~~[m[K
+[2.396s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.396s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:75:31:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[2.396s]    75 |             vel.w = [01;36m[Kstd::clamp(vel.w, -max_w, max_w)[m[K;
+[2.396s]       |                     [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.396s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kbool irpc::planning::TebPlannerInterface::[01;32m[Kplan[m[K(irpc::planning::cmdInfo&, std::vector<Eigen::Matrix<float, 3, 1> >&)[m[K’:
+[2.396s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:86:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_start[m[K’ was not declared in this scope; did you mean ‘[01m[KvelStart[m[K’?
+[2.396s]    86 |             [01;31m[Kvel_start[m[K.angular.z() = robotPose_.w;
+[2.396s]       |             [01;31m[K^~~~~~~~~[m[K
+[2.396s]       |             [32m[KvelStart[m[K
+[2.397s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:98:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct teb_local_planner::TebConfig::Robot[m[K’ has no member named ‘[01m[Kmax_vel[m[K’; did you mean ‘[01m[Kmax_vel_x[m[K’?
+[2.397s]    98 |                 float max_v = config_->robot.[01;31m[Kmax_vel[m[K;
+[2.397s]       |                                              [01;31m[K^~~~~~~[m[K
+[2.397s]       |                                              [32m[Kmax_vel_x[m[K
+[2.397s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:118:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.397s]   118 |         [01;35m[K}[m[K
+[2.397s]       |         [01;35m[K^[m[K
+[2.397s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/visualization.cpp:[m[K In member function ‘[01m[Kbool teb_local_planner::TebVisualization::[01;32m[KprintErrorWhenNotInitialized[m[K() const[m[K’:
+[2.397s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/visualization.cpp:64:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.397s]    64 |     [01;35m[K}[m[K
+[2.398s]       |     [01;35m[K^[m[K
+[2.466s] /usr/include/boost/smart_ptr/make_shared_object.hpp: In instantiation of ‘[01m[Ktypename boost::detail::sp_if_not_array<T>::type boost::[01;32m[Kmake_shared[m[K(Args&& ...) [35m[K[with T = teb_local_planner::TebOptimalPlanner; Args = {std::shared_ptr<teb_local_planner::TebConfig>&, std::vector<shared_ptr<teb_local_planner::Obstacle>, std::allocator<shared_ptr<teb_local_planner::Obstacle> > >*, shared_ptr<teb_local_planner::BaseRobotFootprintModel>&, std::vector<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 2, 1, 0, 2, 1> > >*}; typename detail::sp_if_not_array<T>::type = shared_ptr<teb_local_planner::TebOptimalPlanner>][m[K[m[K’:
+[2.466s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:31:80:[m[K   required from here
+[2.466s] [01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:257:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kteb_local_planner::TebOptimalPlanner::TebOptimalPlanner(std::shared_ptr<teb_local_planner::TebConfig>&, std::vector<boost::shared_ptr<teb_local_planner::Obstacle> >*, boost::shared_ptr<teb_local_planner::BaseRobotFootprintModel>&, std::vector<Eigen::Matrix<double, 2, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 2, 1> > >*)[m[K’
+[2.466s]   257 |     [01;31m[K::new( pv ) T( boost::detail::sp_forward<Args>( args )... )[m[K;
+[2.466s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.466s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:84:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K(const teb_local_planner::TebConfig&, teb_local_planner::ObstContainer*, teb_local_planner::RobotFootprintModelPtr, teb_local_planner::TebVisualizationPtr, const teb_local_planner::ViaPointContainer*)[m[K’
+[2.466s]    84 |         [01;36m[KTebOptimalPlanner[m[K(const TebConfig& cfg, ObstContainer* obstacles = NULL, RobotFootprintModelPtr robot_model = boost::make_shared<PointRobotFootprint>(),
+[2.467s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.467s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:84:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<teb_local_planner::TebConfig>[m[K’ to ‘[01m[Kconst teb_local_planner::TebConfig&[m[K’
+[2.467s]    84 |         TebOptimalPlanner([01;36m[Kconst TebConfig& cfg[m[K, ObstContainer* obstacles = NULL, RobotFootprintModelPtr robot_model = boost::make_shared<PointRobotFootprint>(),
+[2.467s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[2.467s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:74:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K()[m[K’
+[2.467s]    74 |         [01;36m[KTebOptimalPlanner[m[K();
+[2.467s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.467s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:74:9:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[2.467s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:67:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K(const teb_local_planner::TebOptimalPlanner&)[m[K’
+[2.467s]    67 |     class [01;36m[KTebOptimalPlanner[m[K : public PlannerInterface
+[2.467s]       |           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.467s] [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:67:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[7.123s] gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:118：Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o] 错误 1
+[7.123s] gmake[2]: *** 正在等待未完成的任务....
+[16.660s] gmake[1]: *** [CMakeFiles/Makefile2:180：Teb/CMakeFiles/teb.dir/all] 错误 2
+[16.660s] gmake: *** [Makefile:146：all] 错误 2
+[16.662s] Invoked command in '/home/juchunyu/dog_ws/build/teb_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16

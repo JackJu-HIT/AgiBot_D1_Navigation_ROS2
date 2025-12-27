@@ -1,0 +1,9 @@
+[0mstatusego_planner[0m
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'tf2_geometry_msgs' was
+  not found before
+Call Stack (most recent call first):
+  CMakeLists.txt:56 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:912：cmake_check_build_system] 错误 1

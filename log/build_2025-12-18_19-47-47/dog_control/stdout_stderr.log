@@ -1,0 +1,17 @@
+[ 50%] Built target dog_keyboard_node
+[ 75%] [32mBuilding CXX object CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o[0m
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In constructor ‘[01m[KDogDriverNode::[01;32m[KDogDriverNode[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_robot_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_read_robot_state_[m[K’?
+   41 |     [01;31m[Ktimer_robot_state_[m[K = this->create_wall_timer(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Ktimer_read_robot_state_[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:42:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   42 |         std::chrono::milliseconds(2),[01;31m[K,[m[K std::bind(&DogDriverNode::robotStateCallback, this));
+      |                                      [01;31m[K^[m[K
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:[m[K In member function ‘[01m[Kvoid DogDriverNode::[01;32m[KrobotStateCallback[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/dog_control/src/dog_driver_node.cpp:88:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   88 |     uint32_t [01;35m[Kret[m[K = highlevel_.getBatteryPower();
+      |              [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/dog_driver_node.dir/build.make:76：CMakeFiles/dog_driver_node.dir/src/dog_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/dog_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

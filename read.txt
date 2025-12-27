@@ -1,0 +1,20 @@
+export FASTRTPS_DEFAULT_PROFILES_FILE=/home/juchunyu/dog_ws/shm_only.xml
+ros2 run dog_control dog_driver_node
+# 另一个终端
+export FASTRTPS_DEFAULT_PROFILES_FILE=path/to/shm_only.xml
+rviz2
+
+
+
+export FASTRTPS_DEFAULT_PROFILES_FILE=/home/juchunyu/dog_ws/src/disable_shm.xml
+
+export FASTRTPS_DEFAULT_PROFILES_FILE=/home/juchunyu/dog_ws/src/super_clean_dds.xml
+
+export FASTRTPS_DEFAULT_PROFILES_FILE=/home/juchunyu/dog_ws/src/only_shm.xml
+
+
+
+export FASTDDS_BUILTIN_TRANSPORTS=SHM
+
+
+ros2 bag record -a

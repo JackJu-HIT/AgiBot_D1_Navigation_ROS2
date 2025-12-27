@@ -1,0 +1,38 @@
+[0.012s] Invoking command in '/home/juchunyu/dog_ws/build/ego_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/ego_planner -- -j16 -l16
+[0.061s] [  4%] Built target local_map
+[0.062s] [  6%] Built target ego_planner__rosidl_generator_type_description
+[0.064s] [ 10%] Built target path_searching
+[0.064s] [ 10%] Built target ament_cmake_python_copy_ego_planner
+[0.069s] [ 19%] Built target bspline_opt
+[0.077s] [ 21%] Built target ego_planner__cpp
+[0.086s] [ 32%] Built target ego_planner__rosidl_generator_c
+[0.092s] [ 36%] Built target ego_planner_lib
+[0.114s] [ 43%] Built target ego_planner__rosidl_typesupport_introspection_c
+[0.114s] [ 50%] Built target ego_planner__rosidl_typesupport_cpp
+[0.114s] [ 56%] Built target ego_planner__rosidl_typesupport_c
+[0.115s] [ 63%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[0.116s] [ 69%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+[0.116s] [ 76%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[0.132s] [ 78%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o[0m
+[0.140s] [ 78%] Built target ego_planner
+[0.158s] [ 80%] Built target ego_planner__py
+[0.178s] [ 84%] Built target ego_planner__rosidl_generator_py
+[0.200s] [ 89%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+[0.201s] [ 93%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[0.208s] [ 97%] Built target ego_planner_s__rosidl_typesupport_c
+[0.316s] running egg_info
+[0.329s] writing ego_planner.egg-info/PKG-INFO
+[0.329s] writing dependency_links to ego_planner.egg-info/dependency_links.txt
+[0.329s] writing top-level names to ego_planner.egg-info/top_level.txt
+[0.366s] reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+[0.366s] writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[0.393s] [ 97%] Built target ament_cmake_python_build_ego_planner_egg
+[2.840s] In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+[2.840s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:48[m[K,
+[2.840s]                  from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:6[m[K:
+[2.840s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[2.840s] [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.841s]    88 | [01;35m[K}[m[K
+[2.841s]       | [01;35m[K^[m[K
+[28.330s] [100%] [32m[1mLinking CXX executable motion_plan[0m
+[28.883s] [100%] Built target motion_plan

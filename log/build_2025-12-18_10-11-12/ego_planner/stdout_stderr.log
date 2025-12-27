@@ -1,0 +1,146 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- 包根目录：/home/juchunyu/dog_ws/src/EgoPlanner-ROS2
+-- 检查msg文件：/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/msg/CurrentPose.msg
+-- ✅ msg文件存在！
+[0mstatusego_planner[0m
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/juchunyu/dog_ws/build/ego_planner
+[  2%] Built target ego_planner__rosidl_generator_type_description
+[  6%] Built target path_searching
+[ 15%] Built target bspline_opt
+[ 15%] Built target ament_cmake_python_copy_ego_planner
+[ 19%] Built target local_map
+[ 21%] Built target ego_planner__cpp
+[ 32%] Built target ego_planner__rosidl_generator_c
+[ 34%] [32mBuilding CXX object planner/plan_manage/CMakeFiles/ego_planner_lib.dir/src/planner_interface.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_c.dir/rosidl_typesupport_c/ego_planner/msg/current_pose__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ego_planner/msg/detail/dds_fastrtps/current_pose__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ego_planner/msg/detail/current_pose__type_support_c.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ego_planner/msg/current_pose__type_support.cpp.o[0m
+[ 50%] Built target ego_planner__rosidl_typesupport_introspection_c
+[ 52%] [32mBuilding CXX object CMakeFiles/ego_planner__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ego_planner/msg/detail/current_pose__type_support.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_c.so[0m
+[ 56%] Built target ego_planner__rosidl_typesupport_c
+[ 58%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_cpp.so[0m
+running egg_info
+writing ego_planner.egg-info/PKG-INFO
+writing dependency_links to ego_planner.egg-info/dependency_links.txt
+writing top-level names to ego_planner.egg-info/top_level.txt
+[ 60%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_introspection_cpp.so[0m
+[ 63%] Built target ego_planner__rosidl_typesupport_cpp
+[ 65%] Built target ego_planner__rosidl_typesupport_introspection_cpp
+reading manifest file 'ego_planner.egg-info/SOURCES.txt'
+writing manifest file 'ego_planner.egg-info/SOURCES.txt'
+[ 65%] Built target ament_cmake_python_build_ego_planner_egg
+[ 67%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 69%] Built target ego_planner__rosidl_typesupport_fastrtps_cpp
+[ 71%] [32m[1mLinking CXX shared library libego_planner__rosidl_typesupport_fastrtps_c.so[0m
+[ 73%] Built target ego_planner__rosidl_typesupport_fastrtps_c
+[ 73%] Built target ego_planner
+[ 76%] Built target ego_planner__py
+[ 78%] [32m[1mLinking C shared library libego_planner__rosidl_generator_py.so[0m
+[ 80%] Built target ego_planner__rosidl_generator_py
+[ 82%] [32m[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_c.so[0m
+[ 84%] [32m[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_introspection_c.so[0m
+[ 86%] [32m[1mLinking C shared module rosidl_generator_py/ego_planner/ego_planner_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 91%] Built target ego_planner_s__rosidl_typesupport_c
+[ 91%] Built target ego_planner_s__rosidl_typesupport_fastrtps_c
+[ 93%] Built target ego_planner_s__rosidl_typesupport_introspection_c
+In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:1[m[K:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   88 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlannerInterface::[01;32m[KmakePlan[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/planner/plan_manage/src/planner_interface.cpp:181:52:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >::rep[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  181 |         printf("MotionPlanner Total Running Time: [01;35m[K%d[m[K  ms \n", [32m[Kelapsed.count()[m[K);
+      |                                                   [01;35m[K~^[m[K          [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                                    [01;35m[K|[m[K                       [32m[K|[m[K
+      |                                                    [01;35m[Kint[m[K                     [32m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >::rep {aka long int}[m[K
+      |                                                   [32m[K%ld[m[K
+[ 95%] [32m[1mLinking CXX static library libego_planner_lib.a[0m
+[ 95%] Built target ego_planner_lib
+[ 97%] [32mBuilding CXX object CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o[0m
+In file included from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/plan_manage/include/plan_manage/planner_interface.h:16[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:48[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:6[m[K:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:[m[K In function ‘[01m[Kstd::ostream& ego_planner::[01;32m[Koperator<<[m[K(std::ostream&, const Bspline_<ContainerAllocator>&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/./planner/include/Bspline.h:88:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   88 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:[m[K At global scope:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:90:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   90 |     void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg[01;31m[K)[m[K
+      |                                                                    [01;31m[K^[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:[m[K In constructor ‘[01m[KTrajectoryAndObstaclesPublisher::[01;32m[KTrajectoryAndObstaclesPublisher[m[K()[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:28:36:[m[K [01;31m[Kerror: [m[K‘[01m[KOdomListener[m[K’ has not been declared
+   28 |             "odom", 10, std::bind(&[01;31m[KOdomListener[m[K::odom_callback, this, _1));
+      |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:28:71:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   28 |             "odom", 10, std::bind(&OdomListener::odom_callback, this, [01;31m[K_1[m[K));
+      |                                                                       [01;31m[K^~[m[K
+      |                                                                       [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/include/trajectory_obstacles_publisher.h:30[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                                [01;36m[K^~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryAndObstaclesPublisher::[01;32m[Kodom_callback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:75:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+   75 |     cur_pose_.x = msg->pose.[01;31m[Kposition[m[K.x;
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:76:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+   76 |     cur_pose_.y = msg->pose.[01;31m[Kposition[m[K.y;
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:80:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   80 |         msg->pose.[01;31m[Korientation[m[K.x,
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:81:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   81 |         msg->pose.[01;31m[Korientation[m[K.y,
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:82:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   82 |         msg->pose.[01;31m[Korientation[m[K.z,
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:83:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   83 |         msg->pose.[01;31m[Korientation[m[K.w);
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:92:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion q[m[K’
+   92 |     tf2::Quaternion [01;31m[Kq[m[K(
+      |                     [01;31m[K^[m[K
+[01m[K/home/juchunyu/dog_ws/src/EgoPlanner-ROS2/src/trajectory_publisher.cpp:79:21:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion q[m[K’ previously declared here
+   79 |     tf2::Quaternion [01;36m[Kq[m[K(
+      |                     [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/motion_plan.dir/build.make:76：CMakeFiles/motion_plan.dir/src/trajectory_publisher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:701：CMakeFiles/motion_plan.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

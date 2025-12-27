@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:38 (find_library):
+  Could not find MC_SDK_LIB using the following names: mc_sdk_zsl_1_x86_64
+
+[0m

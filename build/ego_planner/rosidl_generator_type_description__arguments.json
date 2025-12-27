@@ -1,0 +1,11 @@
+{
+  "package_name": "ego_planner",
+  "output_dir": "/home/juchunyu/dog_ws/build/ego_planner/rosidl_generator_type_description/ego_planner",
+  "idl_tuples": [
+    "/home/juchunyu/dog_ws/build/ego_planner/rosidl_adapter/ego_planner:msg/CurrentPose.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

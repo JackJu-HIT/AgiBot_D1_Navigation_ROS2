@@ -1,0 +1,298 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ae6b9d76900>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ae6b9d184a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ae6b9d184a0>>)
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.078s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/juchunyu/dog_ws'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/EgoPlanner-ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/EgoPlanner-ROS2) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/EgoPlanner-ROS2) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/EgoPlanner-ROS2) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/EgoPlanner-ROS2) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/EgoPlanner-ROS2) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/EgoPlanner-ROS2) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/EgoPlanner-ROS2) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/EgoPlanner-ROS2) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/EgoPlanner-ROS2' with type 'ros.ament_cmake' and name 'ego_planner'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC/Teb_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC/Teb_planner) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC/Teb_planner) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC/Teb_planner) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC/Teb_planner) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC/Teb_planner) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC/Teb_planner) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC/Teb_planner) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/PNC/Teb_planner) by extension 'ros'
+[0.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/PNC/Teb_planner' with type 'ros.ament_cmake' and name 'teb_planner'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/dog_control) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/dog_control) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/dog_control) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/dog_control) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/dog_control) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/dog_control) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/dog_control) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/dog_control) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/dog_control) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dog_control' with type 'ros.ament_cmake' and name 'dog_control'
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.110s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 347 installed packages in /opt/ros/jazzy
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dog_control' build argument 'cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dog_control' build argument 'cmake_target' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dog_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dog_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dog_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dog_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dog_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dog_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dog_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.135s] DEBUG:colcon.colcon_core.verb:Building package 'dog_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juchunyu/dog_ws/build/dog_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juchunyu/dog_ws/install/dog_control', 'merge_install': False, 'path': '/home/juchunyu/dog_ws/src/dog_control', 'symlink_install': False, 'test_result_base': None}
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'ego_planner' build argument 'cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'ego_planner' build argument 'cmake_target' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'ego_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'ego_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'ego_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'ego_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'ego_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'ego_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'ego_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.135s] DEBUG:colcon.colcon_core.verb:Building package 'ego_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juchunyu/dog_ws/build/ego_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juchunyu/dog_ws/install/ego_planner', 'merge_install': False, 'path': '/home/juchunyu/dog_ws/src/EgoPlanner-ROS2', 'symlink_install': False, 'test_result_base': None}
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'teb_planner' build argument 'cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'teb_planner' build argument 'cmake_target' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'teb_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'teb_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'teb_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'teb_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'teb_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'teb_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'teb_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.135s] DEBUG:colcon.colcon_core.verb:Building package 'teb_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juchunyu/dog_ws/build/teb_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juchunyu/dog_ws/install/teb_planner', 'merge_install': False, 'path': '/home/juchunyu/dog_ws/src/PNC/Teb_planner', 'symlink_install': False, 'test_result_base': None}
+[0.135s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.136s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juchunyu/dog_ws/src/dog_control' with build type 'ament_cmake'
+[0.136s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juchunyu/dog_ws/src/dog_control'
+[0.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.140s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juchunyu/dog_ws/src/EgoPlanner-ROS2' with build type 'ament_cmake'
+[0.140s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juchunyu/dog_ws/src/EgoPlanner-ROS2'
+[0.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.142s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juchunyu/dog_ws/src/PNC/Teb_planner' with build type 'ament_cmake'
+[0.142s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juchunyu/dog_ws/src/PNC/Teb_planner'
+[0.142s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.142s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[0.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juchunyu/dog_ws/build/ego_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/ego_planner -- -j16 -l16
+[0.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juchunyu/dog_ws/build/teb_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16
+[0.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/dog_control -- -j16 -l16
+[0.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juchunyu/dog_ws/build/dog_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/dog_control
+[0.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dog_control)
+[0.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juchunyu/dog_ws/build/dog_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/dog_control
+[0.231s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control' for CMake module files
+[0.232s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control' for CMake config files
+[0.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('dog_control', 'cmake_prefix_path')
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/hook/cmake_prefix_path.ps1'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/hook/cmake_prefix_path.dsv'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/hook/cmake_prefix_path.sh'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/lib'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/bin'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/lib/pkgconfig/dog_control.pc'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/lib/python3.12/site-packages'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/bin'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.ps1'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.dsv'
+[0.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.sh'
+[0.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.bash'
+[0.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.zsh'
+[0.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juchunyu/dog_ws/install/dog_control/share/colcon-core/packages/dog_control)
+[0.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dog_control)
+[0.240s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control' for CMake module files
+[0.240s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control' for CMake config files
+[0.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('dog_control', 'cmake_prefix_path')
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/hook/cmake_prefix_path.ps1'
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/hook/cmake_prefix_path.dsv'
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/hook/cmake_prefix_path.sh'
+[0.242s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/lib'
+[0.242s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/bin'
+[0.242s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/lib/pkgconfig/dog_control.pc'
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/lib/python3.12/site-packages'
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/dog_control/bin'
+[0.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.ps1'
+[0.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.dsv'
+[0.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.sh'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.bash'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/dog_control/share/dog_control/package.zsh'
+[0.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juchunyu/dog_ws/install/dog_control/share/colcon-core/packages/dog_control)
+[19.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juchunyu/dog_ws/build/teb_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/teb_planner -- -j16 -l16
+[19.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juchunyu/dog_ws/build/teb_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/teb_planner
+[19.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teb_planner)
+[19.988s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner' for CMake module files
+[19.989s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner' for CMake config files
+[19.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juchunyu/dog_ws/build/teb_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/teb_planner
+[19.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('teb_planner', 'cmake_prefix_path')
+[19.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/hook/cmake_prefix_path.ps1'
+[19.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/hook/cmake_prefix_path.dsv'
+[19.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/hook/cmake_prefix_path.sh'
+[19.991s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/lib'
+[19.991s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/bin'
+[19.991s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/lib/pkgconfig/teb_planner.pc'
+[19.991s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/lib/python3.12/site-packages'
+[19.991s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/bin'
+[19.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.ps1'
+[19.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.dsv'
+[19.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.sh'
+[19.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.bash'
+[19.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.zsh'
+[19.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juchunyu/dog_ws/install/teb_planner/share/colcon-core/packages/teb_planner)
+[19.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teb_planner)
+[19.993s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner' for CMake module files
+[19.993s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner' for CMake config files
+[19.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('teb_planner', 'cmake_prefix_path')
+[19.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/hook/cmake_prefix_path.ps1'
+[19.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/hook/cmake_prefix_path.dsv'
+[19.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/hook/cmake_prefix_path.sh'
+[19.994s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/lib'
+[19.994s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/bin'
+[19.994s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/lib/pkgconfig/teb_planner.pc'
+[19.995s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/lib/python3.12/site-packages'
+[19.995s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/teb_planner/bin'
+[19.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.ps1'
+[19.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.dsv'
+[19.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.sh'
+[19.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.bash'
+[19.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/teb_planner/share/teb_planner/package.zsh'
+[19.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juchunyu/dog_ws/install/teb_planner/share/colcon-core/packages/teb_planner)
+[27.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juchunyu/dog_ws/build/ego_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juchunyu/dog_ws/build/ego_planner -- -j16 -l16
+[27.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juchunyu/dog_ws/build/ego_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/ego_planner
+[27.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ego_planner)
+[27.360s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner' for CMake module files
+[27.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juchunyu/dog_ws/build/ego_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juchunyu/dog_ws/build/ego_planner
+[27.361s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner' for CMake config files
+[27.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('ego_planner', 'cmake_prefix_path')
+[27.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/cmake_prefix_path.ps1'
+[27.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/cmake_prefix_path.dsv'
+[27.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/cmake_prefix_path.sh'
+[27.362s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/lib'
+[27.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('ego_planner', 'ld_library_path_lib')
+[27.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/ld_library_path_lib.ps1'
+[27.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/ld_library_path_lib.dsv'
+[27.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/ld_library_path_lib.sh'
+[27.364s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/bin'
+[27.364s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/lib/pkgconfig/ego_planner.pc'
+[27.364s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages'
+[27.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('ego_planner', 'pythonpath')
+[27.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/pythonpath.ps1'
+[27.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/pythonpath.dsv'
+[27.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/pythonpath.sh'
+[27.366s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/bin'
+[27.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.ps1'
+[27.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.dsv'
+[27.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.sh'
+[27.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.bash'
+[27.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.zsh'
+[27.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juchunyu/dog_ws/install/ego_planner/share/colcon-core/packages/ego_planner)
+[27.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ego_planner)
+[27.369s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner' for CMake module files
+[27.370s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner' for CMake config files
+[27.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('ego_planner', 'cmake_prefix_path')
+[27.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/cmake_prefix_path.ps1'
+[27.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/cmake_prefix_path.dsv'
+[27.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/cmake_prefix_path.sh'
+[27.372s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/lib'
+[27.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('ego_planner', 'ld_library_path_lib')
+[27.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/ld_library_path_lib.ps1'
+[27.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/ld_library_path_lib.dsv'
+[27.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/ld_library_path_lib.sh'
+[27.373s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/bin'
+[27.373s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/lib/pkgconfig/ego_planner.pc'
+[27.373s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/lib/python3.12/site-packages'
+[27.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('ego_planner', 'pythonpath')
+[27.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/pythonpath.ps1'
+[27.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/pythonpath.dsv'
+[27.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/hook/pythonpath.sh'
+[27.375s] Level 1:colcon.colcon_core.environment:checking '/home/juchunyu/dog_ws/install/ego_planner/bin'
+[27.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.ps1'
+[27.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.dsv'
+[27.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.sh'
+[27.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.bash'
+[27.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/juchunyu/dog_ws/install/ego_planner/share/ego_planner/package.zsh'
+[27.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juchunyu/dog_ws/install/ego_planner/share/colcon-core/packages/ego_planner)
+[27.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.377s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.381s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.381s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.396s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.396s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juchunyu/dog_ws/install/local_setup.ps1'
+[27.397s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juchunyu/dog_ws/install/_local_setup_util_ps1.py'
+[27.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juchunyu/dog_ws/install/setup.ps1'
+[27.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juchunyu/dog_ws/install/local_setup.sh'
+[27.398s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juchunyu/dog_ws/install/_local_setup_util_sh.py'
+[27.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juchunyu/dog_ws/install/setup.sh'
+[27.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juchunyu/dog_ws/install/local_setup.bash'
+[27.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juchunyu/dog_ws/install/setup.bash'
+[27.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juchunyu/dog_ws/install/local_setup.zsh'
+[27.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juchunyu/dog_ws/install/setup.zsh'

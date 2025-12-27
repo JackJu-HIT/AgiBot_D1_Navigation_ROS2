@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastrtps_profiles">
+    <library_settings>
+        <introspection>false</introspection>
+    </library_settings>
+    <participant profile_name="shm_only" is_default_profile="true">
+        <rtps>
+            <useBuiltinTransports>false</useBuiltinTransports>
+            <userTransports>
+                <transport_id>shm_transport</transport_id>
+            </userTransports>
+            <builtin>
+                <metatrafficUnicastLocatorList>
+                    <locator/>
+                </metatrafficUnicastLocatorList>
+                <initialPeersList>
+                    <locator/>
+                </initialPeersList>
+            </builtin>
+        </rtps>
+    </participant>
+</profiles>

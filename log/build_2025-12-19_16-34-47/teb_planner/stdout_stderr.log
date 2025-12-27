@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o[0m
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:118: Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:180: Teb/CMakeFiles/teb.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

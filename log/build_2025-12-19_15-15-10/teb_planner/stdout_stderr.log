@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system chrono 
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/juchunyu/dog_ws/build/teb_planner
+[ 25%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_config.cpp.o[0m
+[ 25%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/optimal_planner.cpp.o[0m
+[ 37%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/obstacles.cpp.o[0m
+[ 50%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o[0m
+[ 62%] [32mBuilding CXX object Teb/CMakeFiles/teb.dir/src/timed_elastic_band.cpp.o[0m
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kvoid irpc::planning::TebPlannerInterface::[01;32m[KsetObstacleInfo[m[K(std::vector<irpc::planning::obstacleInfo>&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:53:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   53 |             printf("TebPlannerInterface::setObstacleInfo:[01;35m[K%d[m[K\n",[32m[Kobstacles_.size()[m[K);
+      |                                                          [01;35m[K~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                           [01;35m[K|[m[K                   [32m[K|[m[K
+      |                                                           [01;35m[Kint[m[K                 [32m[Kstd::vector<boost::shared_ptr<teb_local_planner::Obstacle> >::size_type {aka long unsigned int}[m[K
+      |                                                          [32m[K%ld[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:[m[K In member function ‘[01m[Kbool irpc::planning::TebPlannerInterface::[01;32m[Kplan[m[K(irpc::planning::cmdInfo&, std::vector<Eigen::Matrix<float, 3, 1> >&)[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:117:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  117 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr.hpp:24[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/robot_footprint_model.h:5[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:13[m[K,
+                 from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:1[m[K:
+/usr/include/boost/smart_ptr/make_shared_object.hpp: In instantiation of ‘[01m[Ktypename boost::detail::sp_if_not_array<T>::type boost::[01;32m[Kmake_shared[m[K(Args&& ...) [35m[K[with T = teb_local_planner::TebOptimalPlanner; Args = {teb_local_planner::TebConfig*&, std::vector<shared_ptr<teb_local_planner::Obstacle>, std::allocator<shared_ptr<teb_local_planner::Obstacle> > >*, shared_ptr<teb_local_planner::BaseRobotFootprintModel>&, std::vector<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 2, 1, 0, 2, 1> > >*}; typename detail::sp_if_not_array<T>::type = shared_ptr<teb_local_planner::TebOptimalPlanner>][m[K[m[K’:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/Teb/src/teb_local_Planner_interface.cpp:30:80:[m[K   required from here
+[01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:257:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kteb_local_planner::TebOptimalPlanner::TebOptimalPlanner(teb_local_planner::TebConfig*&, std::vector<boost::shared_ptr<teb_local_planner::Obstacle> >*, boost::shared_ptr<teb_local_planner::BaseRobotFootprintModel>&, std::vector<Eigen::Matrix<double, 2, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 2, 1> > >*)[m[K’
+  257 |     [01;31m[K::new( pv ) T( boost::detail::sp_forward<Args>( args )... )[m[K;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/teb_local_planner_interface.h:15[m[K:
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:84:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K(const teb_local_planner::TebConfig&, teb_local_planner::ObstContainer*, teb_local_planner::RobotFootprintModelPtr, const teb_local_planner::ViaPointContainer*)[m[K’
+   84 |         [01;36m[KTebOptimalPlanner[m[K(const TebConfig& cfg, ObstContainer* obstacles = NULL, RobotFootprintModelPtr robot_model = boost::make_shared<PointRobotFootprint>(),
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:84:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kteb_local_planner::TebConfig*[m[K’ to ‘[01m[Kconst teb_local_planner::TebConfig&[m[K’
+   84 |         TebOptimalPlanner([01;36m[Kconst TebConfig& cfg[m[K, ObstContainer* obstacles = NULL, RobotFootprintModelPtr robot_model = boost::make_shared<PointRobotFootprint>(),
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:74:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K()[m[K’
+   74 |         [01;36m[KTebOptimalPlanner[m[K();
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:74:9:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:67:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::TebOptimalPlanner::[01;32m[KTebOptimalPlanner[m[K(const teb_local_planner::TebOptimalPlanner&)[m[K’
+   67 |     class [01;36m[KTebOptimalPlanner[m[K : public PlannerInterface
+      |           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/juchunyu/dog_ws/src/Teb_planner_standard/Teb_planner/./Teb/include/optimal_planner.h:67:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+gmake[2]: *** [Teb/CMakeFiles/teb.dir/build.make:118：Teb/CMakeFiles/teb.dir/src/teb_local_Planner_interface.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:180：Teb/CMakeFiles/teb.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
